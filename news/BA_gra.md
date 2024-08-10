@@ -7,8 +7,8 @@ title: Undergraduate Graduation Ceremony
 
 <center>
 <figure>
-<img src="/news/imgs/BA_gra2.png" width=300px>
-<img src="/news/imgs/B_graduate.png" width=300px>
+<img src="/news/imgs/BA_gra2.png" width=260px>
+<img src="/news/imgs/B_graduate.png" width=260px>
 </figure>
 </center>
 
