@@ -17,5 +17,6 @@ Welcome to my personal website! I am Zheng Shenghao,
 
 ## Old News
 
+[gra](../news/BA_gra.md)
 
 ## Get in Touch
