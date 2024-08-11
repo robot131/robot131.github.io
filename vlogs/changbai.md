@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: Reach the Main Peak of the Changbaishan Tianchi
+title: Reach the Main Peak of the Changbaishan Heaven Lake
 ---
 
 ## *Date*: 06/04/2024
@@ -12,7 +12,7 @@ title: Reach the Main Peak of the Changbaishan Tianchi
   </center>
 </figure>
 
-
+Changbaishan, getting its name because of covering with snow all year round, is one of the ﬁrst three biosphere reserves in the People’s Republic of China. And Heaven Lake, situated on a crater, crowns the highest peak of the Chinese Changbai volcanic range. Due to the special climate, Heaven Lake is sometimes obscured by fog. Fortunately, the weather was fine on the day we went, so we could see the overview of Heaven Lake. The first photo was the overview of Heaven Lake, and we could see North Korea across the lake.
 
 
 
