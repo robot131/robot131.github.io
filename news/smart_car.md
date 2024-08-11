@@ -17,7 +17,7 @@ title: The 16th National Smart Car Competition
 </figure>
 
 
-## The part I'm in charge of
+## The Computer Vision Part
 
 
 ### Traffic light recognition and distance estimation
