@@ -23,13 +23,13 @@ Our competition topic is aerospace intelligent logistics, and the specific task 
 ### Traffic light recognition and distance estimation
 
 
-<img src="/news/smart_car_imgs/traffic_light.png" width="400"/>
+<img src="/news/smart_car_imgs/traffic_light.png" width="500"/>
 
 
 ### Lane recognition
 
 
-<img src="/news/smart_car_imgs/Unet.png" width="400"/>
+<img src="/news/smart_car_imgs/Unet.png" width="500"/>
 
 
 https://github.com/user-attachments/assets/03e4ecc3-9eb0-4c74-91b5-f68ad660a289
