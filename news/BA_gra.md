@@ -9,8 +9,8 @@ I successfully graduated, and received a Bachelor’s degree in School of Instru
 
 <figure>
   <center>
-    <img src="/news/imgs/BA_gra2.png" width="200"/>
-    <img src="/news/imgs/B_graduate.png" width="200"/>
+    <img src="/news/imgs/BA_gra2.png">
+    <img src="/news/imgs/B_graduate.png">
   </center>
 </figure>
 
