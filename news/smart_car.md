@@ -10,7 +10,11 @@ title: The 16th National Smart Car Competition
 
 ## Task Description
 
-
+<figure>
+  <center>
+    <img src="/news/smart_car_imgs/road.png" width="200"/>
+  </center>
+</figure>
 
 
 ## The part I'm in charge of
@@ -18,8 +22,19 @@ title: The 16th National Smart Car Competition
 
 ### Traffic light recognition and distance estimation
 
+<figure>
+  <center>
+    <img src="/news/smart_car_imgs/traffic_light.png" width="200"/>
+  </center>
+</figure>
 
 ### Lane recognition
+
+<figure>
+  <center>
+    <img src="/news/smart_car_imgs/road.png" width="200"/>
+  </center>
+</figure>
 
 https://github.com/user-attachments/assets/03e4ecc3-9eb0-4c74-91b5-f68ad660a289
 
