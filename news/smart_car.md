@@ -12,7 +12,7 @@ title: The 16th National Smart Car Competition
 
 <figure>
   <center>
-    <img src="/news/smart_car_imgs/road.png" width="200"/>
+    <img src="/news/smart_car_imgs/road.png" width="400"/>
   </center>
 </figure>
 
@@ -24,7 +24,7 @@ title: The 16th National Smart Car Competition
 
 <figure>
   <center>
-    <img src="/news/smart_car_imgs/traffic_light.png" width="200"/>
+    <img src="/news/smart_car_imgs/traffic_light.png" width="400"/>
   </center>
 </figure>
 
@@ -32,7 +32,7 @@ title: The 16th National Smart Car Competition
 
 <figure>
   <center>
-    <img src="/news/smart_car_imgs/Unet.png" width="200"/>
+    <img src="/news/smart_car_imgs/Unet.png" width="400"/>
   </center>
 </figure>
 
@@ -49,7 +49,7 @@ https://github.com/user-attachments/assets/b7304829-a17c-441c-bbd5-a186440ad3b0
 
 <figure>
   <center>
-    <img src="/news/smart_car_imgs/smart_car.png" width="200"/>
+    <img src="/news/smart_car_imgs/smart_car.png" width="400"/>
   </center>
 </figure>
 
