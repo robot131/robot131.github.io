@@ -22,19 +22,15 @@ title: The 16th National Smart Car Competition
 
 ### Traffic light recognition and distance estimation
 
-<figure>
-  <center>
-    <img src="/news/smart_car_imgs/traffic_light.png" width="400"/>
-  </center>
-</figure>
+
+<img src="/news/smart_car_imgs/traffic_light.png" width="400"/>
+
 
 ### Lane recognition
 
-<figure>
-  <center>
-    <img src="/news/smart_car_imgs/Unet.png" width="400"/>
-  </center>
-</figure>
+
+<img src="/news/smart_car_imgs/Unet.png" width="400"/>
+
 
 https://github.com/user-attachments/assets/03e4ecc3-9eb0-4c74-91b5-f68ad660a289
 
