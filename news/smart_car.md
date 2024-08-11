@@ -12,7 +12,7 @@ title: The 16th National Smart Car Competition
 
 <figure>
   <center>
-    <img src="/news/smart_car_imgs/road.png" width="400"/>
+    <img src="/news/smart_car_imgs/road.png">
   </center>
 </figure>
 
