@@ -11,7 +11,16 @@ In this page, I will review the entire process of the competition and describe i
 
 ## Task Description
 
-Our competition topic is aerospace intelligent logistics, and the task is transporting specially designed goods on a pre-built track. Fig.1 shows the schematic of the race track, and the smart car that we utilized is shown in the top left corner. As marked in Fig.1, the race track consists several parts of areas. In the preparation period, the smart car is place in the debug area, and two participants of the team are allowed to bring one laptop each to test and control the smart car remotely. Other three participants are set in the embarkation area, the delivery area and next to traffic light, respectively. After testing and debugging, the smart car will then placed into the waiting area to wait for the start signal. Once the game begin, the car first go to the embarkation area and stop for a while. The participant there then load a cargo model on the top of the car. Then the car continue moving forward and stop in front of the stop line. Whether the car should keep moving depends on the current color of the traffic light. If the color is green or yellow, the car could simply go through this area. If the color is red, the car should wait until the traffic light turns green or yellow. After that, the car pass the tunnel and speed bump and arrives the delivery area. It will stop for a while in this area and the participant there will unload the cargo model in the meanwhile. The car then keep going and get across the roadblocks to arrive at the start of the S road. In the S road area, the car should moving without touching the boundary lines (the redline and the blue line in Fig.1). Since there is a guide line in the middle of the S road, participants can use this guide line as a reference. After passing the S road, a whole circle is complete. 
+Our competition topic is aerospace intelligent logistics, and the task is transporting specially designed goods on a pre-built track. Fig.1 shows the schematic of the race track, and the smart car that we utilized is shown in the top left corner. As marked in Fig.1, the race track consists several parts of areas. In the preparation period, the smart car is place in the debug area, and two participants of the team are allowed to bring one laptop each to test and control the smart car remotely. Other three participants are set in the embarkation area, the delivery area and next to traffic light, respectively. The process of a whole circle can be summarized as: 
++ Place the smart car into the waiting area to wait for the start signal
++ The game begin. The car first go to the embarkation area and stop. The participant there load a cargo model on the car.
++ Move forward and stop in front of the stop line.
++ If the color of the traffic light is green or yellow, the car could simply go through this area. If the color is red, the car should wait until the traffic light turns green or yellow.
++ Pass the tunnel and speed bump and arrives the delivery area.
++ Stop for a while.The participant there unload the cargo model.
++ Keep going and get across the roadblocks to arrive at the start of the S road.
++ Pass the S road without touching the boundary lines (the redline and the blue line in Fig.1).
++ Move to the waiting area and a whole circle complete.
 
 <img src="/news/smart_car_imgs/road.png">
 
