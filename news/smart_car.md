@@ -11,11 +11,13 @@ In this page, I will review the entire process of the competition and describe i
 
 ## Task Description
 
-Our competition topic is aerospace intelligent logistics, and the task is transporting specially designed goods on a pre-built track. 
+Our competition topic is aerospace intelligent logistics, and the task is transporting specially designed goods on a pre-built track. Fig.1 shows the schematic of the race track, and the smart car that we utilized is shown in the top left corner. 
 
 <img src="/news/smart_car_imgs/road.png">
 
+#### Fig.1 The schematic of the race track and the utilized smart car
 
+As imarked, 
 
 ## The Computer Vision Part
 
