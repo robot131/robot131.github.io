@@ -27,17 +27,17 @@ Our competition topic is aerospace intelligent logistics, and the task is transp
 #### Fig.1 The schematic of the race track and the utilized smart car
 
 It should be emphasized that the test and debug operation are only allowed in the preparation period. When the game start, no extra operation is allowed expect restarting. Thus, the smart car should move automatically during the entire match. The competition is based on a points system, and the actions that you can *get points* including: 
-+ move to the delivery area automatically (2 points),
-+ stop in the delivery area (2 points),
-+ pass the traffic light correctly (3 points),
-+ move to the delivery area (3 points),
-+ pass the roadblocks (2 points),
-+ pass the S road correctly (5 points),
-+ move to the waiting area (1 points).
++ Move to the delivery area automatically (2 points),
++ Stop in the delivery area (2 points),
++ Pass the traffic light correctly (3 points),
++ Move to the delivery area (3 points),
++ Pass the roadblocks (2 points),
++ Pass the S road correctly (5 points),
++ Move to the waiting area (1 points).
 
 The deduction items including: 
-+ pass the traffic light incorrectly (-3 points),
-+ press the boundary lines when passing the S road (-1 points).
++ Pass the traffic light incorrectly or press the stop line when stopping (-3 points),
++ Press the boundary lines when passing the S road (-1 points).
 
 The game last for a period of time, and you should accomplish as much circles as you can to gain more points.
 
