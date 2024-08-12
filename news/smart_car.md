@@ -12,7 +12,7 @@ In this page, I will review the entire process of the competition and describe i
 ## Task Description
 
 Our competition topic is aerospace intelligent logistics, and the task is transporting specially designed goods on a pre-built track. Fig.1 shows the schematic of the race track, and the smart car that we utilized is shown in the top left corner. As marked in Fig.1, the race track consists several parts of areas. In the preparation period, the smart car is place in the debug area, and two participants of the team are allowed to bring one laptop each to test and control the smart car remotely. Other three participants are set in the embarkation area, the delivery area and next to traffic light, respectively. The process of a whole circle can be summarized as: 
-+ Place the smart car into the waiting area to wait for the start signal
++ Place the smart car into the waiting area and wait for the start signal
 + The game begin. The car first go to the embarkation area and stop. The participant there load a cargo model on the car.
 + Move forward and stop in front of the stop line.
 + If the color of the traffic light is green or yellow, the car could simply go through this area. If the color is red, the car should wait until the traffic light turns green or yellow.
