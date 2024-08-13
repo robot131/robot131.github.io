@@ -67,21 +67,27 @@ The part that I was responsible for is the second item. Since the member who was
 
 ## The Computer Vision Part <span id="jump3"></span>
 
+During the competition, I was mainly responsible for the computer vision part, and it could then be divided into two tasks: traffic light recognition and distance estimation, lane recognition. The following two sections will discribe the details of the method utilized and show the results achieved.
 
 ### Traffic light recognition and distance estimation
 
 
+
 <img src="/news/smart_car_imgs/traffic_light.png" width="600"/>
 
+#### Fig.2 The result of the traffic light recognition and distance estimation
 
 ### Lane recognition
 
 
 <img src="/news/smart_car_imgs/Unet.png" width="600"/>
 
+#### Fig.3 The architecture of the utilized Unet++
+
 <video src="/news/smart_car_videos/test_line.mp4" autoplay="true" controls="controls" width="600">
 </video>
 
+#### Video.1 A video to show the result of lane recognition 
 
 [Back to the top](#jump_top)
 
@@ -89,16 +95,20 @@ The part that I was responsible for is the second item. Since the member who was
 
 Since no photos or video are allowed during the game, here we exhibit a video recorded during our preparation for the competation. We can see that all the functions works correctly and the car accomplised a whole circle without any error.
 
-<video src="/news/smart_car_videos/test_whole.mp4" autoplay="true" controls="controls">
+<video src="/news/smart_car_videos/test_whole.mp4" autoplay="true" controls="controls" width="600">
 </video>
+
+#### Video.2 Whole process test
 
 [Back to the top](#jump_top)
 
 ## Our team and the certificate <span id="jump5"></span>
 
-After a semester of hard work, we finnaly won the first prize of the northern division. The following photos are the teams of our school and the certificate of mine. Our team is on the left of the first photo.
+After a semester of effort, we finnaly won the first prize of the northern division. The following photos are the teams of our school and the certificate of mine. Our team is on the left of the first photo.
 
 <img src="/news/smart_car_imgs/smart_car.png">
+
+#### Fig.4 Our team and the certificate
 
 [Back to the top](#jump_top)
 
