@@ -50,7 +50,7 @@ According to the competation goals and the basic constitution of the smart car, 
 4. Recieve the messages from the camera and the laser SLAM, and use the messages to give motion orders to the motor to move the car correctly
 5. Make a visual Interface on the laptop that can interact with the car, give orders to the car, and check the status of the car during the game
 
-The part that I was responsible for is the second item. Since the member who was responsible for the forth part hung up his boots, our group leader who was in charge of the laser SLAM and I took over his work and solved the parts that were relevant to each of us.
+The part that I was responsible for is the second item. Since the member who was responsible for the forth part hung up his boots, our group leader who was in charge of the laser SLAM and I took over this work and solved the parts that were relevant to each of us.
 
 ## The Computer Vision Part
 
