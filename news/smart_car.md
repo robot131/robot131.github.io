@@ -9,10 +9,10 @@ The time I spent with my teammates on preparing the smart car competition is one
 
 In this page, I will review the entire process of the competition and describe in detail the part I was responsible for. The rest parts are arranged as follows: first, I will introduce the task we are expected to complete in the competation, and figure out which part I was in charge of, second, I will break down my responsibilities into smaller steps, and describe the goal of each step and the methods that I utilized, then, a video of the whole-loop test is performed to show the achievement of our group, finally, photos of our group and the certificate of the competation are shown.
 
-[Task Description](#jump)
+[Task Description](#jump1) / [Division of labor](#jump2)
 
 
-## Task Description
+## Task Description <span id="jump1"></span>
 
 Our competition topic is aerospace intelligent logistics, and the task is transporting specially designed goods on a pre-built track. Fig.1 shows the schematic of the race track, and the smart car that we utilized is shown in the top left corner. As marked in Fig.1, the race track consists several parts of areas. In the preparation period, the smart car is place in the debug area, and two participants of the team are allowed to bring one laptop each to test and control the smart car remotely. Other three participants are set in the embarkation area, the delivery area and next to traffic light, respectively. The process of a whole circle can be summarized as: 
 + Place the smart car into the waiting area and wait for the start signal
@@ -27,7 +27,7 @@ Our competition topic is aerospace intelligent logistics, and the task is transp
 
 <img src="/news/smart_car_imgs/road.png">
 
-#### Fig.1 The schematic of the race track and the utilized smart car <span id="jump"></span>
+#### Fig.1 The schematic of the race track and the utilized smart car 
 
 It should be emphasized that the test and debug operation are only allowed in the preparation period. When the game start, no extra operation is allowed expect restarting. Thus, the smart car should move automatically during the entire match. The competition is based on a points system, and the actions that you can *get points* including: 
 + Move to the delivery area automatically (2 points),
@@ -44,7 +44,7 @@ The deduction items including:
 
 The game last for a period of time, and you should accomplish as much circles as you can to gain more points. To meet all the requirements and accomplish the race, the car is equipped with a monocular camera on the head and a laser SLAM on the back, as shown in the top left corner of Fig. 1. We use the laser SLAM to construct the model of the race track before the game start and to measure the surrouding distance during the game to avoid the car crashing to the edge of the track. The pictures the camera takes are used to correct the movement locus during the S road and to decide whether the car should stop in front of the traffic light. An NVIDIA® Jetson Nano is used as the main control board to recieve messages from the laser SLAM and the camera and output conmmands to the motors. 
 
-## Division of labor
+## Division of labor <span id="jump2"></span>
 
 According to the competation goals and the basic constitution of the smart car, the whole task is divided into five parts corresponding to five members:
 1. Debug and maintain the electrical and mechanical structure of the smart car
