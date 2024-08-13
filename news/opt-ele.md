@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: Reach the Main Peak of the Changbaishan Tianchi
+title: The 9th National University Students' Opt-Sci-Tech Competition
 ---
 
 ## *Date*: 07/28/2021
