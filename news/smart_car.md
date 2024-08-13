@@ -13,7 +13,9 @@ In this page, I will review the entire process of the competition and describe i
 
 + [Task Description](#jump1) 
 + [Division of labor](#jump2)
-+ [The Computer Vision Part](#jump3) 
++ [The Computer Vision Part](#jump3)
+  + [Traffic light recognition and distance estimation](#jump3_1)
+  + [Lane recognition](#jump3_2)
 + [Whole process test](#jump4)
 + [Our team and the certificate](#jump5)
 
@@ -69,15 +71,18 @@ The part that I was responsible for is the second item. Since the member who was
 
 During the competition, I was mainly responsible for the computer vision part, and it could then be divided into two tasks: traffic light recognition and distance estimation, lane recognition. The following two sections will discribe the details of the method utilized and show the results achieved.
 
-### Traffic light recognition and distance estimation
+### Traffic light recognition and distance estimation <span id="jump3_1"></span>
 
+To recognize the color of the traffic light, we should utilize the difference between them. The most obviouse difference is the color, and that was the scheme that we started with. But soon we found that the color of oringe and red were so close that sometimes the car would confuse them. Later we noticed that the position of the traffic light is also a feature that could be utilized. As long as we located the center of the green light and calculate its radius, other lights could then be found accordingly. As for judging which light is on, we simply use a threshold segmentation method, and the threshold value was pre-calibrated. 
 
+Since the imaging sensor we used is a monocular camera, it is hard to estimate the distance without any prior. Hence, special QR code patterns with fixed size were installed below the traffic light, and the distance from the camera to the patterns could then be estimated. A picature of the result of the traffic light recognition and distance estimation is shown in Fig. 2. The first line shows the 3D distance (unit: cm), while the second line give the current color of the traffic light that is on.
 
 <img src="/news/smart_car_imgs/traffic_light.png" width="600"/>
 
 #### Fig.2 The result of the traffic light recognition and distance estimation
 
-### Lane recognition
+### Lane recognition <span id="jump3_2"></span>
+
 
 
 <img src="/news/smart_car_imgs/Unet.png" width="600"/>
