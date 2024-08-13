@@ -4,6 +4,7 @@ title: The 16th National Smart Car Competition
 ---
 
 ## *Date*: 06/22/2021
+<span id="jump_top"></span>
 
 The time I spent with my teammates on preparing the smart car competition is one of the most unforgettable experience during my stage of undergraduate. The experience not only equipped me with practical knowledge and skills, but also led us to find each other who had a common goal. After the competation, except a member who didn't do anything, the rest four of us become very good friends. You can also find a photo of us taken in our Undergraduate Graduation Ceremony in the first photo of [this page](../news/BA_gra.md).
 
@@ -48,6 +49,8 @@ The deduction items including:
 
 The game last for a period of time, and you should accomplish as much circles as you can to gain more points. To meet all the requirements and accomplish the race, the car is equipped with a monocular camera on the head and a laser SLAM on the back, as shown in the top left corner of Fig. 1. We use the laser SLAM to construct the model of the race track before the game start and to measure the surrouding distance during the game to avoid the car crashing to the edge of the track. The pictures the camera takes are used to correct the movement locus during the S road and to decide whether the car should stop in front of the traffic light. An NVIDIA® Jetson Nano is used as the main control board to recieve messages from the laser SLAM and the camera and output conmmands to the motors. 
 
+[Back to the top](#jump_top)
+
 ## Division of labor <span id="jump2"></span>
 
 According to the competation goals and the basic constitution of the smart car, the whole task is divided into five parts corresponding to five members:
@@ -58,6 +61,8 @@ According to the competation goals and the basic constitution of the smart car, 
 5. Make a visual Interface on the laptop that can interact with the car, give orders to the car, and check the status of the car during the game
 
 The part that I was responsible for is the second item. Since the member who was responsible for the forth part hung up his boots, our group leader who was in charge of the laser SLAM and I took over this work and solved the parts that were relevant to each of us.
+
+[Back to the top](#jump_top)
 
 ## The Computer Vision Part <span id="jump3"></span>
 
@@ -76,18 +81,23 @@ The part that I was responsible for is the second item. Since the member who was
 
 https://github.com/user-attachments/assets/03e4ecc3-9eb0-4c74-91b5-f68ad660a289
 
+[Back to the top](#jump_top)
+
 ## Whole process test <span id="jump4"></span>
 
 Since no photos or video are allowed during the game, here we exhibit a video recorded during our preparation for the competation. We can see that all the functions works correctly and the car accomplised a whole circle without any error.
 
 https://github.com/user-attachments/assets/b7304829-a17c-441c-bbd5-a186440ad3b0
 
+[Back to the top](#jump_top)
 
 ## Our group and the certificate <span id="jump5"></span>
 
 After a semester of hard work, we finnaly won the first prize of the northern division. The following photos are the teams of our school and the certificate of mine. Our team is on the left of the first photo.
 
 <img src="/news/smart_car_imgs/smart_car.png">
+
+[Back to the top](#jump_top)
 
 
 
