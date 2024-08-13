@@ -80,9 +80,9 @@ The part that I was responsible for is the second item. Since the member who was
 <img src="/news/smart_car_imgs/Unet.png" width="500"/>
 
 
-<video id="video" controls="" preload="none" poster="封面">
-	<source id="mp4" src="../news/smart_car_videos/testline.mp4" type="video/mp4">
-</videos>
+<video width="500" controls>
+    <source src="../news/smart_car_videos/testline.mp4" type="video/mp4">
+</video>
 
 
 [Back to the top](#jump_top)
