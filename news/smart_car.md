@@ -13,9 +13,9 @@ In this page, I will review the entire process of the competition and describe i
 
 + [Task Description](#jump1) 
 + [Division of labor](#jump2)
-+ [The Computer Vision Part](#jump3)
++ [The Computer Vision Part](#jump3) 
 + [Whole process test](#jump4)
-+ [Our group and the certificate](#jump5)
++ [Our team and the certificate](#jump5)
 
 
 ## Task Description <span id="jump1"></span>
@@ -94,7 +94,7 @@ Since no photos or video are allowed during the game, here we exhibit a video re
 
 [Back to the top](#jump_top)
 
-## Our group and the certificate <span id="jump5"></span>
+## Our team and the certificate <span id="jump5"></span>
 
 After a semester of hard work, we finnaly won the first prize of the northern division. The following photos are the teams of our school and the certificate of mine. Our team is on the left of the first photo.
 
