@@ -81,7 +81,7 @@ The part that I was responsible for is the second item. Since the member who was
 
 
 <video width="500" controls>
-    <source src="../news/smart_car_videos/testline.mp4" type="video/mp4">
+    <source src="./smart_car_videos/testline.mp4" type="video/mp4">
 </video>
 
 
