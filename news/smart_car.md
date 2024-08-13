@@ -9,7 +9,7 @@ The time I spent with my teammates on preparing the smart car competition is one
 
 In this page, I will review the entire process of the competition and describe in detail the part I was responsible for. The rest parts are arranged as follows: first, I will introduce the task we are expected to complete in the competation, and figure out which part I was in charge of, second, I will break down my responsibilities into smaller steps, and describe the goal of each step and the methods that I utilized, then, a video of the whole-loop test is performed to show the achievement of our group, finally, photos of our group and the certificate of the competation are shown.
 
-<td style="text-align: center;"><a href='https://wang-zhiping.github.io/##Task Description'><big><b><span class="narrow-font">Task Description</span></b></big></a></td>
+<td style="text-align: center;"><a href='/news/smart_car.md/##Task Description'><big><b><span class="narrow-font">Task Description</span></b></big></a></td>
 
 ## Task Description <a name="Task Description"></a>
 
