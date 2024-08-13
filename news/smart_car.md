@@ -11,7 +11,7 @@ In this page, I will review the entire process of the competition and describe i
 
 [Task Description](#jump)
 
-<span id="jump">Task Description</span>
+
 ## Task Description
 
 Our competition topic is aerospace intelligent logistics, and the task is transporting specially designed goods on a pre-built track. Fig.1 shows the schematic of the race track, and the smart car that we utilized is shown in the top left corner. As marked in Fig.1, the race track consists several parts of areas. In the preparation period, the smart car is place in the debug area, and two participants of the team are allowed to bring one laptop each to test and control the smart car remotely. Other three participants are set in the embarkation area, the delivery area and next to traffic light, respectively. The process of a whole circle can be summarized as: 
@@ -27,7 +27,7 @@ Our competition topic is aerospace intelligent logistics, and the task is transp
 
 <img src="/news/smart_car_imgs/road.png">
 
-#### Fig.1 The schematic of the race track and the utilized smart car
+#### Fig.1 The schematic of the race track and the utilized smart car <span id="jump"></span>
 
 It should be emphasized that the test and debug operation are only allowed in the preparation period. When the game start, no extra operation is allowed expect restarting. Thus, the smart car should move automatically during the entire match. The competition is based on a points system, and the actions that you can *get points* including: 
 + Move to the delivery area automatically (2 points),
