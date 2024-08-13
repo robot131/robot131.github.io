@@ -12,3 +12,9 @@ The contents above will be part of a list of publications, if the user clicks th
 
 <video src="/_publications/materals/Visualization_eSCPR.mp4" autoplay="true" controls="controls" width="600">
 </video>
+
+<video src="/_publications/materals/Visualization 1.mp4" autoplay="true" controls="controls" width="600">
+</video>
+
+<video src="/_publications/materals/Visualization 2.mp4" autoplay="true" controls="controls" width="600">
+</video>
