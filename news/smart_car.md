@@ -83,11 +83,13 @@ Since the imaging sensor we used is a monocular camera, it is hard to estimate t
 
 ### Lane recognition <span id="jump3_2"></span>
 
-
+We regarded the lane recognition as a image segement problem, and trained a neural network to solve it. The architecture of the utilized Unet++ is shown in Fig.3. The input of the network is a picture with the lane taken from the camera, and the output is a picture of a divided lane line. 
 
 <img src="/news/smart_car_imgs/Unet.png" width="600"/>
 
 #### Fig.3 The architecture of the utilized Unet++
+
+To make the network effective and robust, we used about 1,300 image pairs taken from two different scens to train the network. After 50 epochs of training, the network was then installed on the car to recognize the lane in real time. A video of testing is shown in Video. 1. 
 
 <video src="/news/smart_car_videos/test_line.mp4" autoplay="true" controls="controls" width="600">
 </video>
