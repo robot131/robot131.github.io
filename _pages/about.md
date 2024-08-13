@@ -17,6 +17,6 @@ Welcome to my personal website! I am Zheng Shenghao,
 
 ## Old News
 
-[gra](../news/MA_gra.md)
+[gra](../news/smart_car.md)
 
 ## Get in Touch
