@@ -71,13 +71,13 @@ The part that I was responsible for is the second item. Since the member who was
 ### Traffic light recognition and distance estimation
 
 
-<img src="/news/smart_car_imgs/traffic_light.png" width="500"/>
+<img src="/news/smart_car_imgs/traffic_light.png" width="600"/>
 
 
 ### Lane recognition
 
 
-<img src="/news/smart_car_imgs/Unet.png" width="500"/>
+<img src="/news/smart_car_imgs/Unet.png" width="600"/>
 
 <video src="/news/smart_car_videos/test_line.mp4" autoplay="true" controls="controls" width="600">
 </video>
@@ -89,7 +89,8 @@ The part that I was responsible for is the second item. Since the member who was
 
 Since no photos or video are allowed during the game, here we exhibit a video recorded during our preparation for the competation. We can see that all the functions works correctly and the car accomplised a whole circle without any error.
 
-https://github.com/user-attachments/assets/b7304829-a17c-441c-bbd5-a186440ad3b0
+<video src="/news/smart_car_videos/test_whole.mp4" autoplay="true" controls="controls">
+</video>
 
 [Back to the top](#jump_top)
 
