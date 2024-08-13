@@ -79,7 +79,7 @@ The part that I was responsible for is the second item. Since the member who was
 
 <img src="/news/smart_car_imgs/Unet.png" width="500"/>
 
-<video src="/news/smart_car_videos/testline.mp4" autoplay="true" controls="controls" width="600">
+<video src="/news/smart_car_videos/test_line.mp4" autoplay="true" controls="controls" width="600">
 </video>
 
 
