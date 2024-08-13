@@ -15,7 +15,7 @@ Before that, I have also done some project in the field computer vision and inte
 
 I am now looking for a PhD position. If there are opportunities in computing imaging, computer vision, or related fields, please contact me from any of the following contact methods:
 
-Email
+[Email](mailto:zhengshenghao666@gmail.com)/[Wechat](../images/my_imgs/wechat.png)/[Twitter](https://x.com/fu_yo_no_ha_na)
 
 # Latest News
 
