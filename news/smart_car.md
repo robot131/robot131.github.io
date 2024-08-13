@@ -9,7 +9,11 @@ The time I spent with my teammates on preparing the smart car competition is one
 
 In this page, I will review the entire process of the competition and describe in detail the part I was responsible for. The rest parts are arranged as follows: first, I will introduce the task we are expected to complete in the competation, and figure out which part I was in charge of, second, I will break down my responsibilities into smaller steps, and describe the goal of each step and the methods that I utilized, then, a video of the whole-loop test is performed to show the achievement of our group, finally, photos of our group and the certificate of the competation are shown.
 
-[Task Description](#jump1) / [Division of labor](#jump2)
++ [Task Description](#jump1) 
++ [Division of labor](#jump2)
++ [The Computer Vision Part](#jump3)
++ [Whole process test](#jump4)
++ [Our group and the certificate](#jump5)
 
 
 ## Task Description <span id="jump1"></span>
@@ -55,7 +59,7 @@ According to the competation goals and the basic constitution of the smart car, 
 
 The part that I was responsible for is the second item. Since the member who was responsible for the forth part hung up his boots, our group leader who was in charge of the laser SLAM and I took over this work and solved the parts that were relevant to each of us.
 
-## The Computer Vision Part
+## The Computer Vision Part <span id="jump3"></span>
 
 
 ### Traffic light recognition and distance estimation
@@ -72,14 +76,14 @@ The part that I was responsible for is the second item. Since the member who was
 
 https://github.com/user-attachments/assets/03e4ecc3-9eb0-4c74-91b5-f68ad660a289
 
-## Whole loop test
+## Whole process test <span id="jump4"></span>
 
 Since no photos or video are allowed during the game, here we exhibit a video recorded during our preparation for the competation. We can see that all the functions works correctly and the car accomplised a whole circle without any error.
 
 https://github.com/user-attachments/assets/b7304829-a17c-441c-bbd5-a186440ad3b0
 
 
-## Our group and the certificate
+## Our group and the certificate <span id="jump5"></span>
 
 After a semester of hard work, we finnaly won the first prize of the northern division. The following photos are the teams of our school and the certificate of mine. Our team is on the left of the first photo.
 
