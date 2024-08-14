@@ -5,6 +5,8 @@ title: Education Experience
 author_profile: true
 ---
 
+
+
 # Master of Engineering
 + School of Instrumentation of Science and Engineering
 + Harbin Institute of Technology
@@ -12,6 +14,7 @@ author_profile: true
 + Selected Courses
   + Nonlinear optics &emsp;&emsp;&emsp; Grade: 90/100
   + Numerical Analysis B &emsp; Grade: 93/100
++ [Graduation Photos](../news/MA_gra.md)
 
 # Bachelor of Engineering
 + School of Instrumentation of Science and Engineering
@@ -26,3 +29,4 @@ author_profile: true
   + Electromagnetic Fields &emsp;&emsp;&emsp;&emsp;&emsp; Grade: 95.1/100
   + Complex Function and Integral Transformation &emsp; Grade: 94/100
   + Linear Algebra and Analytic Geometry B &emsp;&emsp;&emsp;&emsp; Grade: 98/100
++ [Graduation Photos](../news/BA_gra.md)
