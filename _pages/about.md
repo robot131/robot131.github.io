@@ -21,6 +21,8 @@ I am now looking for a PhD position. If there are opportunities in computing ima
 
 ## Academic
 
+
+
 ## Non-Academic
 
 ## Old News
