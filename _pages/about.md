@@ -37,8 +37,8 @@ I am now looking for a PhD position. If there are opportunities in computing ima
 + 06/14/2022 I successfully graduated, and received my **Bachelo degree** in School of Instrumentation of Science and Engineering from **Harbin Institute of Technology**. [Link](../news/BA_gra.md)
 + 05/10/2022 My article as a co-author, titled *Lensfree on-chip microscopy based on single-plane phase retrieval*, has been published on *Optics Express*. [Link](../publications/number-2.md)
 + 04/10/2022 My article as a co-author, titled *Lensfree auto-focusing imaging using nuclear norm of gradient*, has been published on *Optics and Lasers in Engineering*. [Link](../publications/number-1.md)
-+ 07/28/2021 Our team won the second prize in **The 9th National University Students' Opt-Sci-Tech Competition**. [Link](../news/opt-ele.md)
-+ 06/22/2021 Our team won the first prize of **The northern division in the 16th National Smart Car Competition**. [Link](../news/smart_car.md)
++ 07/28/2021 Our team won the **second prize** in **The 9th National University Students' Opt-Sci-Tech Competition**. [Link](../news/opt-ele.md)
++ 06/22/2021 Our team won the **first prize** of the northern division in **The 16th National Smart Car Competition**. [Link](../news/smart_car.md)
 
 # Get in Touch
 
