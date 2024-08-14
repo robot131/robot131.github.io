@@ -8,4 +8,4 @@ author_profile: true
 
 # Skills
 
-# Daily hobbies
+# Hobbies
