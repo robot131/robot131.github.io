@@ -13,6 +13,8 @@ The time I spent with my teammates on preparing the smart car competition is one
 
 In this page, I review the entire process of the competition and describe in detail the part I was responsible for. The rest parts are arranged as follows: first, I will introduce the task we are expected to complete in the competition, then the division of labor is given, third I will describe the basic function I should achieve and break down my responsibilities into smaller parts, and describe the goal of each part and the methods that I utilized, then a video of the whole process test is performed, finally, photos of our group and the certificate of the competation are shown.
 
+## Quick Links: 
+
 + [Task Description](#jump1) 
 + [Division of labor](#jump2)
 + [The Computer Vision Part](#jump3)
