@@ -19,14 +19,15 @@ I am now looking for a PhD position. If there are opportunities in computing ima
 
 [Email](mailto:zhengshenghao666@gmail.com) / [Wechat](../images/my_imgs/wechat.png) / [Twitter](https://x.com/fu_yo_no_ha_na)
 
+## Quick Links:
 
-+ [Latest News](#jump1)
++ [Latest News]
   + [Academic](#jump1_1)
   + [Non-Academic](#jump1_2)
 + [Old News](#jump2)
 + [Get in Touch](#jump3)
 
-# Latest News <span id="jump1"></span>
+# Latest News
 
 ## Academic <span id="jump1_1"></span>
 
