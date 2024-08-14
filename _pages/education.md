@@ -19,8 +19,8 @@ author_profile: true
 + Cumulative GPA: 88.9/100
 + Ranking: 4/53 &emsp; Percentage: 7.55%
 + Selected Courses
-  + Calculus B(1) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Grade: 95/100
-  + Calculus B(2) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Grade: 95/100
+  + Calculus B(1) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Grade: 95/100
+  + Calculus B(2) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Grade: 95/100
   + Engineering Optics (1) &emsp;&emsp;&emsp;&emsp;&emsp; Grade: 91.3/100
   + Engineering Optics (2) &emsp;&emsp;&emsp;&emsp;&emsp; Grade: 93.5/100
   + Electromagnetic Fields &emsp;&emsp;&emsp;&emsp;&emsp; Grade: 95.1/100
