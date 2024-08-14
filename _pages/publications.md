@@ -5,12 +5,4 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+## [Single-shot lensless masked imaging with enhanced self-calibrated phase retrieval](/_publications/number-6.md)
