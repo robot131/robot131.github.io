@@ -3,7 +3,7 @@ layout: archive
 title: The 16th National Smart Car Competition
 ---
 
-Backward Links: [Interests & Skills](../_pages/interests&skills.md) / [About Me](../_pages/about.md) / [Honors & Awards](../_pages/honors&awards.md)
+Backward Links: [Interests & Skills](../_pages/interests&skills.md) / [About Me](../_pages/about.md) / [Honors & Awards](../_pages/education.md)
 
 <span id="jump_top"></span>
 
@@ -123,6 +123,6 @@ After a semester of effort, we finnaly won the first prize of the northern divis
 
 [Back to the top](#jump_top)
 
-Backward Links: [Interests & Skills](../_pages/interests&skills.md) / [About Me](../_pages/about.md) / [Honors & Awards](../_pages/honors&awards.md)
+Backward Links: [Interests & Skills](../_pages/interests&skills.md) / [About Me](../_pages/about.md) / [Honors & Awards](../_pages/education.md)
 
 
