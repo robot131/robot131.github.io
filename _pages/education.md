@@ -5,7 +5,7 @@ title: Education Experience
 author_profile: true
 ---
 
-I have been learning in Harbin Institute of Technology for 6 years. During this period of time, I participated in various kinds of activities and competitions. These not only practiced my skills but I gained valuable friendship. In the meanwhile, as a student, I did not relax in my study. During my stage of undergraduate, I studied hard and get 90 or more points in many courses. Finally, I was recommended to pursue a master's degree with the fourth place in my major and GPA of 88.9/100. The following sections shows my education experiences and awards I gained during the process.
+I have been learning in Harbin Institute of Technology for 6 years. During this period of time, I participated in various kinds of activities and competitions. These not only practiced my skills but I gained valuable friendship. In the meanwhile, as a student, I did not relax in my study. During my stage of undergraduate, I studied hard and get 90 or more points in many courses. Finally, I was recommended to pursue a master's degree with the fourth place in my major and GPA of 88.9/100. The following sections shows my education experiences and some awards I gained during the process.
 
 ## Master of Engineering
 + School of Instrumentation of Science and Engineering
