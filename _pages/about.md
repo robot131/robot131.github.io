@@ -29,11 +29,18 @@ I am now looking for a PhD position. If there are opportunities in computing ima
 ## Non-Academic
 
 + 07/19/2024 I successfully passed the examination of Chinese national Social sports instructor (snowboarding) and became a primary snowboarding instructor. [Link](../news/snowboarding.md)
-+ 06/09/2024 I successfully graduated, and received my Master’s degree in School of Instrumentation of Science and Engineering from Harbin Institute of Technology. [Link](../news/MA_gra.md) 
++ 06/09/2024 I successfully graduated, and received my Master degree in School of Instrumentation of Science and Engineering from Harbin Institute of Technology. [Link](../news/MA_gra.md) 
 + 05/31/2024 After driving **3 days** and covering a distance around **1500km**, me and my friend finally arrived [the Northernmost Point of China](../news/north_point.md) (53°33'42''N 123°15'30''E). 
 
 ## Old News
 
-[gra](../news/smart_car.md)
++ 06/14/2022 I successfully graduated, and received my Bachelo degree in School of Instrumentation of Science and Engineering from Harbin Institute of Technology. [Link](../news/BA_gra.md)
++ 05/10/2022 My article as a co-author, titled *Lensfree on-chip microscopy based on single-plane phase retrieval*, has been published on *Optics Express*. Click [Here](../publications/number-2.md) to see the details
++ 04/10/2022 My article as a co-author, titled *Lensfree auto-focusing imaging using nuclear norm of gradient*, has been published on *Optics and Lasers in Engineering*. Click [Here](../publications/number-1.md) to see the details
++ 07/28/2021 Our team won the second prize in the 9th National University Students' Opt-Sci-Tech Competition. [Link](../news/opt-ele.md)
++ 06/22/2021 Our team won the first prize of the northern division in the 16th National Smart Car Competition. [Link](../news/smart_car.md)
 
 ## Get in Touch
+
+
+
