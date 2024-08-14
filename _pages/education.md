@@ -38,7 +38,7 @@ I have been learning in Harbin Institute of Technology for 6 years. During this 
 + The 10th National University Students' Opt-Sci-Tech Competition &emsp; **Second prize** in the North-East division &emsp; in *China* 2022
 + The 11th National University Students' Opt-Sci-Tech Competition &emsp; **Second prize** in the North-East division &emsp; in *China* 2022
 + TI Cup Heilongjiang Province Graduate Electronics Design Contest &emsp; **Second prize** &emsp; in *China, Heilongjiang* 2020.11
-+ Outstanding graduate student &emsp; *China, Harbin Institute of Technology*, 2022.
++ Outstanding graduate student &emsp; in *China, Harbin Institute of Technology*, 2022.
 
 
 
