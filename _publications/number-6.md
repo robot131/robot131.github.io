@@ -16,3 +16,6 @@ The contents above will be part of a list of publications, if the user clicks th
 
 <video src="/_publications/materals/single-2.mp4" autoplay="true" controls="controls" width="600">
 </video>
+
+Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages/about.md)
+
