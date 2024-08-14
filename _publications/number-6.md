@@ -1,7 +1,6 @@
 ---
 layout: archive
 title: "Single-shot lensless masked imaging with enhanced self-calibrated phase retrieval"
-collection: publications
 excerpt: Authors：**Shenghao Zheng**, Fannuo Xu, Cheng Guo
 date: 2024-07-10
 venue: 'Optics Letters'
