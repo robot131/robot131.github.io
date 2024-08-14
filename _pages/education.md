@@ -26,5 +26,3 @@ author_profile: true
   + Engineering Optics (2) &emsp;&emsp;&emsp; Grade: 93.5/100
   + Electromagnetic Fields &emsp;&emsp;&emsp; Grade: 95.1/100
   + Complex Function and Integral Transformation Grade: 94/100
-
-         \item 
