@@ -44,7 +44,7 @@ I am now looking for a PhD position. If there are opportunities in computing ima
 
 [Back to the top](#jump_top)
 
-## Old News <span id="jump2"></span>
+# Old News <span id="jump2"></span>
 
 + 06/14/2022 I successfully graduated, and received my **Bachelo degree** in School of Instrumentation of Science and Engineering from **Harbin Institute of Technology**. [Link](../news/BA_gra.md)
 + 05/10/2022 My article as a co-author, titled *Lensfree on-chip microscopy based on single-plane phase retrieval*, has been published on *Optics Express*. [Link](../publications/number-2.md)
