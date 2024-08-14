@@ -10,7 +10,7 @@ author_profile: true
 + Harbin Institute of Technology
 + Cumulative GPA: 85.8/100
 + Selected Courses
-  + Nonlinear optics &emsp; Grade: 90/100
+  + Nonlinear optics &emsp;&emsp; Grade: 90/100
   + Numerical Analysis B  Grade: 93/100
 
 # Bachelor of Engineering
@@ -25,4 +25,4 @@ author_profile: true
   + Engineering Optics (2) &emsp;&emsp;&emsp;&emsp;&emsp; Grade: 93.5/100
   + Electromagnetic Fields &emsp;&emsp;&emsp;&emsp;&emsp; Grade: 95.1/100
   + Complex Function and Integral Transformation &emsp; Grade: 94/100
-  + Linear Algebra and Analytic Geometry B &emsp;&emsp; Grade: 98/100
+  + Linear Algebra and Analytic Geometry B &emsp;&emsp;&emsp;&emsp; Grade: 98/100
