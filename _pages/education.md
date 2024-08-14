@@ -11,7 +11,7 @@ author_profile: true
 + Cumulative GPA: 85.8/100
 + Selected Courses
   + Nonlinear optics &emsp;&emsp; Grade: 90/100
-  + Numerical Analysis B  Grade: 93/100
+  + Numerical Analysis B &ensp; Grade: 93/100
 
 # Bachelor of Engineering
 + School of Instrumentation of Science and Engineering
