@@ -14,7 +14,7 @@ The contents above will be part of a list of publications, if the user clicks th
 <img src="/_publications/imgs/eSCPR.png"/>
 
 {% include base_path %}
-<a href="{{ base_path }}/_publications/imgs/eSCPR.png">{{ title }}</a>
+<a href="{{ base_path }}/_publications/imgs/eSCPR.png"></a>
 
 <video src="/_publications/materals/eSCPR.mp4" autoplay="true" controls="controls" width="600">
 </video>
