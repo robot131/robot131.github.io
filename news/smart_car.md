@@ -3,6 +3,8 @@ layout: archive
 title: The 16th National Smart Car Competition
 ---
 
+Backward Links: [Interests & Skills](../_pages/interests&skills.md) / [About Me](../_pages/about.md) / [Honors & Awards](../_pages/honors&awards.md)
+
 <span id="jump_top"></span>
 
 ## *Date*: 06/22/2021
