@@ -13,7 +13,7 @@ main:
     url: /research/
 
   - title: "Publications"
-    url: /publications/
+    url: /_pages/publications.md
     
   - title: "Honors & Awards"
     url: /h&a/
