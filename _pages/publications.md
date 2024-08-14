@@ -3,9 +3,6 @@ layout: archive
 title: "Publications"
 permalink: /publication/
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
 ## [Single-shot lensless masked imaging with enhanced self-calibrated phase retrieval](../_publications/number-6.md)
