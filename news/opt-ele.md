@@ -13,6 +13,6 @@ It was very exsiting that our team won the second prize in the 9th National Univ
   </center>
 </figure>
 
-Backward Links: [About Me](../_pages/about.md) / [Honors & Awards](../_pages/education.md)
+Backward Links: [About Me](../_pages/about.md) / [Education](../_pages/education.md)
 
 
