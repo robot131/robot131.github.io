@@ -15,5 +15,5 @@ main:
   - title: "Publications"
     url: /publication/
     
-  - title: "Honors & Awards"
-    url: /h&a/
+  # - title: "Honors & Awards"
+  #   url: /h&a/
