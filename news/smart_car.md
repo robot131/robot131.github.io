@@ -119,5 +119,6 @@ After a semester of effort, we finnaly won the first prize of the northern divis
 
 [Back to the top](#jump_top)
 
+Backward Links: [Interests & Skills](../_pages/interests&skills.md) / [About Me](../_pages/about.md) / [Honors & Awards](../_pages/honors&awards.md)
 
 
