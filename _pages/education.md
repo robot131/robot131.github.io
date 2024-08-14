@@ -5,9 +5,9 @@ title: Education Experience
 author_profile: true
 ---
 
+I have been learning in Harbin Institute of Technology for 6 years. During this period of time, I participated in various kinds of activities and competitions. These not only practiced my skills but I gained valuable friendship. In the meanwhile, as a student, I did not relax in my study. During my stage of undergraduate, I studied hard and get 90 or more point in many courses. Finally, I was recommended to pursue a master's degree with the fourth place in my major and GPA of 88.9/100. The following sections shows my education experiences and awards I gained during the process.
 
-
-# Master of Engineering
+## Master of Engineering
 + School of Instrumentation of Science and Engineering
 + Harbin Institute of Technology
 + Cumulative GPA: 85.8/100
@@ -16,7 +16,7 @@ author_profile: true
   + Numerical Analysis B &emsp; Grade: 93/100
 + [Graduation Photos](../news/MA_gra.md)
 
-# Bachelor of Engineering
+## Bachelor of Engineering
 + School of Instrumentation of Science and Engineering
 + Harbin Institute of Technology
 + Cumulative GPA: 88.9/100
@@ -30,3 +30,16 @@ author_profile: true
   + Complex Function and Integral Transformation &emsp; Grade: 94/100
   + Linear Algebra and Analytic Geometry B &emsp;&emsp;&emsp;&emsp; Grade: 98/100
 + [Graduation Photos](../news/BA_gra.md)
+
+## Honors and Awards
+
++ The 16th National Smart Car Competition &emsp; **First prize** in the North division &emsp; in *China* 2021 [Link](../news/smart_car.md)
++ The 9th National University Students' Opt-Sci-Tech Competition &emsp; **Second prize** &emsp; in *China* 2021 [Link](../news/opt_ele.md)
++ The 10th National University Students' Opt-Sci-Tech Competition &emsp; **Second prize** in the North-East division &emsp; in *China* 2022
++ The 11th National University Students' Opt-Sci-Tech Competition &emsp; **Second prize** in the North-East division &emsp; in *China* 2022
++ TI Cup Heilongjiang Province Graduate Electronics Design Contest &emsp; **Second prize** &emsp; in *China, Heilongjiang* 2020.11
++ Outstanding graduate student &emsp; *China, Harbin Institute of Technology*, 2022.
+
+
+
+
