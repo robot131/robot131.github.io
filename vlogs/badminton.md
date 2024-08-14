@@ -12,3 +12,4 @@ Playing badminton is one of my favorite sports. It can not only strengthen the b
   </center>
 </figure>
 
+Backward Links: [Interests & Skills](../_pages/interests&skills.md)
