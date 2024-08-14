@@ -8,13 +8,13 @@ The contents above will be part of a list of publications, if the user clicks th
 
 <img src="/publications/imgs/eSCPR.png"/>
 
-<video src="/publications/materals/eSCPR.mp4" autoplay="true" controls="controls" width="600">
+<video src="/publications/materials/eSCPR.mp4" autoplay="true" controls="controls" width="600">
 </video>
 
-<video src="/publications/materals/single-1.mp4" autoplay="true" controls="controls" width="600">
+<video src="/publications/materials/single-1.mp4" autoplay="true" controls="controls" width="600">
 </video>
 
-<video src="/publications/materals/single-2.mp4" autoplay="true" controls="controls" width="600">
+<video src="/publications/materials/single-2.mp4" autoplay="true" controls="controls" width="600">
 </video>
 
 Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages/about.md)
