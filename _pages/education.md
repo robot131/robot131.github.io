@@ -33,12 +33,18 @@ I have been learning in Harbin Institute of Technology for 6 years. During this 
 
 ## Honors and Awards
 
-+ The 16th National Smart Car Competition &emsp; **First prize** in the North division &emsp; in *China* 2021 [Link](../news/smart_car.md)
-+ The 9th National University Students' Opt-Sci-Tech Competition &emsp; **Second prize** &emsp; in *China* 2021 [Link](../news/opt-ele.md)
-+ The 10th National University Students' Opt-Sci-Tech Competition &emsp; **Second prize** in the North-East division &emsp; in *China* 2022
-+ The 11th National University Students' Opt-Sci-Tech Competition &emsp; **Second prize** in the North-East division &emsp; in *China* 2022
-+ TI Cup Heilongjiang Province Graduate Electronics Design Contest &emsp; **Second prize** &emsp; in *China, Heilongjiang* 2020.11
-+ Outstanding graduate student &emsp; in *China, Harbin Institute of Technology*, 2022.
++ The 16th National Smart Car Competition 
+  + **First prize** in the North division &emsp; in *China* 2021 [Link](../news/smart_car.md)
++ The 9th National University Students' Opt-Sci-Tech Competition
+  + **Second prize** &emsp; in *China* 2021 [Link](../news/opt-ele.md)
++ The 10th National University Students' Opt-Sci-Tech Competition
+  + **Second prize** in the North-East division &emsp; in *China* 2022
++ The 11th National University Students' Opt-Sci-Tech Competition
+  + **Second prize** in the North-East division &emsp; in *China* 2022
++ TI Cup Heilongjiang Province Graduate Electronics Design Contest
+  + **Second prize** &emsp; in *China, Heilongjiang* 2020.11
++ Outstanding graduate student
+  + in *China, Harbin Institute of Technology*, 2022.
 
 
 
