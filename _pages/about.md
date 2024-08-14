@@ -21,7 +21,10 @@ I am now looking for a PhD position. If there are opportunities in computing ima
 
 ## Academic
 
-
++ 07/10/2024 My article as the **first author**, titled *Single-shot lensless masked imaging with enhanced self-calibrated phase retrieval*, has been submitted to *Optics Letters*. Click [Here](../publications/number-6.md) to see the details
++ 06/02/2024 My article as the **second author**, titled *Lensfree auto-focusing imaging with coarse-to-fine tuning method*, has been submitted to *Optics and Lasers in Engineering*. Click [Here](../publications/number-5.md) to see the details
++ 01/05/2024 My article as the **second author**, titled *Dual-constrained physics-enhanced untrained neural network for lensless imaging*, has been submitted to *Journal of the Optical Society of America A*. Click [Here](../publications/number-4.md) to see the details
++ 06/02/2024 My article as the **first author**, titled *Lensless masked imaging with self-calibrated phase retrieval*, has been submitted to *Optics Letters*. Click [Here](../publications/number-3.md) to see the details
 
 ## Non-Academic
 
