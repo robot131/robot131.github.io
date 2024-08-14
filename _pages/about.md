@@ -21,7 +21,7 @@ I am now looking for a PhD position. If there are opportunities in computing ima
 
 ## Quick Links:
 
-+ [Latest News]
++ Latest News
   + [Academic](#jump1_1)
   + [Non-Academic](#jump1_2)
 + [Old News](#jump2)
