@@ -33,10 +33,10 @@ I have been learning in Harbin Institute of Technology for 6 years. During this 
 
 ## Honors and Awards
 
-+ The 16th National Smart Car Competition 
-  + **First prize** in the North division &emsp; in *China* 2021 [Link](../news/smart_car.md)
-+ The 9th National University Students' Opt-Sci-Tech Competition
-  + **Second prize** &emsp; in *China* 2021 [Link](../news/opt-ele.md)
++ [The 16th National Smart Car Competition](../news/smart_car.md)
+  + **First prize** in the North division &emsp; in *China* 2021
++ [The 9th National University Students' Opt-Sci-Tech Competition](../news/opt-ele.md)
+  + **Second prize** &emsp; in *China* 2021
 + The 10th National University Students' Opt-Sci-Tech Competition
   + **Second prize** in the North-East division &emsp; in *China* 2022
 + The 11th National University Students' Opt-Sci-Tech Competition
