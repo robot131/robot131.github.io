@@ -5,7 +5,7 @@ permalink: /publication/
 author_profile: true
 ---
 
-## [Single-shot lensless masked imaging with enhanced self-calibrated phase retrieval](../_publications/number-6.md)
+## [Single-shot lensless masked imaging with enhanced self-calibrated phase retrieval](../publications/number-6.md)
 
 Published in *Optics Letters*, 2024
 
@@ -15,7 +15,7 @@ In this paper, we proposed an enhanced self-calibrated phase retrieval (eSCPR) m
 
 [Paper Link](https://doi.org/10.1364/OL.528104)
 
-## [Lensfree auto-focusing imaging with coarse-to-fine tuning method](../_publications/number-5.md)
+## [Lensfree auto-focusing imaging with coarse-to-fine tuning method](../publications/number-5.md)
 
 Published in *Optics and Lasers in Engineering*, 2024
 
@@ -25,7 +25,7 @@ In this paper, we proposed a coarse-to-fine tuning method for fast and robust le
 
 [Paper Link](https://doi.org/10.1016/j.optlaseng.2024.108366)
 
-## [Dual-constrained physics-enhanced untrained neural network for lensless imaging](../_publications/number-4.md)
+## [Dual-constrained physics-enhanced untrained neural network for lensless imaging](../publications/number-4.md)
 
 Published in *Journal of the Optical Society of America A*, 2024
 
@@ -35,7 +35,7 @@ In this paper, we proposed a dual-constrained physics-enhanced untrained neural 
 
 [Paper Link](https://doi.org/10.1364/JOSAA.510147)
 
-## [Lensless masked imaging with self-calibrated phase retrieval](../_publications/number-3.md)
+## [Lensless masked imaging with self-calibrated phase retrieval](../publications/number-3.md)
 
 Published in *Optics Letters*, 2023
 
@@ -45,7 +45,7 @@ In this paper, we proposed a self-calibrated phase retrieval (SCPR) method to re
 
 [Paper Link](https://doi.org/10.1364/OL.492476)
 
-## [Lensfree on-chip microscopy based on single-plane phase retrieval](../_publications/number-2.md)
+## [Lensfree on-chip microscopy based on single-plane phase retrieval](../publications/number-2.md)
 
 Published in *Optics Express*, 2022
 
@@ -56,7 +56,7 @@ In this paper, we proposed a novel single-plane phase retrieval method, realizin
 [Paper Link](https://doi.org/10.1364/OE.458400)
 
 
-## [Lensfree auto-focusing imaging using nuclear norm of gradient](../_publications/number-1.md)
+## [Lensfree auto-focusing imaging using nuclear norm of gradient](../publications/number-1.md)
 
 Published in *Optics and Lasers in Engineering*, 2022
 
