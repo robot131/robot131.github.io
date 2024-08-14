@@ -14,7 +14,7 @@ I successfully graduated, and received my Bachelor degree in School of Instrumen
   </center>
 </figure>
 
-Backward Links: [Smart Car](../news/smart_car.md) / [About Me](../_pages/about.md)
+Backward Links: [Smart Car](../news/smart_car.md) / [About Me](../_pages/about.md) / [Education](../_pages/education.md)
 
 
 
