@@ -12,6 +12,8 @@ author_profile: true
 + Introduced the idea of wavefront decoupling into LMI systems, which was commonly used in ptychographic iterative engine (PIE) imaging systems.
 + Proposed an enhanced self-calibrated phase retrieval [(eSCPR)](../publications/number-6.md) method that can realize single-shot, dynamic LMI.
 
+## [The 16th National Smart Car Competition](../news/smart_car.md)
+*January 2021 – June 2021*
 
     
 ## Dual-constrained physics-enhanced untrained neural network for lensless imaging
