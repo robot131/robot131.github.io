@@ -12,6 +12,7 @@ author_profile: true
 + Introduced the idea of wavefront decoupling into LMI systems, which was commonly used in ptychographic iterative engine (PIE) imaging systems.
 + Proposed an enhanced self-calibrated phase retrieval [(eSCPR)](../publications/number-6.md) method that can realize single-shot, dynamic LMI.
 
+
     
 ## Dual-constrained physics-enhanced untrained neural network for lensless imaging
 *June 2022 - October 2023*
@@ -25,7 +26,7 @@ author_profile: true
 + Set up the experimental system and assisted in completing the data collection work.
 + Assisted in replying to reviews' comments.
 
-## Lensfree brick-assembled microscopy based on prior-guided phase retrieval (on preparing)}
+## Lensfree brick-assembled microscopy based on prior-guided phase retrieval (on preparing)
 *March 2024–Present*
 + Designed a brick-assembled lensfree microscopy, providing a toy-based microscopic platform for preschool education.
 + Proposed a prior-guided phase retrieval algorithm that can reconstruct the complex wavefield of samples with high quality and low running time.
