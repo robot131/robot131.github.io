@@ -10,7 +10,7 @@ author_profile: true
 
 ## Experiment Skills:
 
-+ Construct different kinds of lensless imaging systems including lensless on-chip imaging systems, lensless masked imaging systems, PIE imaging systems et al. Perform the experimental system to achieve the expected results. \\ \\
++ Construct different kinds of lensless imaging systems including lensless on-chip imaging systems, lensless masked imaging systems, PIE imaging systems et al. Perform the experimental system to achieve the expected results.
 
 ## Programming Skills:
 
