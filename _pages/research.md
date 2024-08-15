@@ -24,7 +24,7 @@ author_profile: true
 
 ## Lensfree auto-focusing imaging with coarse-to-fine tuning method
 *June 2022 – June 2024*
-+ Constructed the basic backbone of the sFocusNet with Mr. Zhihui Ding.
++ Constructed the basic backbone of the [sFocusNet](../publications/number-5.md) with Mr. Zhihui Ding.
 + Set up the experimental system and assisted in completing the data collection work.
 + Assisted in replying to reviews' comments.
 
