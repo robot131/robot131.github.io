@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<span id="jump_top"></span>
-
 Welcome to my personal website! I am Zheng Shenghao, I obtained my Master degree of Engineering (Sep. 2022 - Jun. 2024) in the [School of Instrument Science and Engineering](https://ise.hit.edu.cn/) at [Harbin Institute of Technology](https://www.hit.edu.cn/). Priorly, I obtained my Bachelor degree of Engineering (Sep. 2018 - Jun. 2022) also from Harbin Institute of Technology.
 
 During my master stage, my research mainly focused on lensless imaging method. One of my major research issue is abstracting mathematical models from physical processes of imaging systems, and expressing them mathematically using computer programming languages. Corresponding works include [SCPR](../publications/number-3.md), [eSCPR](../publications/number-6.md). Another is utilizing deep learning method to solve inverse image problems. Corresponding works include [DPENet](../publications/number-4.md), [sFocusNet](../publications/number-5.md). For more detailed information about my academic and research experiences, you can also refer to the [Research](../_pages/research.md), and  [Publications](../_pages/publications.md) of this website. Alternatively, you can also view my [CV](../files/Shenghao_Zheng_PhD_application_CV_for_robotic_groups.pdf). for a summary of my achievements. 
@@ -18,6 +16,8 @@ Before that, I have also  participated in project related to computer vision and
 I am now looking for a PhD position. If there are opportunities in computing imaging, computer vision, or related fields, please contact me from any of the following contact methods:
 
 [Email](mailto:zhengshenghao666@gmail.com) / [Wechat](../images/my_imgs/wechat.png) / [Twitter](https://x.com/fu_yo_no_ha_na)
+
+<span id="jump_top"></span>
 
 ## Quick Links:
 
