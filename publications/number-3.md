@@ -14,7 +14,7 @@ DOI: [10.1364/OL.492476](https://doi.org/10.1364/OL.492476)
 # Method Overview
 
 The overview of lensless masked imaging is illustrated in Fig. 1. Figure 1(a) shows the experimental setup. In the system, a fiber-coupled laser emits coherent light for
-illumination (wavelength: 532 nm). The incident wave lands on the sample and carries its information. The transmitted diffraction field from sample is sieved by a binary amplitude mask (pixel size = 4 $\upmu$m) and the modulated intensity patterns are recorded by a CMOS sensor chip (IMX206, Sony, 4608 × 3456, pixel size is 1.34 $\upmu$m), where the sample-to-mask distance is $Z_1$ and the mask-to-sensor distances are $Z_2^n, n \in [1,N]$
+illumination (wavelength: 532 nm). The incident wave lands on the sample and carries its information. The transmitted diffraction field from sample is sieved by a binary amplitude mask (pixel size = 4 $\upmu m$) and the modulated intensity patterns are recorded by a CMOS sensor chip (IMX206, Sony, 4608 × 3456, pixel size is 1.34 $\upmu m$), where the sample-to-mask distance is $Z_1$ and the mask-to-sensor distances are $Z_2^n, n \in [1,N]$
 
 
 <img src="/publications/imgs/SCPR_method.png">
