@@ -14,7 +14,9 @@ I have been learning in Harbin Institute of Technology for 6 years. During this 
 + Selected Courses
   + Nonlinear optics &emsp;&emsp;&emsp; Grade: 90/100
   + Numerical Analysis B &emsp; Grade: 93/100
++ [Academic Transcript](../images/my_imgs/MA_grad.png)
 + [Graduation Photos](../news/MA_gra.md)
+
 
 ## Bachelor of Engineering
 + School of Instrumentation of Science and Engineering
@@ -29,6 +31,7 @@ I have been learning in Harbin Institute of Technology for 6 years. During this 
   + Electromagnetic Fields &emsp;&emsp;&emsp;&emsp;&emsp; Grade: 95.1/100
   + Complex Function and Integral Transformation &emsp; Grade: 94/100
   + Linear Algebra and Analytic Geometry B &emsp;&emsp;&emsp;&emsp; Grade: 98/100
++ Academic Transcript: [Page-1](../images/my_imgs/BA_grad_1.png) / [Page-2](../images/my_imgs/BA_grad_2.png) / [GPA & Ranking](../images/my_imgs/BA_rank.png)
 + [Graduation Photos](../news/BA_gra.md)
 
 ## Honors and Awards
