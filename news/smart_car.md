@@ -87,7 +87,7 @@ Since the imaging sensor we used is a monocular camera, it is hard to estimate t
 
 ### Lane recognition <span id="jump3_2"></span>
 
-We regarded the lane recognition as a image segement problem, and trained a neural network to solve it. The architecture of the utilized Unet++ is shown in Fig.3. The input of the network is a picture with the lane taken from the camera, and the output is a picture of a divided lane line. 
+We regarded the lane recognition as a image segment problem, and trained a neural network to solve it. The architecture of the utilized Unet++ is shown in Fig.3. The input of the network is a picture with the lane taken from the camera, and the output is a picture of a divided lane line. 
 
 <img src="/news/smart_car_imgs/Unet.png" width="600"/>
 
