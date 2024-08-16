@@ -13,6 +13,8 @@ DOI: [10.1364/OL.492476](https://doi.org/10.1364/OL.492476)
 
 # Method Overview
 
+<img src="/publications/imgs/SCPR_method.md">
+
 
 
 
