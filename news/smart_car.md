@@ -7,7 +7,7 @@ Backward Links: [Interests & Skills](../_pages/interests&skills.md) / [About Me]
 
 ## *Date*: 06/22/2021
 
-The time I spent with my teammates on preparing the smart car competition is one of the most unforgettable experience during my stage of undergraduate. The experience not only equipped me with practical knowledge and skills, but also led us to find each other who had a common goal. After the competation, except a member who didn't do anything, the rest four of us become very good friends. You can also find a photo of us taken in our Undergraduate Graduation Ceremony in the first photo of [this page](../news/BA_gra.md).
+The time I spent with my teammates on preparing the smart car competition is one of the most unforgettable experience during my stage of undergraduate. The experience not only equipped me with practical knowledge and skills, but also led us to find each other who had a common goal. After the competation, all os us become very good friends. You can also find a photo of us taken in our Undergraduate Graduation Ceremony in the first photo of [this page](../news/BA_gra.md).
 
 In this page, I review the entire process of the competition and describe in detail the part I was responsible for. The rest parts are arranged as follows: first, I will introduce the task we are expected to complete in the competition, then the division of labor is given, third I will describe the basic function I should achieve and break down my responsibilities into smaller parts, and describe the goal of each part and the methods that I utilized, then a video of the whole process test is performed, finally, photos of our group and the certificate of the competation are shown.
 
@@ -67,7 +67,7 @@ According to the competation goals and the basic constitution of the smart car, 
 4. Recieve the messages from the camera and the laser SLAM, and use the messages to give motion orders to the motor to move the car correctly
 5. Make a visual Interface on the laptop that can interact with the car, give orders to the car, and check the status of the car during the game
 
-The part that I was responsible for is the second item. Since the member who was responsible for the forth part hung up his boots, our group leader who was in charge of the laser SLAM and I took over this work and solved the parts that were relevant to each of us.
+The part that I was responsible for is the second item, the computer vision part. Later, our group leader who was in charge of the laser SLAM and I also took over the forth item and solved the parts that were relevant to each of us.
 
 [Back to the top](#jump_top)
 
@@ -104,7 +104,7 @@ To make the network effective and robust, we used about 1,300 image pairs taken 
 
 ## Whole process test <span id="jump4"></span>
 
-Since no photos or video are allowed during the game, here we exhibit a video recorded during our preparation for the competation. We can see that all the functions works correctly and the car accomplised a whole circle without any error.
+Here we exhibit a video recorded during our preparation for the competation. We can see that all the functions works correctly and the car accomplised a whole circle without any error.
 
 <video src="/news/smart_car_videos/test_whole.mp4" autoplay="true" controls="controls" width="600">
 </video>
