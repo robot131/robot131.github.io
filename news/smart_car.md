@@ -5,7 +5,7 @@ title: The 16th National Smart Car Competition
 
 Backward Links: [Interests & Skills](../_pages/interests&skills.md) / [About Me](../_pages/about.md) / [Education](../_pages/education.md) / [Research](../_pages/research.md)
 
-## *Date*: 06/22/2021
+### *Date*: 06/22/2021
 
 The time I spent with my teammates on preparing the smart car competition is one of the most unforgettable experience during my stage of undergraduate. The experience not only equipped me with practical knowledge and skills, but also led us to find each other who had a common goal. After the competation, all os us become very good friends. You can also find a photo of us taken in our Undergraduate Graduation Ceremony in the first photo of [this page](../news/BA_gra.md).
 
