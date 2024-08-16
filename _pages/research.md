@@ -5,7 +5,7 @@ title: Research Experience
 author_profile: true
 ---
 
-
+This page summerizes my research experience in the last few years. The research works listed below are selceted representative works. If you want to learn more about a certain work, links to the details page are also set at the corresponding location.
 
 ## Lensless imaging method based on mask modulation
 *June 2022 – June 2024*
