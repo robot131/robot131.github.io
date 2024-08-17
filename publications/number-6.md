@@ -12,7 +12,7 @@ The contents above will be part of a list of publications, if the user clicks th
 
 <div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_algor_1.png" width=400></div>
 
-<div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_algor_2.png" width=600></div>
+<div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_algor_2.png" width=650></div>
 
 <div align=center><img src="/publications/imgs/eSCPR_results/r1.png" width=600></div>
 
