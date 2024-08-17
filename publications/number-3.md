@@ -33,12 +33,14 @@ To show the performance of our method, we first choose a resolution target as a 
 
 <div align=center><img src="/publications/imgs/SCPR_results/fig2.png" width=400></div>
 
+
 **Fig.2.** Reconstructed resolution target with/without mask calibration. (a1) and (a2) are retrieved amplitude images at the mask plane without/with sample loading, respectively. (b1) and (b2) are cropped regions from (a1) and (a2). (c1) is a synthesized pseudo-color figure to show the lateral mismatch between (b1) and (b2), in which pink is (b1), green is (b2), and the overlapped region of them is white. (c2) is a synthesized result after mask calibration. (d1)–(d2) and (e1)–(e2) are retrieved amplitude images of the resolution target without/with mask calibration, respectively. 
 
 To further show the robustness of our method, we additionally choose three samples, including H&E-stained human tongue fungiform papillae, H&E-stained cow lung tissue, and pure phase target, to conduct image reconstruction experiments. The pure phase target is produced by a spatial light modulator (Holoeye GAEA-2-VIS-036, 4160×2464, pixel pitch: 3.74μm). Fig. 3. shows the autofocusing curves. The mask-to-sensor distances are acquired and plotted in Fig. 3(a), where the initial distance and interval are 
 specified as 3.19mm and 0.10mm. For the three samples, their auto-focusing curves are plotted in Figs. 3 (b-d), where the sample-to-mask distances of human tongue fungiform papillae, cow lung tissue, and pure phase target are specified as 7.77mm, 8.73mm, and 58.29mm.
 
 <div align=center><img src="/publications/imgs/SCPR_results/fig3.png" width=500></div>
+
 
 **Fig.3.** The auto-focusing curves for additional experiments. (a) mask-to-sensor distance estimation. (b-d) are sample-to-mask distance estimation curves for human tongue fungiform papillae, cow lung tissue, and pure phase target.
 
@@ -52,13 +54,16 @@ With above parameters, the retrieved images of the three samples are given in Fi
 
 <div align=center> Fig.4. Reconstructed results of human tongue fungiform papillae for dual-plane and multi-plane measurement. </div>  
 
+
 <div align=center><img src="/publications/imgs/SCPR_results/fig5.png" width=600></div>
 
 <div align=center> Fig.5. Reconstructed results of cow lung tissue for dual-plane and multi-plane measurement. </div>  
 
+
 <div align=center><img src="/publications/imgs/SCPR_results/fig6.png" width=600></div>
 
 <div align=center> Fig.6. Reconstructed results of pure phase target for dual-plane and multi-plane measurement. </div>  
+
 
 We then use only one intensity image to reconstruct the complex field of the sample to test the single-shot reconstruction ability. The resolution target is chosen as the sample. The retrieved amplitude images of SPICA and our method are shown in Figs. 7(a1-a3) and Figs. 7(b1-b3). To further show the difference, the plotlines along green and red dash lines captured from Fig. 7(a3) and Fig. 7(b3) are pictured in Fig. 7(c1) and Fig. 7(c2). We can see that our method still outperforms the SPICA algorithm with a higher resolution and better imaging contrast.  However, compared to the results reconstruted with 11 intensity images, as shown in Fig. 2, there is a resolution loss.
 
