@@ -28,7 +28,7 @@ The SCPR method is composed of mask calibration and wave field recovery. As show
 
 <div align=center><img src="/publications/imgs/SCPR_results/fig2.png" width=400></div>
 
-**Fig.2.** Reconstructed resolution chart with/without mask calibration. Panels (a1) and (a2) are retrieved amplitude images at the mask plane without/with sample loading, respectively. Panels (b1) and (b2) are cropped regions from (a1) and (a2). Panel (c1) is a synthesized pseudo-color figure to show the lateral mismatch between (b1) and (b2), in which pink is (b1), green is (b2), and the overlapped region of them is white. Panel (c2) is a synthesized result after mask calibration. Panels (d1)–(d2) and (e1)–(e2) are retrieved amplitude images of the resolution target without/with mask calibration, respectively.
+**Fig.2.** Reconstructed resolution chart with/without mask calibration. Panels (a1) and (a2) are retrieved amplitude images at the mask plane without/with sample loading, respectively. Panels (b1) and (b2) are cropped regions from (a1) and (a2). Panel (c1) is a synthesized pseudo-color figure to show the lateral mismatch between (b1) and (b2), in which pink is (b1), green is (b2), and the overlapped region of them is white. Panel (c2) is a synthesized result after mask calibration. Panels (d1)–(d2) and (e1)–(e2) are retrieved amplitude images of the resolution target without/with mask calibration, respectively.
 
 <div align=center><img src="/publications/imgs/SCPR_results/fig3.png" width=700></div>
 
