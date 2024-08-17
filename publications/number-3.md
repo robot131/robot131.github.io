@@ -28,15 +28,15 @@ The SCPR method is composed of mask calibration and wave field recovery. As show
 
 <div align=center><img src="/publications/imgs/SCPR_results/fig2.png" width=400></div>
 
-<img src="/publications/imgs/SCPR_results/fig3.png" width=700>
+<div align=center><img src="/publications/imgs/SCPR_results/fig3.png" width=700></div>
 
-<img src="/publications/imgs/SCPR_results/fig4.png" width=700>
+<div align=center><img src="/publications/imgs/SCPR_results/fig4.png" width=700></div>
 
-<img src="/publications/imgs/SCPR_results/fig5.png" width=700>
+<div align=center><img src="/publications/imgs/SCPR_results/fig5.png" width=700></div>
 
-<img src="/publications/imgs/SCPR_results/fig6.png" width=700>
+<div align=center><img src="/publications/imgs/SCPR_results/fig6.png" width=700></div>
 
-<img src="/publications/imgs/SCPR_results/fig7.png" width=500>
+<div align=center><img src="/publications/imgs/SCPR_results/fig7.png" width=500></div>
 
 
 
