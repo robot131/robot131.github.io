@@ -34,19 +34,19 @@ To show the performance of our method, we first choose a resolution target as a 
 
 **Fig.3.** The auto-focusing curves for additional experiments. (a) mask-to-sensor distance estimation. (b-d) are sample-to-mask distance estimation curves for human tongue fungiform papillae, cow lung tissue, and pure phase target.
 
-<div align=center><img src="/publications/imgs/SCPR_results/fig4.png" width=800></div>
+<div align=center><img src="/publications/imgs/SCPR_results/fig4.png" width=700></div>
 
 <div align=center> Fig.4. Reconstructed results of human tongue fungiform papillae for dual-plane and multi-plane measurement. </div>
 
-<div align=center><img src="/publications/imgs/SCPR_results/fig5.png" width=800></div>
+<div align=center><img src="/publications/imgs/SCPR_results/fig5.png" width=700></div>
 
 <div align=center> Fig.5. Reconstructed results of cow lung tissue for dual-plane and multi-plane measurement. </div>
 
-<div align=center><img src="/publications/imgs/SCPR_results/fig6.png" width=800></div>
+<div align=center><img src="/publications/imgs/SCPR_results/fig6.png" width=700></div>
 
 <div align=center> Fig.6. Reconstructed results of pure phase target for dual-plane and multi-plane measurement. </div>
 
-<div align=center><img src="/publications/imgs/SCPR_results/fig7.png" width=600></div>
+<div align=center><img src="/publications/imgs/SCPR_results/fig7.png" width=550></div>
 
 **Fig.7.** Single-shot reconstructed results of SPICA and binary-coding phase retrieval. (a1-a3) and (b1-b3) are reconstructed images of the SPICA algorithm and our method by using a single-frame intensity pattern. (c1-c2) are plotlines captured from (a3) and (b3).
 
