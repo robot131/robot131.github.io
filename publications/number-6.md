@@ -14,6 +14,8 @@ The contents above will be part of a list of publications, if the user clicks th
 
 <img src="/publications/imgs/eSCPR_results/eSCPR_algor_2.png" width=500>
 
+<div align=center><img src="/publications/imgs/SCPR_results/fig2.png" width=400></div>
+
 
 <video src="/publications/materials/eSCPR.mp4" autoplay="true" controls="controls" width="600">
 </video>
