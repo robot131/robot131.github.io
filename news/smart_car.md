@@ -83,7 +83,7 @@ Since the imaging sensor we used is a monocular camera, it is hard to estimate t
 
 <div align=center><img src="/news/smart_car_imgs/traffic_light.png" width="600"></div>
 
-#### Fig.2 The result of the traffic light recognition and distance estimation
+<div align=center> #### Fig.2 The result of the traffic light recognition and distance estimation </div>
 
 ### Lane recognition <span id="jump3_2"></span>
 
