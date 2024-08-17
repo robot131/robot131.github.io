@@ -83,7 +83,7 @@ Since the imaging sensor we used is a monocular camera, it is hard to estimate t
 
 <div align=center><img src="/news/smart_car_imgs/traffic_light.png" width="600"></div>
 
-#### <div align=center> Fig.2 The result of the traffic light recognition and distance estimation </div>
+<div align=center> Fig.2 The result of the traffic light recognition and distance estimation </div>
 
 ### Lane recognition <span id="jump3_2"></span>
 
@@ -91,14 +91,16 @@ We regarded the lane recognition as a image segment problem, and trained a neura
 
 <div align=center><img src="/news/smart_car_imgs/Unet.png" width="600"></div>
 
-#### <div align=center> Fig.3 The architecture of the utilized Unet++ </div>
+<div align=center> Fig.3 The architecture of the utilized Unet++ </div>
 
 To make the network effective and robust, we used about 1,300 image pairs taken from two different scens to train the network. After 50 epochs of training, the network was then installed on the car to recognize the lane in real time. A video of testing is shown in Video. 1. 
 
+<div align=center>
 <video src="/news/smart_car_videos/test_line.mp4" autoplay="true" controls="controls" width="600">
 </video>
+</div>
 
-#### <div align=center> Video.1 A video to show the result of lane recognition </div>
+<div align=center> Video.1 A video to show the result of lane recognition </div>
 
 [Back to the top](#jump_top)
 
@@ -111,7 +113,7 @@ Here we exhibit a video recorded during our preparation for the competation. We 
 </video>
 </div>
 
-#### <div align=center> Video.2 Whole process test </div>
+<div align=center> Video.2 Whole process test </div>
 
 [Back to the top](#jump_top)
 
