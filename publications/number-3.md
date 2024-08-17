@@ -31,14 +31,14 @@ The SCPR method is composed of mask calibration and wave field recovery. As show
 
 To show the performance of our method, we first choose a resolution target as a sample. Fig. 2 shows the reconstruction results. Without the sample, 11 multi-distance intensity patterns \\(I_n^{w/o}\\) are captured by axially moving the motorized stage with a uniformly spaced interval. Then \\(I_n^{w/o}\\) are fed to the MDPR algorithm and \\(U^{w/o}\\) is reconstructed. Its amplitude image is shown in Fig. 2(a1).  As the resolution target is loaded, 11 modulated intensity patterns \\(I_n^x\\) are recordedand the corresponding amplitude image of \\(U^w\\) is retrieved, as shown in Fig. 2(a2). The pink and green regions of interest cropped from Fig. 2(a1) and Fig. 2(a2) are enlarged in Fig. 2(b1) and Fig. 2(b2). To explicitly show the lateral mismatch between \\(U^{w/o}\\) and \\(U^w\\), we synthesize Fig. 2(b1) and Fig. 2(b2) to produce a pseudo-color image in Fig. 2(c1), where pink is Fig. 2(b1), green is Fig. 2(b2), the overlapped region of them is white. After \\(U^{w/o}\\) is aligned to \\(U^w\\), the synthesized result using the aligned mask and \\(U^w\\) is displayed in Fig. 2(c2). It is noted that after alignment the two regions coincide with each other strictly, and the lateral mismatch error has been eliminated. Utlizing the mask before/after alignment, we reconstruct the resolution target, respectively, and Figs. 2(d1)–(d2) and Figs. 2(e1)–(e2) shows the corresponding results. It can be confirmed that the imaging resolution could be impaired without mask calibration.
 
-<div align=center><img src="/publications/imgs/SCPR_results/fig2.png" width=500></div>
+<div align=center><img src="/publications/imgs/SCPR_results/fig2.png" width=400></div>
 
 **Fig.2.** Reconstructed resolution target with/without mask calibration. (a1) and (a2) are retrieved amplitude images at the mask plane without/with sample loading, respectively. (b1) and (b2) are cropped regions from (a1) and (a2). (c1) is a synthesized pseudo-color figure to show the lateral mismatch between (b1) and (b2), in which pink is (b1), green is (b2), and the overlapped region of them is white. (c2) is a synthesized result after mask calibration. (d1)–(d2) and (e1)–(e2) are retrieved amplitude images of the resolution target without/with mask calibration, respectively. 
 
 To further show the robustness of our method, we additionally choose three samples, including H&E-stained human tongue fungiform papillae, H&E-stained cow lung tissue, and pure phase target, to conduct image reconstruction experiments. The pure phase target is produced by a spatial light modulator (Holoeye GAEA-2-VIS-036, 4160×2464, pixel pitch: 3.74μm). Fig. 3. shows the autofocusing curves. The mask-to-sensor distances are acquired and plotted in Fig. 3(a), where the initial distance and interval are 
 specified as 3.19mm and 0.10mm. For the three samples, their auto-focusing curves are plotted in Figs. 3 (b-d), where the sample-to-mask distances of human tongue fungiform papillae, cow lung tissue, and pure phase target are specified as 7.77mm, 8.73mm, and 58.29mm.
 
-<div align=center><img src="/publications/imgs/SCPR_results/fig3.png" width=600></div>
+<div align=center><img src="/publications/imgs/SCPR_results/fig3.png" width=500></div>
 
 **Fig.3.** The auto-focusing curves for additional experiments. (a) mask-to-sensor distance estimation. (b-d) are sample-to-mask distance estimation curves for human tongue fungiform papillae, cow lung tissue, and pure phase target.
 
@@ -48,21 +48,21 @@ With above parameters, the retrieved images of the three samples are given in Fi
 + **Sparse sample** (Fig. 5, lung tissue) : As shown in Fig. 5, it is noted that our method can reconstruct the lung tissue under dual-plane and multi-plane measurement, but Multi-SPICA only works well with multi-plane measurement.
 + **Phase only sample** (Fig. 6, pure phase target produced by a SLM) :  It is observed from Fig. 6 that both methods can reconstruct the pure phase image but our method shows a better imaging contrast.
 
-<div align=center><img src="/publications/imgs/SCPR_results/fig4.png" width=700></div>
+<div align=center><img src="/publications/imgs/SCPR_results/fig4.png" width=600></div>
 
-<div align=center> Fig.4. Reconstructed results of human tongue fungiform papillae for dual-plane and multi-plane measurement. </div>
+<div align=center> Fig.4. Reconstructed results of human tongue fungiform papillae for dual-plane and multi-plane measurement. </div>  
 
-<div align=center><img src="/publications/imgs/SCPR_results/fig5.png" width=700></div>
+<div align=center><img src="/publications/imgs/SCPR_results/fig5.png" width=600></div>
 
-<div align=center> Fig.5. Reconstructed results of cow lung tissue for dual-plane and multi-plane measurement. </div>
+<div align=center> Fig.5. Reconstructed results of cow lung tissue for dual-plane and multi-plane measurement. </div>  
 
-<div align=center><img src="/publications/imgs/SCPR_results/fig6.png" width=700></div>
+<div align=center><img src="/publications/imgs/SCPR_results/fig6.png" width=600></div>
 
-<div align=center> Fig.6. Reconstructed results of pure phase target for dual-plane and multi-plane measurement. </div>
+<div align=center> Fig.6. Reconstructed results of pure phase target for dual-plane and multi-plane measurement. </div>  
 
 We 
 
-<div align=center><img src="/publications/imgs/SCPR_results/fig7.png" width=550></div>
+<div align=center><img src="/publications/imgs/SCPR_results/fig7.png" width=450></div>
 
 **Fig.7.** Single-shot reconstructed results of SPICA and binary-coding phase retrieval. (a1-a3) and (b1-b3) are reconstructed images of the SPICA algorithm and our method by using a single-frame intensity pattern. (c1-c2) are plotlines captured from (a3) and (b3).
 
