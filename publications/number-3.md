@@ -12,8 +12,14 @@ DOI: [10.1364/OL.492476](https://doi.org/10.1364/OL.492476)
 
 # Method Overview
 
-The overview of lensless masked imaging is illustrated in Fig. 1. Figure 1(a) shows the experimental setup. In the system, a fiber-coupled laser emits coherent light for
-illumination (wavelength: 532 nm). The incident wave lands on the sample and carries its information. The transmitted diffraction field from sample is sieved by a binary amplitude mask (pixel size = 4 \\(\mu m\\)) and the modulated intensity patterns are recorded by a CMOS sensor chip (IMX206, Sony, 4608 × 3456, pixel size is 1.34 \\(\mu m\\)), where the sample-to-mask distance is \\(Z_1\\) and the mask-to-sensor distances are \\(Z_2^n, n \in [1,N]\\) . The sensor is installed on a motorized stage (M-403, Physik Instrumente Inc.) for multi-distance defocus measurement.
+The overview of lensless masked imaging is illustrated in Fig. 1. Figure 1(a) shows the experimental setup. The process of light wave transmission can be summerized as following steps: 
+
+1. A fiber-coupled laser emits coherent light for illumination (wavelength: 532 nm).
+2. The incident wave lands on the sample and carries its information.
+3. The transmitted diffraction field from sample is sieved by a binary amplitude mask (pixel size = 4 \\(\mu m\\))
+4. The modulated intensity patterns are recorded by a CMOS sensor chip (IMX206, Sony, 4608 × 3456, pixel size is 1.34 \\(\mu m\\)).
+
+The sample-to-mask distance is \\(Z_1\\) and the mask-to-sensor distances are \\(Z_2^n, n \in [1,N]\\) . The sensor is installed on a motorized stage (M-403, Physik Instrumente Inc.) for multi-distance defocus measurement.
 
 The SCPR method is composed of mask calibration and wave field recovery. As shown in Fig. 1(b), in mask calibration we use autofocusing method to acquire \\(Z_2^n\\) and then reconstruct and calibrate the mask’s transmission function with \\(Z_2^n\\) and the captured intensity images with/without the sample loaded, denoted as { \\(I_n^w, n \in [1,N]\\) } and { \\(I_n^{w/o}, n \in [1,N]\\) }, respectively. After that, we get the complex wave field of the aligned mask (M) and the mask-modulated sample at the sample plane ( \\(U^w\\) ). Then we feed the two complex wave fields in to the binary-coding phase retrieval algorithm, as shown in Fig. 1(c), and the complex wave field of sample can then be recovered. 
 
@@ -32,15 +38,15 @@ To show the performance of our method, we first choose a resolution target as a 
 To further show the robustness of our method, we additionally choose three samples, including H&E-stained human tongue fungiform papillae, H&E-stained cow lung tissue, and pure phase target, to conduct image reconstruction experiments. The pure phase target is produced by a spatial light modulator (Holoeye GAEA-2-VIS-036, 4160×2464, pixel pitch: 3.74μm). Fig. 3. shows the autofocusing curves. The mask-to-sensor distances are acquired and plotted in Fig. 3(a), where the initial distance and interval are 
 specified as 3.19mm and 0.10mm. For the three samples, their auto-focusing curves are plotted in Figs. 3 (b-d), where the sample-to-mask distances of human tongue fungiform papillae, cow lung tissue, and pure phase target are specified as 7.77mm, 8.73mm, and 58.29mm.
 
-<div align=center><img src="/publications/imgs/SCPR_results/fig3.png" width=800></div>
+<div align=center><img src="/publications/imgs/SCPR_results/fig3.png" width=600></div>
 
 **Fig.3.** The auto-focusing curves for additional experiments. (a) mask-to-sensor distance estimation. (b-d) are sample-to-mask distance estimation curves for human tongue fungiform papillae, cow lung tissue, and pure phase target.
 
 With above parameters, the retrieved images of the three samples are given in Fig. 4, Fig. 5, and Fig. 6. The reconstructed results using 2 and 11 intensity patterns are displayed. The chosen three samples are also of three kind that can be classified as:
 
-+ Dense sample (Fig. 4, human tongue fungiform papillae) : From the results shown in Fig. 4, we can see that when recovering dense biological tissue, our method shows a better imaging quality compared to the results of Multi-SPICA contaminated by noisy backgrounds.
-+ Sparse sample (Fig. 5, lung tissue) : As shown in Fig. 5, it is noted that our method can reconstruct the lung tissue under dual-plane and multi-plane measurement, but Multi-SPICA only works well with multi-plane measurement.
-+ Phase only sample (Fig. 6, pure phase target produced by a SLM) :  It is observed from Fig. 6 that both methods can reconstruct the pure phase image but our method shows a better imaging contrast.
++ **Dense sample** (Fig. 4, human tongue fungiform papillae) : From the results shown in Fig. 4, we can see that when recovering dense biological tissue, our method shows a better imaging quality compared to the results of Multi-SPICA contaminated by noisy backgrounds.
++ **Sparse sample** (Fig. 5, lung tissue) : As shown in Fig. 5, it is noted that our method can reconstruct the lung tissue under dual-plane and multi-plane measurement, but Multi-SPICA only works well with multi-plane measurement.
++ **Phase only sample** (Fig. 6, pure phase target produced by a SLM) :  It is observed from Fig. 6 that both methods can reconstruct the pure phase image but our method shows a better imaging contrast.
 
 <div align=center><img src="/publications/imgs/SCPR_results/fig4.png" width=700></div>
 
@@ -53,6 +59,8 @@ With above parameters, the retrieved images of the three samples are given in Fi
 <div align=center><img src="/publications/imgs/SCPR_results/fig6.png" width=700></div>
 
 <div align=center> Fig.6. Reconstructed results of pure phase target for dual-plane and multi-plane measurement. </div>
+
+We 
 
 <div align=center><img src="/publications/imgs/SCPR_results/fig7.png" width=550></div>
 
