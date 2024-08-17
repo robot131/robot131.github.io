@@ -10,15 +10,15 @@ The contents above will be part of a list of publications, if the user clicks th
 
 <div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_experimental.png" width=500></div>
 
-<div align=center> Fig.1 Experimental Setup of eSCPR. </div></br>
+<div align=center> Fig.1 Experimental Setup of eSCPR. </div><br/>
 
 <div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_algor_1.png" width=400></div>
 
-<div align=center> Fig.2 Workflow of the mask recovery step. </div></br>
+<div align=center> Fig.2 Workflow of the mask recovery step. </div><br/>
 
 <div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_algor_2.png" width=650></div>
 
-<div align=center> Fig.3 Workflows of the mask-guided autofocusing step and the sample recovery step. </div></br>
+<div align=center> Fig.3 Workflows of the mask-guided autofocusing step and the sample recovery step. </div><br/>
 
 <div align=center><img src="/publications/imgs/eSCPR_results/r1.png" width=600></div>
 
@@ -37,7 +37,7 @@ The contents above will be part of a list of publications, if the user clicks th
 </video>
 </div>
 
-<div align=center> Video.1 Video of raw dataset measurement and sample recovery of a dynamic Ronchi grating </div></br>
+<div align=center> Video.1 Video of raw dataset measurement and sample recovery of a dynamic Ronchi grating </div><br/>
 
 # Conclusion
 
