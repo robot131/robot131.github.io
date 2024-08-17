@@ -18,6 +18,16 @@ In this paper, we proposed an enhanced self-calibrated phase retrieval (eSCPR) m
 
 DOI: [10.1364/OL.528104](https://doi.org/10.1364/OL.528104)
 
+## [Lensless masked imaging with self-calibrated phase retrieval](../publications/number-3.md)
+
+Published in *Optics Letters*, 2023
+
+Authors：**Shenghao Zheng**, Zhihui Ding, Rui Jiang, and Cheng Guo
+
+In this paper, we proposed a self-calibrated phase retrieval (SCPR) method to realize a joint recovery of a binary mask and sample’s wave field for a lensless masked imaging system.
+
+DOI: [10.1364/OL.492476](https://doi.org/10.1364/OL.492476)
+
 ## [Lensfree auto-focusing imaging with coarse-to-fine tuning method](../publications/number-5.md)
 
 Published in *Optics and Lasers in Engineering*, 2024
@@ -37,16 +47,6 @@ Authors：Zehua Wang, **Shenghao Zheng**, Zhihui Ding, Cheng Guo
 In this paper, we proposed a dual-constrained physics-enhanced untrained neural network (DPENet) for single-frame lensless imaging, providing an effective and robust way to solve the overfitting problem of untrained networks, which will facilitate further application of untrained networks in lensless imaging.
 
 DOI: [10.1364/JOSAA.510147](https://doi.org/10.1364/JOSAA.510147)
-
-## [Lensless masked imaging with self-calibrated phase retrieval](../publications/number-3.md)
-
-Published in *Optics Letters*, 2023
-
-Authors：**Shenghao Zheng**, Zhihui Ding, Rui Jiang, and Cheng Guo
-
-In this paper, we proposed a self-calibrated phase retrieval (SCPR) method to realize a joint recovery of a binary mask and sample’s wave field for a lensless masked imaging system.
-
-DOI: [10.1364/OL.492476](https://doi.org/10.1364/OL.492476)
 
 ## [Lensfree on-chip microscopy based on single-plane phase retrieval](../publications/number-2.md)
 
