@@ -26,27 +26,27 @@ The SCPR method is composed of mask calibration and wave field recovery. As show
 # Experimental Results
 
 
-<div align=center><img src="/publications/imgs/SCPR_results/fig2.png" width=400></div>
+<div align=center><img src="/publications/imgs/SCPR_results/fig2.png" width=500></div>
 
 **Fig.2.** Reconstructed resolution chart with/without mask calibration. Panels (a1) and (a2) are retrieved amplitude images at the mask plane without/with sample loading, respectively. Panels (b1) and (b2) are cropped regions from (a1) and (a2). Panel (c1) is a synthesized pseudo-color figure to show the lateral mismatch between (b1) and (b2), in which pink is (b1), green is (b2), and the overlapped region of them is white. Panel (c2) is a synthesized result after mask calibration. Panels (d1)–(d2) and (e1)–(e2) are retrieved amplitude images of the resolution target without/with mask calibration, respectively.
 
-<div align=center><img src="/publications/imgs/SCPR_results/fig3.png" width=700></div>
+<div align=center><img src="/publications/imgs/SCPR_results/fig3.png" width=800></div>
 
 **Fig.3.** The auto-focusing curves for additional experiments. (a) mask-to-sensor distance estimation. (b-d) are sample-to-mask distance estimation curves for human tongue fungiform papillae, cow lung tissue, and pure phase target.
 
-<div align=center><img src="/publications/imgs/SCPR_results/fig4.png" width=700></div>
+<div align=center><img src="/publications/imgs/SCPR_results/fig4.png" width=800></div>
 
 <div align=center> Fig.4. Reconstructed results of human tongue fungiform papillae for dual-plane and multi-plane measurement. </div>
 
-<div align=center><img src="/publications/imgs/SCPR_results/fig5.png" width=700></div>
+<div align=center><img src="/publications/imgs/SCPR_results/fig5.png" width=800></div>
 
 <div align=center> Fig.5. Reconstructed results of cow lung tissue for dual-plane and multi-plane measurement. </div>
 
-<div align=center><img src="/publications/imgs/SCPR_results/fig6.png" width=700></div>
+<div align=center><img src="/publications/imgs/SCPR_results/fig6.png" width=800></div>
 
 <div align=center> Fig.6. Reconstructed results of pure phase target for dual-plane and multi-plane measurement. </div>
 
-<div align=center><img src="/publications/imgs/SCPR_results/fig7.png" width=500></div>
+<div align=center><img src="/publications/imgs/SCPR_results/fig7.png" width=600></div>
 
 **Fig.7.** Single-shot reconstructed results of SPICA and binary-coding phase retrieval. (a1-a3) and (b1-b3) are reconstructed images of the SPICA algorithm and our method by using a single-frame intensity pattern. (c1-c2) are plotlines captured from (a3) and (b3).
 
