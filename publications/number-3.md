@@ -29,10 +29,18 @@ To show the performance of our method, we first choose a resolution target as a 
 
 **Fig.2.** Reconstructed resolution target with/without mask calibration. (a1) and (a2) are retrieved amplitude images at the mask plane without/with sample loading, respectively. (b1) and (b2) are cropped regions from (a1) and (a2). (c1) is a synthesized pseudo-color figure to show the lateral mismatch between (b1) and (b2), in which pink is (b1), green is (b2), and the overlapped region of them is white. (c2) is a synthesized result after mask calibration. (d1)–(d2) and (e1)–(e2) are retrieved amplitude images of the resolution target without/with mask calibration, respectively. 
 
+To further show the robustness of our method, we additionally choose three samples, including H&E-stained human tongue fungiform papillae, H&E-stained cow lung tissue, and pure phase target, to conduct image reconstruction experiments. The pure phase target is produced by a spatial light modulator (Holoeye GAEA-2-VIS-036, 4160×2464, pixel pitch: 3.74μm). Fig. 3. shows the autofocusing curves. The mask-to-sensor distances are acquired and plotted in Fig. 3(a), where the initial distance and interval are 
+specified as 3.19mm and 0.10mm. For the three samples, their auto-focusing curves are plotted in Figs. 3 (b-d), where the sample-to-mask distances of human tongue fungiform papillae, cow lung tissue, and pure phase target are specified as 7.77mm, 8.73mm, and 58.29mm.
 
 <div align=center><img src="/publications/imgs/SCPR_results/fig3.png" width=800></div>
 
 **Fig.3.** The auto-focusing curves for additional experiments. (a) mask-to-sensor distance estimation. (b-d) are sample-to-mask distance estimation curves for human tongue fungiform papillae, cow lung tissue, and pure phase target.
+
+With above parameters, the retrieved images of the three samples are given in Fig. 4, Fig. 5, and Fig. 6. The reconstructed results using 2 and 11 intensity patterns are displayed. The chosen three samples are also of three kind that can be classified as:
+
++ Dense sample (Fig. 4, human tongue fungiform papillae) : From the results shown in Fig. 4, we can see that when recovering dense biological tissue, our method shows a better imaging quality compared to the results of Multi-SPICA contaminated by noisy backgrounds.
++ Sparse sample (Fig. 5, lung tissue) : As shown in Fig. 5, it is noted that our method can reconstruct the lung tissue under dual-plane and multi-plane measurement, but Multi-SPICA only works well with multi-plane measurement.
++ Phase only sample (Fig. 6, pure phase target produced by a SLM) :  It is observed from Fig. 6 that both methods can reconstruct the pure phase image but our method shows a better imaging contrast.
 
 <div align=center><img src="/publications/imgs/SCPR_results/fig4.png" width=700></div>
 
