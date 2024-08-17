@@ -39,7 +39,7 @@ Our competition topic is aerospace intelligent logistics, and the task is transp
 
 <img src="/news/smart_car_imgs/road.png">
 
-#### Fig.1 The schematic of the race track and the utilized smart car 
+**Fig.1 The schematic of the race track and the utilized smart car**
 
 It should be emphasized that the test and debug operation are only allowed in the preparation period. When the game start, no extra operation is allowed expect restarting. Thus, the smart car should move automatically during the entire match. The competition is based on a points system, and the actions that you can *get points* including: 
 + Move to the delivery area automatically (2 points),
@@ -123,7 +123,7 @@ After a semester of effort, we finnaly won the first prize of the northern divis
 
 <img src="/news/smart_car_imgs/smart_car.png">
 
-#### Fig.4 Our team and the certificate
+**Fig.4 Our team and the certificate**
 
 [Back to the top](#jump_top)
 
