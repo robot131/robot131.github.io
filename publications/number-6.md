@@ -18,7 +18,7 @@ The contents above will be part of a list of publications, if the user clicks th
 
 <div align=center><img src="/publications/imgs/eSCPR_results/r2.png" width=600></div>
 
-<div align=center><img src="/publications/imgs/eSCPR_results/r2.png"></div>
+<div align=center><img src="/publications/imgs/eSCPR_results/r3.png"></div>
 
 <div align=center>
 <video src="/publications/materials/eSCPR.mp4" autoplay="true" controls="controls" width="600">
