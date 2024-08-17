@@ -39,7 +39,9 @@ The contents above will be part of a list of publications, if the user clicks th
 
 <div align=center> Video.1 Video of raw dataset measurement and sample recovery of a dynamic Ronchi grating </div></br>
 
+# Conclusion
 
+We proposed the eSCPR method to achieve joint recovery of mask distribution and sample’s wave field for single-shot LMI systems. In our design, the SrPR algorithm is constructed to retrieve the mask function, and then the sample-to-mask distance is estimated by mask-guided auto-focusing algorithm. Finally, the sample’s wavefront is recovered with the DrPR algorithm. Experimental results of different samples show the superiority of our method. We believe that our work will provide new technical support to design miniaturized wavefront sensors.
 
 Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages/about.md) / [Research](../_pages/research.md)
 
