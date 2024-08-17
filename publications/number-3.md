@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Lensless masked imaging with self-calibrated phase retrieval"
 ---
 
