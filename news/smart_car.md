@@ -81,7 +81,7 @@ To recognize the color of the traffic light, we should utilize the difference be
 
 Since the imaging sensor we used is a monocular camera, it is hard to estimate the distance without any prior. Hence, special QR code patterns with fixed size were installed below the traffic light, and the distance from the camera to the patterns could then be estimated. A picature of the result of the traffic light recognition and distance estimation is shown in Fig. 2. The first line shows the 3D distance (unit: cm), while the second line give the current color of the traffic light that is on.
 
-<img src="/news/smart_car_imgs/traffic_light.png" width="600"/>
+<div align=center><img src="/news/smart_car_imgs/traffic_light.png" width="600"></div>
 
 #### Fig.2 The result of the traffic light recognition and distance estimation
 
@@ -89,7 +89,7 @@ Since the imaging sensor we used is a monocular camera, it is hard to estimate t
 
 We regarded the lane recognition as a image segment problem, and trained a neural network to solve it. The architecture of the utilized Unet++ is shown in Fig.3. The input of the network is a picture with the lane taken from the camera, and the output is a picture of a divided lane line. 
 
-<img src="/news/smart_car_imgs/Unet.png" width="600"/>
+<div align=center><img src="/news/smart_car_imgs/Unet.png" width="600"></div>
 
 #### Fig.3 The architecture of the utilized Unet++
 
@@ -106,8 +106,10 @@ To make the network effective and robust, we used about 1,300 image pairs taken 
 
 Here we exhibit a video recorded during our preparation for the competation. We can see that all the functions works correctly and the car accomplised a whole circle without any error.
 
+<div align=center>
 <video src="/news/smart_car_videos/test_whole.mp4" autoplay="true" controls="controls" width="600">
 </video>
+</div>
 
 #### Video.2 Whole process test
 
