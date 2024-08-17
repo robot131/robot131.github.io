@@ -52,17 +52,17 @@ With above parameters, the retrieved images of the three samples are given in Fi
 
 <div align=center><img src="/publications/imgs/SCPR_results/fig4.png" width=600></div>
 
-<div align=center> Fig.4. Reconstructed results of human tongue fungiform papillae for dual-plane and multi-plane measurement. </div>  
+<div align=center> Fig.4. Reconstructed results of human tongue fungiform papillae for dual-plane and multi-plane measurement. </div><br/> 
 
 
 <div align=center><img src="/publications/imgs/SCPR_results/fig5.png" width=600></div>
 
-<div align=center> Fig.5. Reconstructed results of cow lung tissue for dual-plane and multi-plane measurement. </div>  
+<div align=center> Fig.5. Reconstructed results of cow lung tissue for dual-plane and multi-plane measurement. </div><br/> 
 
 
 <div align=center><img src="/publications/imgs/SCPR_results/fig6.png" width=600></div>
 
-<div align=center> Fig.6. Reconstructed results of pure phase target for dual-plane and multi-plane measurement. </div>  
+<div align=center> Fig.6. Reconstructed results of pure phase target for dual-plane and multi-plane measurement. </div><br/> 
 
 
 We then use only one intensity image to reconstruct the complex field of the sample to test the single-shot reconstruction ability. The resolution target is chosen as the sample. The retrieved amplitude images of SPICA and our method are shown in Figs. 7(a1-a3) and Figs. 7(b1-b3). To further show the difference, the plotlines along green and red dash lines captured from Fig. 7(a3) and Fig. 7(b3) are pictured in Fig. 7(c1) and Fig. 7(c2). We can see that our method still outperforms the SPICA algorithm with a higher resolution and better imaging contrast.  However, compared to the results reconstruted with 11 intensity images, as shown in Fig. 2, there is a resolution loss.
