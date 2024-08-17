@@ -60,11 +60,15 @@ With above parameters, the retrieved images of the three samples are given in Fi
 
 <div align=center> Fig.6. Reconstructed results of pure phase target for dual-plane and multi-plane measurement. </div>  
 
-We 
+We then use only one intensity image to reconstruct the complex field of the sample to test the single-shot reconstruction ability. The resolution target is chosen as the sample. The retrieved amplitude images of SPICA and our method are shown in Figs. 7(a1-a3) and Figs. 7(b1-b3). To further show the difference, the plotlines along green and red dash lines captured from Fig. 7(a3) and Fig. 7(b3) are pictured in Fig. 7(c1) and Fig. 7(c2). We can see that our method still outperforms the SPICA algorithm with a higher resolution and better imaging contrast.  However, compared to the results reconstruted with 11 intensity images, as shown in Fig. 2, there is a resolution loss.
 
 <div align=center><img src="/publications/imgs/SCPR_results/fig7.png" width=450></div>
 
 **Fig.7.** Single-shot reconstructed results of SPICA and binary-coding phase retrieval. (a1-a3) and (b1-b3) are reconstructed images of the SPICA algorithm and our method by using a single-frame intensity pattern. (c1-c2) are plotlines captured from (a3) and (b3).
+
+# Conclusion and discussion
+
+In summary, we proposed an lensless masked imaging method, termed SCPR, to jointly reconstruct the complex field of a sample and a binary amplitude mask. The experimental results of different samples have demonstrated that our method has a better imaging quality compared to conventional methods. Our work will provide an adaptive imaging modality to design a mask-based lensless microscope.
 
 
 
