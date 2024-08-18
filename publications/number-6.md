@@ -25,6 +25,8 @@ DOI: [10.1364/OL.528104](https://doi.org/10.1364/OL.528104)
 
 <div align=center> Fig.3 Workflows of the mask-guided autofocusing step and the sample recovery step. </div><br/>
 
+# Experimental Results
+
 <div align=center><img src="/publications/imgs/eSCPR_results/r1.png" width=600></div>
 
 **Fig.4** Reconstructed mask distribution functions by the SrPR under the mask’s pixel size of 5, 10, 20, and 40 µm. (a1)–(a4) are the recorded intensity images, where the auto-focusing curves of Z2 estimation are given in the subplots. (b1)–(b4) are the retrieved amplitude images of the masks.
@@ -36,6 +38,8 @@ DOI: [10.1364/OL.528104](https://doi.org/10.1364/OL.528104)
 <div align=center><img src="/publications/imgs/eSCPR_results/r3.png"></div>
 
 **Fig.6** Single-shot reconstructed results with different methods for maskless and masked imaging systems. (a1)–(e1) Maskless intensity images. (a2)–(e2) and (a3)–(e3) are retrieved with DPENet and SFPR-NL by running (a1)–(e1). (a4)–(e4) Masked intensity images. (a5)–(e5), (a6)–(e6), and (a7)–(e7) are retrieved with SPICA, SCPR, and our method by running (a4)–(e4). It should be emphasized that Figs. 4(a)–4(c) and Figs. 4(d)–4(e) exhibit the retrieved amplitude and phase images, respectively.
+
+# Dynamic Imaging Results
 
 <div align=center>
 <video src="/publications/materials/eSCPR.mp4" autoplay="true" controls="controls" width="800">
