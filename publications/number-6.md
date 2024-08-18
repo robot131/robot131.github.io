@@ -39,43 +39,47 @@ The eSCPR method is composed of mask recovery, mask-guided auto-focusing and sam
 
 <div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_algor_2.png" width=700></div>
 
-<div align=center> Fig.3 Workflow of the mask-guided autofocusing step and the sample recovery step. </div><br/>
+<div align=center> Fig.3 Workflow of the mask-guided autofocusing step. </div><br/>
+
+<div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_algor_3.png" width=700></div>
+
+<div align=center> Fig.4 Workflow of the sample recovery step. </div><br/>
 
 # Experimental Results
 
-We fabricate five binary amplitudemasks with pixel sizes of 2.5, 5, 10, 20, and 40 \\(\mu m\\) to test the performance of the SrPR, in which the mask is installed on the sensor chip to record the intensity image. The recorded intensity images of different masks are shown in Figs.4(a1)–2(a4) and the auto-focusing curves of \\(Z_2\\) are plotted in the subplots. The amplitude images of the mask retrieved by the SrPR are shown in Figs. 4(b1)–2(b4). The regions of 134 \\(\mu m\\) × 134 \\(\mu m\\) are expanded as the subplots. In Fig.4, the SrPR finishes single-frame recovery of the masks with the pixel size from 5 to 40 µm. But the retrieval with a mask pixel of 2.5 \\(\mu m\\) is unsuccessful
+We fabricate five binary amplitudemasks with pixel sizes of 2.5, 5, 10, 20, and 40 \\(\mu m\\) to test the performance of the SrPR, in which the mask is installed on the sensor chip to record the intensity image. The recorded intensity images of different masks are shown in Figs.5(a1)–(a4) and the auto-focusing curves of \\(Z_2\\) are plotted in the subplots. The amplitude images of the mask retrieved by the SrPR are shown in Figs. 5(b1)–(b4). The regions of 134 \\(\mu m\\) × 134 \\(\mu m\\) are expanded as the subplots. In Fig.5, the SrPR finishes single-frame recovery of the masks with the pixel size from 5 to 40 µm. But the retrieval with a mask pixel of 2.5 \\(\mu m\\) is unsuccessful
 
 <div align=center><img src="/publications/imgs/eSCPR_results/r1.png" width=600></div>
 
-**Fig.4** Reconstructed mask distribution functions by the SrPR under the mask’s pixel size of 5, 10, 20, and 40 µm. (a1)–(a4) are the recorded intensity images, where the auto-focusing curves of Z2 estimation are given in the subplots. (b1)–(b4) are the retrieved amplitude images of the masks.
+**Fig.5** Reconstructed mask distribution functions by the SrPR under the mask’s pixel size of 5, 10, 20, and 40 µm. (a1)–(a4) are the recorded intensity images, where the auto-focusing curves of Z2 estimation are given in the subplots. (b1)–(b4) are the retrieved amplitude images of the masks.
 
-A resolution target (Thorlabs) is then loaded as the sample. The masked intensity images are shown in Figs.5(a1)-(a4). By using mask-guided auto-focusing, the auto-focusing curves of \\(Z_1\\) are plotted in the subsets of Figs.5(a1)–(a4) and \\(Z_1\\) can be acquired. The amplitude images of the sample recovered by DrPR are illuminated in Figs.5(b1)–(b4), and the green regions are zoomed in Figs.5(c1)–(c4)
+A resolution target (Thorlabs) is then loaded as the sample. The masked intensity images are shown in Figs.5(a1)-(a4). By using mask-guided auto-focusing, the auto-focusing curves of \\(Z_1\\) are plotted in the subsets of Figs.6(a1)–(a4) and \\(Z_1\\) can be acquired. The amplitude images of the sample recovered by DrPR are illuminated in Figs.6(b1)–(b4), and the green regions are zoomed in Figs.5(c1)–(c4)
 
-It is noted that DrPR achieves single-frame recovery but the performance on the mask’s pixel sizes is different. In Figs.5(c1)–(c4), a smaller mask pixel contributes a better imaging quality and the results with large mask pixels are undermined by messy backgrounds.
+It is noted that DrPR achieves single-frame recovery but the performance on the mask’s pixel sizes is different. In Figs.6(c1)–(c4), a smaller mask pixel contributes a better imaging quality and the results with large mask pixels are undermined by messy backgrounds.
 
 <div align=center><img src="/publications/imgs/eSCPR_results/r2.png" width=600></div>
 
-**Fig.5** Reconstructed resolution target by the DrPR algorithm under the mask’s pixel size of 5, 10, 20, and 40 µm. (a1)–(a4) are the captured masked intensity images, where the auto-focusing curves of Z1 estimation are given in the subplots. (b1)–(b4) are the retrieved amplitude images. (c1)–(c4) are expanded from green boxes in (b1)–(b4).
+**Fig.6** Reconstructed resolution target by the DrPR algorithm under the mask’s pixel size of 5, 10, 20, and 40 µm. (a1)–(a4) are the captured masked intensity images, where the auto-focusing curves of Z1 estimation are given in the subplots. (b1)–(b4) are the retrieved amplitude images. (c1)–(c4) are expanded from green boxes in (b1)–(b4).
 
-In the following experiments, we use the mask with the pixel of 5 \\(\mu m\\) for wavefront modulation and select five samples to further validate our method, including high-resolution target (55-622, Edmund), Ronchi grating (R1L3S13N, Thorlabs), stained pathological slide (Human Tongue Fungiform Papillae), binary random phase mask (pixel:10 \\(\mu m\\)), and reflective phase-only target produced from a spatial light modulator (SLM, Holoeye, GAEA-2-VIS-036). Herebtwo maskless phase retrieval methods (DPENet and SFPR-NL) and two masked phase retrieval methods (SPICA and SCPR) are listed for the comparison group. The results are shown in Fig.6.
+In the following experiments, we use the mask with the pixel of 5 \\(\mu m\\) for wavefront modulation and select five samples to further validate our method, including high-resolution target (55-622, Edmund), Ronchi grating (R1L3S13N, Thorlabs), stained pathological slide (Human Tongue Fungiform Papillae), binary random phase mask (pixel:10 \\(\mu m\\)), and reflective phase-only target produced from a spatial light modulator (SLM, Holoeye, GAEA-2-VIS-036). Herebtwo maskless phase retrieval methods (DPENet and SFPR-NL) and two masked phase retrieval methods (SPICA and SCPR) are listed for the comparison group. The results are shown in Fig.7.
 
 <div align=center><img src="/publications/imgs/eSCPR_results/r3.png"></div>
 
-**Fig.6** Single-shot reconstructed results with different methods for maskless and masked imaging systems. (a1)–(e1) Maskless intensity images. (a2)–(e2) and (a3)–(e3) are retrieved with DPENet and SFPR-NL by running (a1)–(e1). (a4)–(e4) Masked intensity images. (a5)–(e5), (a6)–(e6), and (a7)–(e7) are retrieved with SPICA, SCPR, and our method by running (a4)–(e4). It should be emphasized that Figs. 4(a)–4(c) and Figs. 4(d)–4(e) exhibit the retrieved amplitude and phase images, respectively.
+**Fig.7** Single-shot reconstructed results with different methods for maskless and masked imaging systems. (a1)–(e1) Maskless intensity images. (a2)–(e2) and (a3)–(e3) are retrieved with DPENet and SFPR-NL by running (a1)–(e1). (a4)–(e4) Masked intensity images. (a5)–(e5), (a6)–(e6), and (a7)–(e7) are retrieved with SPICA, SCPR, and our method by running (a4)–(e4). It should be emphasized that Figs. 4(a)–4(c) and Figs. 4(d)–4(e) exhibit the retrieved amplitude and phase images, respectively.
 
-The results in Fig.6 demonstrate that our method outperforms other methods with high-performance recovery. Compared to maskless phase retrieval, our method introduces a mask as a strong physical constraint, which effectively mitigates the stagnant problem of single-frame wavefront recovery. Moreover, the wave field decoupling of the mask function could extract the messy background, and thus the retrieved phase image of our method shows an enhanced imaging quality.
+The results in Fig.7 demonstrate that our method outperforms other methods with high-performance recovery. Compared to maskless phase retrieval, our method introduces a mask as a strong physical constraint, which effectively mitigates the stagnant problem of single-frame wavefront recovery. Moreover, the wave field decoupling of the mask function could extract the messy background, and thus the retrieved phase image of our method shows an enhanced imaging quality.
 
 # Dynamic Imaging Results
 
-The experimental configuration and reconstructed results of the dynamic imaging experiment are shown in Fig.7. We install the Rongchi grating on a motorized rotation stage (PRM1/MZ8, Thorlabs) and then use this rotating grating as a moving target for observation. As shown in Fig.7(a), the diffraction patterns of the rotating sample are modulated by the binary amplitude mask, and the masked intensity images are captured by the sensor chip. 
+The experimental configuration and reconstructed results of the dynamic imaging experiment are shown in Fig.8. We install the Rongchi grating on a motorized rotation stage (PRM1/MZ8, Thorlabs) and then use this rotating grating as a moving target for observation. As shown in Fig.8(a), the diffraction patterns of the rotating sample are modulated by the binary amplitude mask, and the masked intensity images are captured by the sensor chip. 
 
 In data recording, the grating is rotated with 50 degrees in about 5 seconds, and a total of 50 masked intensity images are recorded. The mask-to-sensor distance (\\(Z_2\\)) is calibrated as 2.37mm. Considering that the grating may be installed with a tilt angle, we perform the mask-guided auto-focusing algorithm to get the sample-to-mask distance (\\(Z_1\\)) for each masked intensity image. 
 
-With the above parameters, we feed the masked intensity images into DrPR algorithm to reconstruct the rotating target. The recorded masked intensity images at the time of 0.5s, 1.2s, and 2.6s are presented in Figs.7(b1-b3), and the retrieved amplitude images of the rating are shown in Figs.7(c1-c3). It is noted that our method can accomplish the dynamic imaging of the rotating target, proving the dynamic imaging capability of our method.
+With the above parameters, we feed the masked intensity images into DrPR algorithm to reconstruct the rotating target. The recorded masked intensity images at the time of 0.5s, 1.2s, and 2.6s are presented in Figs.8(b1-b3), and the retrieved amplitude images of the rating are shown in Figs.8(c1-c3). It is noted that our method can accomplish the dynamic imaging of the rotating target, proving the dynamic imaging capability of our method.
 
 <div align=center><img src="/publications/imgs/eSCPR_results/dynamic.png" width="600"></div>
 
-**Fig.7** Experimental results of dynamic imaging using our single-shot lensless masked imaging system. (a) Experimental configuration. (b1-b3) are the masked intensity images recorded at the time of 0.5s, 1.2s, and 2.6s. (c1-c3) are reconstructed amplitude images of the grating by running DrPR algorithm with (b1-b3).
+**Fig.8** Experimental results of dynamic imaging using our single-shot lensless masked imaging system. (a) Experimental configuration. (b1-b3) are the masked intensity images recorded at the time of 0.5s, 1.2s, and 2.6s. (c1-c3) are reconstructed amplitude images of the grating by running DrPR algorithm with (b1-b3).
 
 The following video shows the entire process of raw dataset measurement and sample recovery.
 
