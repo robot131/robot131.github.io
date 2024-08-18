@@ -66,12 +66,17 @@ It is noted that DrPR achieves single-frame recovery but the performance on the 
 
 # Dynamic Imaging Results
 
+
+<div align=center><img src="/publications/imgs/eSCPR_results/dynamic.png"></div>
+
+**Fig.7** Experimental results of dynamic imaging using our single-shot lensless masked imaging system. (a) Experimental configuration. (b1-b3) are the masked intensity images recorded at the time of 0.5s, 1.2s, and 2.6s. (c1-c3) are reconstructed amplitude images of the grating by running DrPR algorithm with (b1-b3).
+
 <div align=center>
 <video src="/publications/materials/eSCPR.mp4" autoplay="true" controls="controls" width="800">
 </video>
 </div>
 
-<div align=center> Video.1 Video of raw dataset measurement and sample recovery of a dynamic Ronchi grating </div><br/>
+<div align=center> Video.1 Video of raw dataset measurement and sample recovery results of the dynamic Ronchi grating sample in Fig.7 </div><br/>
 
 # Conclusion
 
