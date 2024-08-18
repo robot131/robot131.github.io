@@ -23,7 +23,7 @@ The overview of lensless masked imaging is illustrated in Fig. 1. Figure 1(a) sh
 
 The sample-to-mask distance is \\(Z_1\\) and the mask-to-sensor distances are \\(Z_2^n, n \in [1,N]\\) . The sensor is installed on a motorized stage (M-403, Physik Instrumente Inc.) for multi-distance defocus measurement.
 
-The SCPR method is composed of mask calibration and wave field recovery. As shown in Fig. 1(b), in mask calibration we use autofocusing method to acquire \\(Z_2^n\\) and then reconstruct and calibrate the mask’s transmission function with \\(Z_2^n\\) and the captured intensity images with/without the sample loaded, denoted as { \\(I_n^w, n \in [1,N]\\) } and { \\(I_n^{w/o}, n \in [1,N]\\) }, respectively. After that, we get the complex wave field of the aligned mask (M) and the mask-modulated sample at the sample plane ( \\(U^w\\) ). Then we feed the two complex wave fields in to the binary-coding phase retrieval algorithm, as shown in Fig. 1(c), and the complex wave field of sample can then be recovered. 
+The SCPR method is composed of **mask calibration** and **wave field recovery**. In mask calibration we use autofocusing method to acquire \\(Z_2^n\\) and then reconstruct and calibrate the mask’s transmission function with \\(Z_2^n\\) and the captured intensity images with/without the sample loaded, denoted as { \\(I_n^w, n \in [1,N]\\) } and { \\(I_n^{w/o}, n \in [1,N]\\) }, respectively. Then we feed the two complex wave fields, the complex wave field of the aligned mask (M) and the mask-modulated sample at the sample plane ( \\(U^w\\) ) into the binary-coding phase retrieval algorithm, as shown in Fig. 1(c), and the complex wave field of sample can then be recovered. 
 
 <img src="/publications/imgs/SCPR_method.png">
 
