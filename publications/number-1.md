@@ -23,11 +23,11 @@ DOI: [10.1016/j.optlaseng.2022.107076](https://doi.org/10.1016/j.optlaseng.2022.
 
 # Experimental Results
 
-<div align=center><img src="/publications/imgs/NOG/r1.png" width=400></div>
+<div align=center><img src="/publications/imgs/NOG/NOG_r1.png" width=400></div>
 
 Fig.3 The auto-focusing results of resolution target. (a) Captured hologram. (b) Auto-focusing curve. (c–e) The reconstructed targets by the backpropagation method with the estimated distance of 1.35 mm, 1.06 mm, and 1.05 mm.
 
-<div align=center><img src="/publications/imgs/NOG/r2.png" width=400></div>
+<div align=center><img src="/publications/imgs/NOG/NOG_r2.png" width=400></div>
 
 Fig.4 The auto-focusing result of pixel super-resolved resolution target. (a)Auto-focusing curve. (b–d) The econstructed targets by the back-propagation method with the estimated distance of 0.710 mm, 0.717 mm, and 0.726 mm.
 
