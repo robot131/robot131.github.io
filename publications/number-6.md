@@ -31,7 +31,7 @@ In Fig. 1(b2), the sample is loaded and the masked intensity image (\\(I_O\\)) i
 
 # Method Overview
 
-
+The eSCPR method is composed of mask recovery, mask-guided auto-focusing and sample recovery.
 
 <div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_algor_1.png" width=400></div>
 
@@ -43,13 +43,22 @@ In Fig. 1(b2), the sample is loaded and the masked intensity image (\\(I_O\\)) i
 
 # Experimental Results
 
+We fabricate five binary amplitudemasks with pixel sizes of 2.5, 5, 10, 20, and 40 \\(\mu m\\) to test the performance of the SrPR, in which the mask is installed on the sensor chip to record the intensity image. The recorded intensity images of different masks are shown in Figs.4(a1)–2(a4) and the auto-focusing curves of \\(Z_2\\) are plotted in the subplots. The amplitude images of the mask retrieved by the SrPR are shown in Figs. 4(b1)–2(b4). The regions of 134 \\(\mu m\\) × 134 \\(\mu m\\) are expanded as the subplots. In Fig.4, the SrPR finishes single-frame recovery of the masks with the pixel size from 5 to 40 µm. But the retrieval with a mask pixel of 2.5 \\(\mu m\\) is unsuccessful
+
 <div align=center><img src="/publications/imgs/eSCPR_results/r1.png" width=600></div>
 
 **Fig.4** Reconstructed mask distribution functions by the SrPR under the mask’s pixel size of 5, 10, 20, and 40 µm. (a1)–(a4) are the recorded intensity images, where the auto-focusing curves of Z2 estimation are given in the subplots. (b1)–(b4) are the retrieved amplitude images of the masks.
 
+A resolution target (Thorlabs) is then loaded as the sample. The masked intensity images are shown in Figs.5(a1)-(a4). By using mask-guided auto-focusing, the auto-focusing curves of \\(Z_1\\) are plotted in the subsets of Figs.5(a1)–(a4) and \\(Z_1\\) can be acquired. The amplitude images of the sample recovered by DrPR are illuminated in Figs.5(b1)–(b4), and the green regions are zoomed in Figs.5(c1)–(c4)
+
+It is noted that DrPR achieves single-frame recovery but the performance on the mask’s pixel sizes is different. In Figs.5(c1)–(c4), a smaller mask pixel contributes a better imaging quality and the results with large mask pixels are undermined by messy backgrounds.
+
 <div align=center><img src="/publications/imgs/eSCPR_results/r2.png" width=600></div>
 
 **Fig.5** Reconstructed resolution target by the DrPR algorithm under the mask’s pixel size of 5, 10, 20, and 40 µm. (a1)–(a4) are the captured masked intensity images, where the auto-focusing curves of Z1 estimation are given in the subplots. (b1)–(b4) are the retrieved amplitude images. (c1)–(c4) are expanded from green boxes in (b1)–(b4).
+
+
+
 
 <div align=center><img src="/publications/imgs/eSCPR_results/r3.png"></div>
 
