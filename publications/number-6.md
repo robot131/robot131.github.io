@@ -39,7 +39,7 @@ In Fig. 1(b2), the sample is loaded and the masked intensity image (\\(I_O\\)) i
 
 <div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_algor_2.png" width=650></div>
 
-<div align=center> Fig.3 Workflows of the mask-guided autofocusing step and the sample recovery step. </div><br/>
+<div align=center> Fig.3 Workflow of the mask-guided autofocusing step and the sample recovery step. </div><br/>
 
 # Experimental Results
 
