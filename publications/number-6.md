@@ -23,9 +23,15 @@ The experimental setup of our single-shot LMI system is illustrated in Fig. 1(a)
 
 <div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_experimental.png" width=500></div>
 
-<div align=center> Fig.1 Experimental Setup of eSCPR. </div><br/>
+<div align=center> Fig.1 Experimental Setup and the workflow of eSCPR. </div><br/>
+
+The workflow of our method is given in Fig. 1(b). In Fig. 1(b1), the mask is closely installed on the sensor chip, and the diffraction pattern of the mask \\(I_M\\) is captured. Accordingly, the mask function can be retrieved by running the  sparse regularized phase retrieval (SrPR) with \\(I_M\\). Note that this mask calibration operation is **only done for once**. After that, the mask and the sensor could be integrated as **a coded camera** to reconstruct the sample’s wavefront. 
+
+In Fig. 1(b2), the sample is loaded and the masked intensity image (\\(I_O\\)) is recorded. The wave field of the sample can be retrieved by running the denoising regularized phase retrieval (DrPR) with \\(I_O\\).
 
 # Method Overview
+
+
 
 <div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_algor_1.png" width=400></div>
 
