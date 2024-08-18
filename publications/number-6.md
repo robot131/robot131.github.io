@@ -5,17 +5,25 @@ title: "Single-shot lensless masked imaging with enhanced self-calibrated phase 
 
 ## Published in: 07/10/2024 &emsp; on [*Optics Letters*](https://opg.optica.org/ol/home.cfm)
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Single-shot lensless imaging with a binary amplitude mask enables a low-cost and miniaturized configuration for wave field recovery. However, the mask only allows a part of the wave field to be captured, and thus the inverse decoding process becomes a highly ill-posed problem. In our previous work [(SCPR)](../publications/number-3.md), we treated this as a wavefront completion problem, but it relies on time-lapse redundant data collection and its
+dynamic imaging ability is constrained.
+
+In this work we proposed an enhanced self-calibrated phase retrieval (eSCPR) method, realizing single-shot joint recovery of mask distribution and the sample’s wavefront. In our method, a sparse regularized phase retrieval (SrPR) algorithm is designed to calibrate the mask distribution. Then, a denoising regularized phase retrieval (DrPR) algorithm is constructed to reconstruct the wavefront of the sample. Compared to conventional single-shot methods, our method shows robust and flexible image recovery.
 
 DOI: [10.1364/OL.528104](https://doi.org/10.1364/OL.528104)
 
 [Supplemental document](../publications/materials/supp_for_eSCPR.pdf)
 
-# Method Overview
+# Experimental Setup
+
+The experimental setup of our singleshot LMI system is illustrated in Fig. 1(a). A fiber laser with a wavelength of 532 nm is expanded by a collimated lens and then shaped by an aperture to generate plane wave illumination. As
+the incident wave loads on the sample, the transmitted wavefront of the sample is modulated by a binary amplitude mask and then recorded by a bare sensor chip (Sony, IMX206, pixel: 1.34 ), in which the sample-to-mask distance and the mask-to-sensor distance are denoted as Z1 and Z2, respectively.
 
 <div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_experimental.png" width=500></div>
 
 <div align=center> Fig.1 Experimental Setup of eSCPR. </div><br/>
+
+# Method Overview
 
 <div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_algor_1.png" width=400></div>
 
