@@ -34,5 +34,3 @@ Fig.4 The auto-focusing result of pixel super-resolved resolution target. (a)Aut
 <img src="/publications/imgs/NOG/T1.png">
 
 <div align=center> Table.1 The summary of auto-focusing results for 20 sets of samples. </div>
-
-
