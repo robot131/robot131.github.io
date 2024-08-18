@@ -66,10 +66,17 @@ It is noted that DrPR achieves single-frame recovery but the performance on the 
 
 # Dynamic Imaging Results
 
+The experimental configuration and reconstructed results of the dynamic imaging experiment are shown in Fig.7. We install the Rongchi grating on a motorized rotation stage (PRM1/MZ8, Thorlabs) and then use this rotating grating as a moving target for observation. As shown in Fig.7(a), the diffraction patterns of the rotating sample are modulated by the binary amplitude mask, and the masked intensity images are captured by the sensor chip. 
+
+In data recording, the grating is rotated with 50 degrees in about 5 seconds, and a total of 50 masked intensity images are recorded. The mask-to-sensor distance (\\(Z_2\\)) is calibrated as 2.37mm. Considering that the grating may be installed with a tilt angle, we perform the mask-guided auto-focusing algorithm to get the sample-to-mask distance (\\(Z_1\\)) for each masked intensity image. 
+
+With the above parameters, we feed the masked intensity images into DrPR algorithm to reconstruct the rotating target. The recorded masked intensity images at the time of 0.5s, 1.2s, and 2.6s are presented in Figs.7(b1-b3), and the retrieved amplitude images of the rating are shown in Figs.7(c1-c3). It is noted that our method can accomplish the dynamic imaging of the rotating target, proving the dynamic imaging capability of our method.
 
 <div align=center><img src="/publications/imgs/eSCPR_results/dynamic.png" width="600"></div>
 
 **Fig.7** Experimental results of dynamic imaging using our single-shot lensless masked imaging system. (a) Experimental configuration. (b1-b3) are the masked intensity images recorded at the time of 0.5s, 1.2s, and 2.6s. (c1-c3) are reconstructed amplitude images of the grating by running DrPR algorithm with (b1-b3).
+
+The following video shows the entire process of raw dataset measurement and sample recovery.
 
 <div align=center>
 <video src="/publications/materials/eSCPR.mp4" autoplay="true" controls="controls" width="800">
