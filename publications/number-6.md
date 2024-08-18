@@ -9,6 +9,8 @@ The contents above will be part of a list of publications, if the user clicks th
 
 DOI: [10.1364/OL.528104](https://doi.org/10.1364/OL.528104)
 
+[Supplemental document](../publications/materials/supp_for_eSCPR.pdf)
+
 # Method Overview
 
 <div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_experimental.png" width=500></div>
