@@ -9,4 +9,4 @@ The contents above will be part of a list of publications, if the user clicks th
 
 DOI: [10.1364/OE.458400](https://doi.org/10.1364/OE.458400)
 
-[Full text](../publications/materials/Single_PR.pdf)/ [Supplemental document](../publications/materials/supp_for_Single_PR.pdf)
+[Full text](../publications/materials/Single_PR.pdf) / [Supplemental document](../publications/materials/supp_for_Single_PR.pdf)
