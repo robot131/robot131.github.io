@@ -23,7 +23,7 @@ The experimental setup of our single-shot LMI system is illustrated in Fig. 1(a)
 2. The incident wave loads on the sample, the transmitted wavefront of the sample is modulated by a binary amplitude mask
 3. The intensity image is then recorded by a bare sensor chip (Sony, IMX206, pixel: 1.34 \\(\mu m\\) ), in which the sample-to-mask distance and the mask-to-sensor distance are denoted as \\(Z_1\\) and \\(Z_2\\), respectively.
 
-<div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_experimental.png" width=550></div>
+<div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_experimental_setup.png" width=550></div>
 
 <div align=center> Fig.1 Experimental Setup and the workflow of eSCPR. </div><br/>
 
