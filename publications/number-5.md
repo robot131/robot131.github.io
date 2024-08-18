@@ -10,4 +10,6 @@ The contents above will be part of a list of publications, if the user clicks th
 
 DOI: [10.1016/j.optlaseng.2024.108366](https://doi.org/10.1016/j.optlaseng.2024.108366)
 
+[Supplemental document](../publications/materials/supp_for_sFocusNet.pdf)
+
 Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages/about.md) / [Research](../_pages/research.md)
