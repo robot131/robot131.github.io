@@ -57,12 +57,13 @@ It is noted that DrPR achieves single-frame recovery but the performance on the 
 
 **Fig.5** Reconstructed resolution target by the DrPR algorithm under the mask’s pixel size of 5, 10, 20, and 40 µm. (a1)–(a4) are the captured masked intensity images, where the auto-focusing curves of Z1 estimation are given in the subplots. (b1)–(b4) are the retrieved amplitude images. (c1)–(c4) are expanded from green boxes in (b1)–(b4).
 
-
-
+In the following experiments, we use the mask with the pixel of 5 \\(\mu m\\) for wavefront modulation and select five samples to further validate our method, including high-resolution target (55-622, Edmund), Ronchi grating (R1L3S13N, Thorlabs), stained pathological slide (Human Tongue Fungiform Papillae), binary random phase mask (pixel:10 \\(\mu m\\)), and reflective phase-only target produced from a spatial light modulator (SLM, Holoeye, GAEA-2-VIS-036). Herebtwo maskless phase retrieval methods (DPENet and SFPR-NL) and two masked phase retrieval methods (SPICA and SCPR) are listed for the comparison group. The results are shown in Fig.6.
 
 <div align=center><img src="/publications/imgs/eSCPR_results/r3.png"></div>
 
 **Fig.6** Single-shot reconstructed results with different methods for maskless and masked imaging systems. (a1)–(e1) Maskless intensity images. (a2)–(e2) and (a3)–(e3) are retrieved with DPENet and SFPR-NL by running (a1)–(e1). (a4)–(e4) Masked intensity images. (a5)–(e5), (a6)–(e6), and (a7)–(e7) are retrieved with SPICA, SCPR, and our method by running (a4)–(e4). It should be emphasized that Figs. 4(a)–4(c) and Figs. 4(d)–4(e) exhibit the retrieved amplitude and phase images, respectively.
+
+The results in Fig.6 demonstrate that our method outperforms other methods with high-performance recovery. Compared to maskless phase retrieval, our method introduces a mask as a strong physical constraint, which effectively mitigates the stagnant problem of single-frame wavefront recovery. Moreover, the wave field decoupling of the mask function could extract the messy background, and thus the retrieved phase image of our method shows an enhanced imaging quality.
 
 # Dynamic Imaging Results
 
