@@ -16,8 +16,8 @@ DOI: [10.1364/OL.528104](https://doi.org/10.1364/OL.528104)
 
 # Experimental Setup
 
-The experimental setup of our singleshot LMI system is illustrated in Fig. 1(a). A fiber laser with a wavelength of 532 nm is expanded by a collimated lens and then shaped by an aperture to generate plane wave illumination. As
-the incident wave loads on the sample, the transmitted wavefront of the sample is modulated by a binary amplitude mask and then recorded by a bare sensor chip (Sony, IMX206, pixel: 1.34 ), in which the sample-to-mask distance and the mask-to-sensor distance are denoted as Z1 and Z2, respectively.
+The experimental setup of our singleshot LMI system is illustrated in Fig. 1(a). The process of light wave transmission can be summerized as following steps: 
+A fiber laser with a wavelength of 532 nm is expanded by a collimated lens and then shaped by an aperture to generate plane wave illumination. As the incident wave loads on the sample, the transmitted wavefront of the sample is modulated by a binary amplitude mask and then recorded by a bare sensor chip (Sony, IMX206, pixel: 1.34 \\( ), in which the sample-to-mask distance and the mask-to-sensor distance are denoted as Z1 and Z2, respectively.
 
 <div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_experimental.png" width=500></div>
 
