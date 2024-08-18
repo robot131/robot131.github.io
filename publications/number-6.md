@@ -23,7 +23,7 @@ The experimental setup of our single-shot LMI system is illustrated in Fig. 1(a)
 2. The incident wave loads on the sample, the transmitted wavefront of the sample is modulated by a binary amplitude mask
 3. The intensity image is then recorded by a bare sensor chip (Sony, IMX206, pixel: 1.34 \\(\mu m\\) ), in which the sample-to-mask distance and the mask-to-sensor distance are denoted as \\(Z_1\\) and \\(Z_2\\), respectively.
 
-<div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_experimental.png" width=600></div>
+<div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_experimental.png" width=550></div>
 
 <div align=center> Fig.1 Experimental Setup and the workflow of eSCPR. </div><br/>
 
@@ -33,7 +33,7 @@ The workflow of our method is given in Fig. 1(b). In Fig. 1(b1), the mask is clo
 
 The eSCPR method is composed of mask recovery, mask-guided auto-focusing and sample recovery.
 
-<div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_algor_1.png" width=500></div>
+<div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_algor_1.png" width=450></div>
 
 <div align=center> Fig.2 Workflow of the mask recovery step. </div><br/>
 
