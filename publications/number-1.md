@@ -13,11 +13,11 @@ DOI: [10.1016/j.optlaseng.2022.107076](https://doi.org/10.1016/j.optlaseng.2022.
 
 # Method Overview
 
-<div align=center><img src="/publications/imgs/NOG/NOG_auto.png" width=600></div><br/>
+<div align=center><img src="/publications/imgs/NOG/NOG_auto.png" width=700></div>
 
-<div align=center> Fig.1 The experimental system and flowchart of auto-focusing strategy. </div>
+<div align=center> Fig.1 The experimental system and flowchart of auto-focusing strategy. </div><br/>
 
-<div align=center><img src="/publications/imgs/NOG/NOG.png" width=600></div>
+<div align=center><img src="/publications/imgs/NOG/NOG.png" width=700></div>
 
 <div align=center> Fig.2 The flowchart of the NoG metric. </div><br/>
 
