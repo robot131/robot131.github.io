@@ -8,7 +8,9 @@ title: "Single-shot lensless masked imaging with enhanced self-calibrated phase 
 Single-shot lensless imaging with a binary amplitude mask enables a low-cost and miniaturized configuration for wave field recovery. However, the mask only allows a part of the wave field to be captured, and thus the inverse decoding process becomes a highly ill-posed problem. In our previous work [(SCPR)](../publications/number-3.md), we treated this as a wavefront completion problem, but it relies on time-lapse redundant data collection and its
 dynamic imaging ability is constrained.
 
-In this work we proposed an enhanced self-calibrated phase retrieval (eSCPR) method, realizing single-shot joint recovery of mask distribution and the sample’s wavefront. In our method, a sparse regularized phase retrieval (SrPR) algorithm is designed to calibrate the mask distribution. Then, a denoising regularized phase retrieval (DrPR) algorithm is constructed to reconstruct the wavefront of the sample. Compared to conventional single-shot methods, our method shows robust and flexible image recovery.
+In this work we proposed an enhanced self-calibrated phase retrieval (eSCPR) method, introducing the idea of wavefront decoupling into LMI systems, which was commonly used in ptychographic iterative engine (PIE) imaging systems and realizing single-shot joint recovery of mask distribution and the sample’s wavefront. 
+
+In our method, a sparse regularized phase retrieval (SrPR) algorithm is designed to calibrate the mask distribution. Then, a denoising regularized phase retrieval (DrPR) algorithm is constructed to reconstruct the wavefront of the sample. Compared to conventional single-shot methods, our method shows robust and flexible image recovery.
 
 DOI: [10.1364/OL.528104](https://doi.org/10.1364/OL.528104)
 
@@ -25,9 +27,7 @@ The experimental setup of our single-shot LMI system is illustrated in Fig. 1(a)
 
 <div align=center> Fig.1 Experimental Setup and the workflow of eSCPR. </div><br/>
 
-The workflow of our method is given in Fig. 1(b). In Fig. 1(b1), the mask is closely installed on the sensor chip, and the diffraction pattern of the mask \\(I_M\\) is captured. Accordingly, the mask function can be retrieved by running the  sparse regularized phase retrieval (SrPR) with \\(I_M\\). Note that this mask calibration operation is **only done for once**. After that, the mask and the sensor could be integrated as **a coded camera** to reconstruct the sample’s wavefront. 
-
-In Fig. 1(b2), the sample is loaded and the masked intensity image (\\(I_O\\)) is recorded. The wave field of the sample can be retrieved by running the denoising regularized phase retrieval (DrPR) with \\(I_O\\).
+The workflow of our method is given in Fig. 1(b). In Fig. 1(b1), the mask is closely installed on the sensor chip, and the diffraction pattern of the mask \\(I_M\\) is captured. Accordingly, the mask function can be retrieved by running the  sparse regularized phase retrieval (SrPR) with \\(I_M\\). Note that this mask calibration operation is **only done for once**. After that, the mask and the sensor could be integrated as **a coded camera** to reconstruct the sample’s wavefront. In Fig. 1(b2), the sample is loaded and the masked intensity image (\\(I_O\\)) is recorded. The wave field of the sample can be retrieved by running the denoising regularized phase retrieval (DrPR) with \\(I_O\\).
 
 # Method Overview
 
