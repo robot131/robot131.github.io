@@ -24,21 +24,21 @@ Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages
 
 # Experimental setup
 
-<div align=center><img src="/publications/imgs/DPENet/Experimental_setup.png" width=500></div>
+<div align=center><img src="/publications/imgs/DPENet/Experimental_setup.png" width=550></div>
 <div align=center> Fig.2 Experimental configuration. (a) Lensless transmitted setup. (b) Lensless reflective setup. </div><br/>
 
 # Experimental results
 
-<div align=center><img src="/publications/imgs/DPENet/r1.png" width=500></div>
+<div align=center><img src="/publications/imgs/DPENet/r1.png" width=700></div>
 <div align=center> Fig.3 Reconstructed resolution target with different methods. (a) Captured intensity pattern. (b)–(e) Retrieved by back-propagation, PhysenNet, CVUNet, and DPENet. </div><br/>
 
 <div align=center><img src="/publications/imgs/DPENet/r2.png" width=700></div>
 **Fig.4** Reconstructed phase images of label-free microglia cells with different methods. (a) Retrieved phase image by DPENet. (b) Ground truth phase image. (c)–(f) Retrieved and cropped from the red box by back-propagation, PhysenNet, CVUNet, and DPENet. (g) SSIM curve for different methods.
 
-<div align=center><img src="/publications/imgs/DPENet/r3.png" width=600></div>
+<div align=center><img src="/publications/imgs/DPENet/r3.png" width=500></div>
 **Fig.5** Reconstructed phase images of label-free HeLa cells with different methods. (a) Retrieved phase image by DPENet. (b), (c) Histograms of CNR values in blue and orange boxes for different methods. (d1)–(d4), (e1)–(e4) Retrieved from blue and orange boxes by back-propagation, PhysenNet, CVUNet, and DPENet.
 
-<div align=center><img src="/publications/imgs/DPENet/r4.png" width=600></div>
+<div align=center><img src="/publications/imgs/DPENet/r4.png" width=500></div>
 **Fig.6** Reconstructed results of reflective sample. (a) Captured intensity pattern. (b) Ground truth image retrieved by multi-distance phase retrieval. (c) SSIM curves. (d1)–(d3), (e1)–(e3), (f1)–(f3) Reconstructed by PhysenNet, CVUNet, and DPENet, respectively. (g) Histogram of SSIM values in selected iterations for different methods.
 
 # Conclusion
