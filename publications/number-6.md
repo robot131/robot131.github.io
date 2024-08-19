@@ -32,8 +32,6 @@ DOI: [10.1364/OL.528104](https://doi.org/10.1364/OL.528104)
   + [Dynamic Imaging Results](#jump3_4)
 + [Conclution](#jump4)
 
-+ mask recovery, mask-guided auto-focusing and sample recovery.
-
 # Experimental Setup <span id="jump1"></span>
 
 The experimental setup of our single-shot LMI system is illustrated in Fig. 1(a). The process of light wave transmission can be summerized as following steps: 
