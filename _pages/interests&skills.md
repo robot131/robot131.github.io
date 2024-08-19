@@ -5,6 +5,14 @@ title: Research Interests
 author_profile: true
 ---
 
+My research interests including: 
+
++ Computational imaging
++ Miniaturized device design
++ Computer Vision
++ Deep learning methods and it's applications in solving inverse imaging problems.
+
+
 
 # Skills
 
