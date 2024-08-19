@@ -38,7 +38,7 @@ Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages
 
 **Fig.4** Reconstructed phase images of label-free microglia cells with different methods. (a) Retrieved phase image by DPENet. (b) Ground truth phase image. (c)–(f) Retrieved and cropped from the red box by back-propagation, PhysenNet, CVUNet, and DPENet. (g) SSIM curve for different methods.
 
-<div align=center><img src="/publications/imgs/DPENet/r3.png" width=500></div>
+<div align=center><img src="/publications/imgs/DPENet/r3.png" width=450></div>
 
 **Fig.5** Reconstructed phase images of label-free HeLa cells with different methods. (a) Retrieved phase image by DPENet. (b), (c) Histograms of CNR values in blue and orange boxes for different methods. (d1)–(d4), (e1)–(e4) Retrieved from blue and orange boxes by back-propagation, PhysenNet, CVUNet, and DPENet.
 
