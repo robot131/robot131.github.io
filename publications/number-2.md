@@ -3,7 +3,7 @@ layout: archive
 title: "Lensfree on-chip microscopy based on single-plane phase retrieval"
 ---
 
-### Published on: 05/10/2022 &emsp; on [*Optics Express*](https://opg.optica.org/oe/home.cfm)
+### Published on: 05/10/2022 &emsp; in [*Optics Express*](https://opg.optica.org/oe/home.cfm)
 
 Backward Links: [Publications](../_pages/publications.md)
 
