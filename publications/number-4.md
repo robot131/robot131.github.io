@@ -17,11 +17,13 @@ Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages
 
 The workflow of the DPENet is shown in Fig.1. It can be summarized as following steps:
 
-1. A single-channel generative model is designed to reconstruct the phase channel and the amplitude channel remains unchanged, where a deep image prior and a total variation prior are encapsulated to realize convolutional smoothing and high-frequency information preservation.
-2. The updated phase channel is held and a regularized optimization is introduced to update the amplitude channel, in which a Wirtinger gradient descent method based on total variation denoising is constructed to enable a good consistency of two channels.
-3. As a result, the alternative iteration of these two tasks could stabilize convergence and realize edge-preserving wavefield reconstruction.
+1. A single-channel generative model is designed to reconstruct the phase channel and the amplitude channel remains unchanged.
+2. A deep image prior and a total variation prior are encapsulated to realize convolutional smoothing and high-frequency information preservation.
+3. The updated phase channel is held and a regularized optimization is introduced to update the amplitude channel, in which a Wirtinger gradient descent method based on total variation denoising is constructed to enable a good consistency of two channels.
+4. As a result, the alternative iteration of these two tasks could stabilize convergence and realize edge-preserving wavefield reconstruction.
 
 <div align=center><img src="/publications/imgs/DPENet/method.png" width=600></div>
+
 <div align=center> Fig.1 Schematic illustration of DPENet. (a) Flowchart of DPENet. (b) Overview of UNet architecture. </div><br/>
 
 # Experimental setup
