@@ -24,7 +24,7 @@ The workflow of the DPENet is shown in Fig.1. It can be summarized as following 
 
 Compared to the current untrained network, our method adopts the single-channel generative model for phase update and imposes the regularized optimization for amplitude update, which effectively keeps the consistency of the two channels and avoids the unstable inference of a complex-valued wavefield.
 
-<div align=center><img src="/publications/imgs/DPENet/method.png" width=600></div>
+<div align=center><img src="/publications/imgs/DPENet/method.png" width=700></div>
 
 <div align=center> Fig.1 Schematic illustration of DPENet. (a) Flowchart of DPENet. (b) Overview of UNet architecture. </div><br/>
 
@@ -40,7 +40,7 @@ Another is to image the reflective samples, which is illustrated in Fig. 2(b), a
 2. The wave then incident on a spatial light modulator (SLM, Holoeye GAEA-2-VIS- 036, 4160 × 2464, pixel pitch: 3.74 \\(\mu m\\)).
 3. The light reflected from the SLM goes through the beam splitter and is captured by the sensor.
 
-<div align=center><img src="/publications/imgs/DPENet/Experimental_setup.png" width=550></div>
+<div align=center><img src="/publications/imgs/DPENet/Experimental_setup.png" width=600></div>
 
 <div align=center> Fig.2 Experimental configuration. (a) Lensless transmitted setup. (b) Lensless reflective setup. </div><br/>
 
@@ -70,7 +70,7 @@ It is noted that PhysenNet and CVUNet suffer from the overfitting problem and th
 
 The reconstruction of HeLa cells is provided for further verification of phase imaging ability. The retrieved phase image from our method is shown in Fig.5(a). The retrieved regions from the blue and orange boxes are cropped and compared in Figs.5(d) and (e), in which blue and orange regions represent sparse and dense distribution, respectively. This result demonstrates that our method could achieve high-contrast phase imaging.
 
-<div align=center><img src="/publications/imgs/DPENet/r3.png" width=450></div>
+<div align=center><img src="/publications/imgs/DPENet/r3.png" width=600></div>
 
 **Fig.5** Reconstructed phase images of label-free HeLa cells with different methods. (a) Retrieved phase image by DPENet. (b), (c) Histograms of CNR values in blue and orange boxes for different methods. (d1)–(d4), (e1)–(e4) Retrieved from blue and orange boxes by back-propagation, PhysenNet, CVUNet, and DPENet.
 
@@ -80,7 +80,7 @@ The experimental results of the reflective sample are presented in Fig.6. Figure
 
 It is noted that PhysenNet reaches its peak at 500 iterations and then drops remarkably. CVUNet slowly increases all through the iterations and shows bad convergence. DPENet meets its maximum and then keeps at a high and stable reconstruction accuracy. These results further prove the stable convergence of DPENet.
 
-<div align=center><img src="/publications/imgs/DPENet/r4.png" width=500></div>
+<div align=center><img src="/publications/imgs/DPENet/r4.png" width=600></div>
 
 **Fig.6** Reconstructed results of reflective pure phase sample. (a) Captured intensity pattern. (b) Ground truth image retrieved by multi-distance phase retrieval. (c) SSIM curves. (d1)–(d3), (e1)–(e3), (f1)–(f3) Reconstructed by PhysenNet, CVUNet, and DPENet, respectively. (g) Histogram of SSIM values in selected iterations for different methods.
 
