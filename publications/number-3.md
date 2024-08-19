@@ -4,6 +4,8 @@ title: "Lensless masked imaging with self-calibrated phase retrieval"
 
 ## Published in: 06/12/2023 &emsp; on [*Optics Letters*](https://opg.optica.org/ol/home.cfm)
 
+Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages/about.md) / [Research](../_pages/research.md) / [eSCPR](../publicatioins/number-6.md)
+
 Lensless imaging with mask modulation is an attractive topic since it enables a compact configuration to acquire a complex wavefield of a sample with computational approaches. Most existing methods choose a customized phase mask for wavefront modulation and then decode the sample’s wave field from captured diffraction patterns. 
 
 Different from phase masks, lensless imaging with a binary amplitude mask facilitates a cheaper fabrication cost, but the problem of high-quality mask calibration and image reconstruction have not been well resolved. In this paper, we proposed a self-calibrated phase retrieval (SCPR) method, realizing a joint recovery of a binary mask and sample’s wave field for a lensless masked imaging system. Compared with conventional methods, our method shows a high-performance and flexible image recovery.
@@ -83,4 +85,6 @@ We can see that our method still outperforms the SPICA algorithm with a higher r
 # Conclusion and discussion
 
 In summary, we proposed an lensless masked imaging method, termed SCPR, to jointly reconstruct the complex field of a sample and a binary amplitude mask. The experimental results of different samples have demonstrated that our method has a better imaging quality compared to conventional methods. Our work will provide an adaptive imaging modality to design a mask-based lensless microscope.
+
+Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages/about.md) / [Research](../_pages/research.md) / [eSCPR](../publicatioins/number-6.md)
 
