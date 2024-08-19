@@ -48,15 +48,16 @@ The eSCPR method is composed of mask recovery, mask-guided auto-focusing and sam
 
 ### Sample Recovery
 
-After the mask function is retrieved, i.e.,(\\(M=M^{K_1}\\)), we construct DrPR algorithm to retrieve the wavefield of sample by processing the masked intensity image ((\\(I_O\\))). Different from [SCPR](../publications/number-3.md), the retrieved mask here is treated as a illmination function and does not need to be binarized for sample recovery. The workflow of the sample recovery step is shown in Fig.4, while the constructed optimization problem is marked on the top. The process of this step can be summarized as follows:
+After the mask function is retrieved, i.e.,(\\(M=M^{K_1}\\)), we construct DrPR algorithm to retrieve the wavefield of sample by processing the masked intensity image ((\\(I_O\\))). Different from [SCPR](../publications/number-3.md), the retrieved mask here is treated as a illmination function and does not need to be binarized for sample recovery. The workflow of the sample recovery step is shown in Fig.4, while the constructed optimization problem is marked on the top. The algorithm is derivated with the use of PnP-FISTA solver. The process of this step can be summarized as follows:
 
-1. The initial guess of the sample's wavefiled is set as (\\(O^{k_3}\\)).
-2. The (\\(O^{k_3}\\)) is diffracted to the mask plane and modulated by the mask, output as (\\(M \odot (A_{Z_1} O^{k_3})\\)).
+1. The initial guess of the sample's wavefiled is set as (\\(O^{k_3})\\).
+2. The \\((O^{k_3})\\) is diffracted to the mask plane and modulated by the mask, output as \\((M \odot (A_{Z_1} O^{k_3}))\\). \\(A_Z\\) is the diffraction operator with the diffraction distance Z.
 3. The amplitude of the output wavefield is replace by the camera-captured one in the alternative projection operation.
-4. A wavefield decoupling operation is conducted to decouple the sample's wavefield from the modulated one, while the recoverd mask (\\(O^{k_3}\\)) is seen as the illmination function.
+4. A wavefield decoupling operation is conducted to decouple the sample's wavefield from the modulated one, while the recoverd mask \\((O^{k_3})\\) is seen as the illmination function.
 5. The decoupled wavefield is inverse diffracted to the sample plane. A pre-trained network, [TNRD](https://doi.org/10.1109/tpami.2016.2596743), is utlized as the denoiser to denoise the real and imaginary part of the wavefield respectively.
-6. 
- 
+6. The guess of the sample's wavefiled is update after a weighted feedback.
+
+The iteration of the algorithm is \\(K_3\\). After \\(K_3\\) iteration, we can obtain the retrieved  sample's wavefiled (\\(O^{K_3})\\).
 
 <div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_algor_3.png" width=750></div>
 
