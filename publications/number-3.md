@@ -43,7 +43,7 @@ Utlizing the mask before/after alignment, we reconstruct the resolution target, 
 
 **Fig.2.** Reconstructed resolution target with/without mask calibration. (a1) and (a2) are retrieved amplitude images at the mask plane without/with sample loading, respectively. (b1) and (b2) are cropped regions from (a1) and (a2). (c1) is a synthesized pseudo-color figure to show the lateral mismatch between (b1) and (b2), in which pink is (b1), green is (b2), and the overlapped region of them is white. (c2) is a synthesized result after mask calibration. (d1)–(d2) and (e1)–(e2) are retrieved amplitude images of the resolution target without/with mask calibration, respectively. 
 
-To further show the robustness of our method, we additionally choose three samples, including H&E-stained human tongue fungiform papillae, H&E-stained cow lung tissue, and pure phase target, to conduct image reconstruction experiments. The pure phase target is produced by a spatial light modulator (Holoeye GAEA-2-VIS-036, 4160×2464, pixel pitch: 3.74μm). Fig. 3. shows the autofocusing curves. The mask-to-sensor distances are acquired and plotted in Fig. 3(a), where the initial distance and interval are specified as 3.19mm and 0.10mm. For the three samples, their auto-focusing curves are plotted in Figs. 3 (b-d), where the sample-to-mask distances of human tongue fungiform papillae, cow lung tissue, and pure phase target are specified as 7.77mm, 8.73mm, and 58.29mm.
+To further show the robustness of our method, we additionally choose three samples, including H&E-stained human tongue fungiform papillae, H&E-stained cow lung tissue, and pure phase target, to conduct image reconstruction experiments. The pure phase target is produced by a spatial light modulator (Holoeye GAEA-2-VIS-036, 4160×2464, pixel pitch: 3.74 \\(\mu m\\)). Fig. 3. shows the autofocusing curves. The mask-to-sensor distances are acquired and plotted in Fig. 3(a), where the initial distance and interval are specified as 3.19mm and 0.10mm. For the three samples, their auto-focusing curves are plotted in Figs. 3 (b-d), where the sample-to-mask distances of human tongue fungiform papillae, cow lung tissue, and pure phase target are specified as 7.77mm, 8.73mm, and 58.29mm.
 
 <div align=center><img src="/publications/imgs/SCPR_results/fig3.png" width=500></div>
 
@@ -63,7 +63,6 @@ The results in Fig. 6 show that both methods can reconstruct the pure phase imag
 <div align=center><img src="/publications/imgs/SCPR_results/fig4.png" width=600></div>
 
 <div align=center> Fig.4. Reconstructed results of human tongue fungiform papillae for dual-plane and multi-plane measurement. </div><br/> 
-
 
 <div align=center><img src="/publications/imgs/SCPR_results/fig5.png" width=600></div>
 
