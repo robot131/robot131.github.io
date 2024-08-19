@@ -3,7 +3,7 @@ layout: archive
 title: "Lensfree auto-focusing imaging using nuclear norm of gradient"
 ---
 
-## Published in: 04/10/2022 &emsp; on [*Optics and Lasers in Engineering*](https://www.sciencedirect.com/journal/optics-and-lasers-in-engineering)
+### Published on: 04/10/2022 &emsp; in [*Optics and Lasers in Engineering*](https://www.sciencedirect.com/journal/optics-and-lasers-in-engineering)
 
 Backward Links: [Publications](../_pages/publications.md)
 
