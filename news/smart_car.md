@@ -3,13 +3,13 @@ layout: archive
 title: The 16th National Smart Car Competition
 ---
 
-Backward Links: [Interests & Skills](../_pages/interests&skills.md) / [About Me](../_pages/about.md) / [Education](../_pages/education.md) / [Research](../_pages/research.md)
-
 ### *Date*: 06/22/2021
 
 The time I spent with my teammates on preparing the smart car competition is one of the most unforgettable experience during my stage of undergraduate. The experience not only equipped me with practical knowledge and skills, but also led us to find each other who had a common goal. After the competation, all os us become very good friends. You can also find a photo of us taken in our Undergraduate Graduation Ceremony in the first photo of [this page](../news/BA_gra.md).
 
 In this page, I review the entire process of the competition and describe in detail the part I was responsible for. The rest parts are arranged as follows: first, I will introduce the task we are expected to complete in the competition, then the division of labor is given, third I will describe the basic function I should achieve and break down my responsibilities into smaller parts, and describe the goal of each part and the methods that I utilized, then a video of the whole process test is performed, finally, photos of our group and the certificate of the competation are shown.
+
+Backward Links: [Interests & Skills](../_pages/interests&skills.md) / [About Me](../_pages/about.md) / [Education](../_pages/education.md) / [Research](../_pages/research.md)
 
 <span id="jump_top"></span>
 
