@@ -3,7 +3,7 @@ layout: archive
 title: "Single-shot lensless masked imaging with enhanced self-calibrated phase retrieval"
 ---
 
-## Published in: 07/10/2024 &emsp; on [*Optics Letters*](https://opg.optica.org/ol/home.cfm)
+### Published on: 07/10/2024 &emsp; in [*Optics Letters*](https://opg.optica.org/ol/home.cfm)
 
 Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages/about.md) / [Research](../_pages/research.md)
 
