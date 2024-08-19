@@ -32,7 +32,7 @@ DOI: [10.1364/OL.528104](https://doi.org/10.1364/OL.528104)
   + [Resolution Target](#jump3_2)
   + [Reconstructed Results of Various Kinds of Samples](#jump3_3)
   + [Dynamic Imaging Results](#jump3_4)
-+ [Conclution](#jump4)
++ [Conclusion](#jump4)
 
 # Experimental Setup <span id="jump1"></span>
 
