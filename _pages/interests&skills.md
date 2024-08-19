@@ -6,13 +6,12 @@ author_profile: true
 ---
 
 My research interests including: 
-
 + Computational imaging
 + Miniaturized device design
 + Computer Vision
 + Deep learning methods and it's applications in solving inverse imaging problems.
 
-
+For more detailed information about my academic and research experiences, you can also refer to the [Research](../_pages/research.md), and  [Publications](../_pages/publications.md) of this website.
 
 # Skills
 
