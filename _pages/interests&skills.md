@@ -21,16 +21,16 @@ For more detailed information about my academic and research experiences, you ca
 
 ## Programming Skills:
 
-+ Matlab (Proficient):
+### + Matlab (Proficient):
   + Use programming language to reproduce physical processes.
   + Build up mathematical models for the imaging system (LMI, lensless on-chip imaging system, PIE et al.).
   + Establish the inverse problem and solve the problem with numerical methods.
-+ Python (Proficient):
+### + Python (Proficient):
   + Construct various kinds of neural network models using Pytorch package.
   + Processing images with Opencv package. Perform supervised and self-supervised training.
   + Call the pre-trained networks in matlab.
   + Combine the advantages of the two programming languages (Python, Matlab) to solve the image inverse problems.
-+ SolidWorks (Proficient):
+### + SolidWorks (Proficient):
   + Design 3-D printed adapters and connectors.
   + Opto-mechanical system design and process.
 
