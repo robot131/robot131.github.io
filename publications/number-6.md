@@ -41,13 +41,13 @@ The eSCPR method is composed of mask recovery, mask-guided auto-focusing and sam
 
 ### Mask-Guided Auto-Focusing
 
-<div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_algor_2.png" width=700></div>
+<div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_algor_2.png" width=750></div>
 
 <div align=center> Fig.3 Workflow of the mask-guided autofocusing step. </div><br/>
 
 ### Sample Recovery
 
-<div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_algor_3.png" width=700></div>
+<div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_algor_3.png" width=750></div>
 
 <div align=center> Fig.4 Workflow of the sample recovery step. </div><br/>
 
