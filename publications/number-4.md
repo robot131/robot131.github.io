@@ -54,7 +54,7 @@ The reconstructed resolution targets of PhysenNet, CVUNet, and DPENet are given 
 
 <div align=center><img src="/publications/imgs/DPENet/r1.png" width=700></div>
 
-<div align=center> Fig.3 Reconstructed resolution target with different methods. (a) Captured intensity pattern. (b)–(e) Retrieved by back-propagation, PhysenNet, CVUNet, and DPENet. </div><br/>
+**Fig.3** Reconstructed resolution target with different methods. (a) Captured intensity pattern. (b)–(e) Retrieved by back-propagation, PhysenNet, CVUNet, and DPENet.
 
 ### Label-Free Microgila Cells
 
