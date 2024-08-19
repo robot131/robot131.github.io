@@ -13,7 +13,7 @@ During my master stage, my research mainly focused on lensless imaging method. O
 
 Before that, I have also  participated in project related to computer vision and intelligent robots. I was involved in the 16th National Smart Car Competition in 2021 and was just responsible for the computer vision part. Details can be seen in [this page](../news/smart_car.md). 
 
-I am now looking for a PhD position. If there are opportunities in computing imaging, computer vision, or related fields, please contact me from any of the following contact methods:
+I am now looking for a PhD position. If there are opportunities in computational imaging, computer vision, or related fields, please contact me from any of the following contact methods:
 
 [Email](mailto:zhengshenghao666@gmail.com) / [Wechat](../images/my_imgs/wechat.png) / [Twitter](https://x.com/fu_yo_no_ha_na)
 
