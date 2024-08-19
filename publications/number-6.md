@@ -28,8 +28,8 @@ DOI: [10.1364/OL.528104](https://doi.org/10.1364/OL.528104)
 + [Experimental Results](#jump3)
   + [Mask Recovery](#jump3_1)
   + [Resolution Target](#jump3_2)
-  + [Reconstructed Results of Various Kinds of Samples](#jump3_2)
-  + [Dynamic Imaging Results](#jump3_2)
+  + [Reconstructed Results of Various Kinds of Samples](#jump3_3)
+  + [Dynamic Imaging Results](#jump3_4)
 + [Conclution](#jump4)
 
 + mask recovery, mask-guided auto-focusing and sample recovery.
