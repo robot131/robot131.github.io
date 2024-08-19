@@ -21,7 +21,8 @@ DOI: [10.1364/OL.528104](https://doi.org/10.1364/OL.528104)
 The experimental setup of our single-shot LMI system is illustrated in Fig. 1(a). The process of light wave transmission can be summerized as following steps: 
 1. A fiber laser with a wavelength of 532 nm is expanded by a collimated lens and then shaped by an aperture to generate plane wave illumination.
 2. The incident wave loads on the sample, the transmitted wavefront of the sample is modulated by a binary amplitude mask
-3. The intensity image is then recorded by a bare sensor chip (Sony, IMX206, pixel: 1.34 \\(\mu m\\) ), in which the sample-to-mask distance and the mask-to-sensor distance are denoted as \\(Z_1\\) and \\(Z_2\\), respectively.
+3. The intensity image is then recorded by a bare sensor chip (Sony, IMX206, pixel: 1.34 \\(\mu m\\) )
+The sample-to-mask distance and the mask-to-sensor distance are denoted as \\(Z_1\\) and \\(Z_2\\), respectively.
 
 <div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_experimental_setup.png" width=550></div>
 
@@ -31,7 +32,7 @@ The workflow of our method is given in Fig. 1(b). In Fig. 1(b1), the mask is clo
 
 # Method Overview
 
-The eSCPR method is composed of mask recovery, mask-guided auto-focusing and sample recovery.
+The eSCPR method is composed of mask recovery, mask-guided auto-focusing and sample recovery. In a LMI systems, a known mask distribution is a constraint. So we first retrieve the mask in the mask recovery step. Since the samples information is modulated by the mask, the diffraction distance between the mask and the sample becomes hard to calibrate by conventional auto-focusing method. In this case, we designed a mask-guided auto-focusing to estimate the sample-to-mask distance. Finally, with the retrieved mask, the sample-to-mask distance (\\(Z_1\\)), the mask-to-sensor distance (\\(Z_2\\)) and the masked intensity image (\\(I_O\\)), we could recover the complex wavefield of the sample in the sample recovery step. Details are described in the following sections.
 
 ### Mask Recovery
 
@@ -46,6 +47,15 @@ The eSCPR method is composed of mask recovery, mask-guided auto-focusing and sam
 <div align=center> Fig.3 Workflow of the mask-guided autofocusing step. </div><br/>
 
 ### Sample Recovery
+
+After the mask function is retrieved, i.e.,(\\(M=M^{K_1}\\)), we construct DrPR algorithm to retrieve the wavefield of sample by processing the masked intensity image ((\\(I_O\\))). Different from [SCPR](../publications/number-3.md), the retrieved mask here is treated as a illmination function and does not need to be binarized for sample recovery. The workflow of the sample recovery step is shown in Fig.4, while the constructed optimization problem is marked on the top.
+
+1. The initial guess of the sample's wavefiled is set as (\\(O^{k_3}\\)).
+2. The (\\(O^{k_3}\\)) is diffracted to the mask plane and modulated by the mask, output as (\\(M \dot (A_{Z_1} O^{k_3})\\)).
+3. The amplitude of the output wavefield is replace by the camera-captured one in the alternative projection operation.
+4. A wavefield decoupling operation is conducted to decouple the sample's wavefield from the modulated one, while the recoverd mask (\\(O^{k_3}\\)) is seen as the illmination function.
+5. A pre-trained network, [TNRD](10.1109/tpami.2016.2596743), 
+ 
 
 <div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_algor_3.png" width=750></div>
 
