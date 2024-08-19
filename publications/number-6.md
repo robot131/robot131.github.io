@@ -5,6 +5,8 @@ title: "Single-shot lensless masked imaging with enhanced self-calibrated phase 
 
 ## Published in: 07/10/2024 &emsp; on [*Optics Letters*](https://opg.optica.org/ol/home.cfm)
 
+Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages/about.md) / [Research](../_pages/research.md)
+
 Single-shot lensless imaging with a binary amplitude mask enables a low-cost and miniaturized configuration for wave field recovery. However, the mask only allows a part of the wave field to be captured, and thus the inverse decoding process becomes a highly ill-posed problem. In our previous work [(SCPR)](../publications/number-3.md), we treated this as a wavefront completion problem, but it relies on time-lapse redundant data collection and its
 dynamic imaging ability is constrained.
 
