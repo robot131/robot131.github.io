@@ -13,7 +13,7 @@ In this page, I review the entire process of the competition and describe in det
 
 <span id="jump_top"></span>
 
-## Abstract:: 
+## Abstract:
 
 + [Task Description](#jump1) 
 + [Division of labor](#jump2)
