@@ -20,7 +20,9 @@ The workflow of the DPENet is shown in Fig.1. It can be summarized as following 
 1. A single-channel generative model is designed to reconstruct the phase channel and the amplitude channel remains unchanged.
 2. A deep image prior and a total variation prior are encapsulated to realize convolutional smoothing and high-frequency information preservation.
 3. The updated phase channel is held and a regularized optimization is introduced to update the amplitude channel, in which a Wirtinger gradient descent method based on total variation denoising is constructed to enable a good consistency of two channels.
-4. As a result, the alternative iteration of these two tasks could stabilize convergence and realize edge-preserving wavefield reconstruction.
+4. After acquiring the updated phase \\((P^t)\\) and amplitude \\((A^t)\\), we then diffracted the wavefield to the camera plane and calculated the loss between the estimated intensity and the captured on to update the parasmeters of the network.
+
+Compared to the current untrained network, our method adopts the single-channel generative model for phase update and imposes the regularized optimization for amplitude update, which effectively keeps the consistency of the two channels and avoids the unstable inference of a complex-valued wavefield.
 
 <div align=center><img src="/publications/imgs/DPENet/method.png" width=600></div>
 
