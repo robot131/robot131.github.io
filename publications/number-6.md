@@ -54,7 +54,7 @@ After the mask function is retrieved, i.e.,(\\(M=M^{K_1}\\)), we construct DrPR 
 2. The (\\(O^{k_3}\\)) is diffracted to the mask plane and modulated by the mask, output as (\\(M \dot (A_{Z_1} O^{k_3})\\)).
 3. The amplitude of the output wavefield is replace by the camera-captured one in the alternative projection operation.
 4. A wavefield decoupling operation is conducted to decouple the sample's wavefield from the modulated one, while the recoverd mask (\\(O^{k_3}\\)) is seen as the illmination function.
-5. A pre-trained network, [TNRD](10.1109/tpami.2016.2596743), 
+5. A pre-trained network, [TNRD](https://doi.org/10.1109/tpami.2016.2596743), 
  
 
 <div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_algor_3.png" width=750></div>
