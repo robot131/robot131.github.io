@@ -16,7 +16,25 @@ DOI: [10.1364/OL.528104](https://doi.org/10.1364/OL.528104)
 
 [Supplemental document](../publications/materials/supp_for_eSCPR.pdf)
 
-# Experimental Setup
+<span id="jump_top"></span>
+
+## Quick Links: 
+
++ [Experimental Setup](#jump1)
++ [Method Overview](#jump2)
+  + [Mask Recovery](#jump2_1)
+  + [Mask-Guided Auto-Focusing](#jump2_2)
+  + [Sample Recovery](#jump2_3)
++ [Experimental Results](#jump3)
+  + [Mask Recovery](#jump3_1)
+  + [Resolution Target](#jump3_2)
+  + [Reconstructed Results of Various Kinds of Samples](#jump3_2)
+  + [Dynamic Imaging Results](#jump3_2)
++ [Conclution](#jump4)
+
++ mask recovery, mask-guided auto-focusing and sample recovery.
+
+# Experimental Setup <span id="jump1"></span>
 
 The experimental setup of our single-shot LMI system is illustrated in Fig. 1(a). The process of light wave transmission can be summerized as following steps: 
 1. A fiber laser with a wavelength of 532 nm is expanded by a collimated lens and then shaped by an aperture to generate plane wave illumination.
@@ -30,11 +48,13 @@ The sample-to-mask distance and the mask-to-sensor distance are denoted as \\(Z_
 
 The workflow of our method is given in Fig. 1(b). In Fig. 1(b1), the mask is closely installed on the sensor chip, and the diffraction pattern of the mask \\((I_M)\\) is captured. Accordingly, the mask function can be retrieved by running the  sparse regularized phase retrieval (SrPR) with \\(I_M\\). Note that this mask calibration operation is **only done for once**. After that, the mask and the sensor could be integrated as **a coded camera** to reconstruct the sample’s wavefront. In Fig. 1(b2), the sample is loaded and the masked intensity image \\((I_O)\\) is recorded. The wave field of the sample can be retrieved by running the denoising regularized phase retrieval (DrPR) with \\(I_O\\).
 
-# Method Overview
+[Back to the top](#jump_top)
+
+# Method Overview <span id="jump2"></span>
 
 The eSCPR method is composed of mask recovery, mask-guided auto-focusing and sample recovery. In a LMI systems, a known mask distribution is a constraint. So we first retrieve the mask in the mask recovery step. Since the sample's wavefiled is modulated by the mask, the diffraction distance between the mask and the sample becomes hard to calibrate by conventional auto-focusing method. In this case, we designed a mask-guided auto-focusing to estimate the sample-to-mask distance \\((Z_1)\\). Finally, with the retrieved mask, the sample-to-mask distance \\((Z_1)\\), the mask-to-sensor distance \\((Z_2)\\) and the masked intensity image \\((I_O)\\), we could recover the complex wavefield of the sample in the sample recovery step. Details are described in the following sections. Detailed derivations are presented in the [Supplemental document](../publications/materials/supp_for_eSCPR.pdf).
 
-### Mask Recovery
+### Mask Recovery <span id="jump2_1"></span>
 The workflow of the mask recovery step is shown in Fig.2. We first retrieve the wavefield of the mask with single-frame measurement \\((I_M)\\). construct SrPR algorithm to solve the optimization problem marked on the top of Fig.2. The algorithm is derivated with the use of PnP-FISTA solver. The process of this step can be summarized as follows:
 
 1. The initial guess of the mask's wavefiled at the mask plane is set as \\(M^{k_1}, k_1=0\\).
@@ -49,7 +69,9 @@ The iteration of the algorithm is \\(K_1\\). After \\(K_1\\) iteration, we can o
 
 <div align=center> Fig.2 Workflow of the mask recovery step. </div><br/>
 
-### Mask-Guided Auto-Focusing
+[Back to the top](#jump_top)
+
+### Mask-Guided Auto-Focusing <span id="jump2_2"></span>
 
 The workflow of the mask-guided auto-focusing step is shown in Fig.3. Since the sample's wavefiled is modulated by the mask and cannot be obtained by conventional auto-focusing method, we designed a mask-guided auto-focusing to estimate the sample-to-mask distance \\((Z_1)\\). The algorithm is derivated with the use of PnP-FISTA solver. We first retrieve the modulated sample's wavefiled at the mask plane. The process of this step can be summarized as follows:
 
@@ -65,7 +87,9 @@ The iteration is set \\(K_2\\). After \\(K_2\\) iteration, the modulated sample'
 
 <div align=center> Fig.3 Workflow of the mask-guided autofocusing step. </div><br/>
 
-### Sample Recovery
+[Back to the top](#jump_top)
+
+### Sample Recovery <span id="jump2_3"></span>
 
 After the mask function is retrieved, i.e.,(\\(M=M^{K_1}\\)), and the sample-to-mask distance \\((Z_1)\\) is obtained, we then construct DrPR algorithm to retrieve the wavefield of sample by processing the masked intensity image (\\(I_O)\\). Different from [SCPR](../publications/number-3.md), the retrieved mask here is treated as a illmination function and does not need to be binarized for sample recovery. The workflow of the sample recovery step is shown in Fig.4, while the constructed optimization problem is marked on the top. The algorithm is derivated with the use of PnP-FISTA solver. The process of this step can be summarized as follows:
 
@@ -82,9 +106,11 @@ The iteration of the algorithm is \\(K_3\\). After \\(K_3\\) iteration, we can o
 
 <div align=center> Fig.4 Workflow of the sample recovery step. </div><br/>
 
-# Experimental Results
+[Back to the top](#jump_top)
 
-### Mask Recovery
+# Experimental Results <span id="jump3"></span>
+
+### Mask Recovery <span id="jump3_1"></span>
 
 We fabricate five binary amplitudemasks with pixel sizes of 2.5, 5, 10, 20, and 40 \\(\mu m\\) to test the performance of the SrPR, in which the mask is installed on the sensor chip to record the intensity image. The recorded intensity images of different masks are shown in Figs.5(a1)–(a4) and the auto-focusing curves of \\(Z_2\\) are plotted in the subplots. The amplitude images of the mask retrieved by the SrPR are shown in Figs. 5(b1)–(b4). The regions of 134 \\(\mu m\\) × 134 \\(\mu m\\) are expanded as the subplots. In Fig.5, the SrPR finishes single-frame recovery of the masks with the pixel size from 5 to 40 µm. But the retrieval with a mask pixel of 2.5 \\(\mu m\\) is unsuccessful
 
@@ -92,7 +118,9 @@ We fabricate five binary amplitudemasks with pixel sizes of 2.5, 5, 10, 20, and 
 
 **Fig.5** Reconstructed mask distribution functions by the SrPR under the mask’s pixel size of 5, 10, 20, and 40 µm. (a1)–(a4) are the recorded intensity images, where the auto-focusing curves of Z2 estimation are given in the subplots. (b1)–(b4) are the retrieved amplitude images of the masks.
 
-### Resolution Target
+[Back to the top](#jump_top)
+
+### Resolution Target <span id="jump3_2"></span>
 
 A resolution target (Thorlabs) is then loaded as the sample. The masked intensity images are shown in Figs.5(a1)-(a4). By using mask-guided auto-focusing, the auto-focusing curves of \\(Z_1\\) are plotted in the subsets of Figs.6(a1)–(a4) and \\(Z_1\\) can be acquired. The amplitude images of the sample recovered by DrPR are illuminated in Figs.6(b1)–(b4), and the green regions are zoomed in Figs.5(c1)–(c4)
 
@@ -102,7 +130,9 @@ It is noted that DrPR achieves single-frame recovery but the performance on the 
 
 **Fig.6** Reconstructed resolution target by the DrPR algorithm under the mask’s pixel size of 5, 10, 20, and 40 µm. (a1)–(a4) are the captured masked intensity images, where the auto-focusing curves of Z1 estimation are given in the subplots. (b1)–(b4) are the retrieved amplitude images. (c1)–(c4) are expanded from green boxes in (b1)–(b4).
 
-### Reconstructed Results of Various Kinds of Samples
+[Back to the top](#jump_top)
+
+### Reconstructed Results of Various Kinds of Samples <span id="jump3_3"></span>
 
 In the following experiments, we use the mask with the pixel of 5 \\(\mu m\\) for wavefront modulation and select five samples to further validate our method, including high-resolution target (55-622, Edmund), Ronchi grating (R1L3S13N, Thorlabs), stained pathological slide (Human Tongue Fungiform Papillae), binary random phase mask (pixel:10 \\(\mu m\\)), and reflective phase-only target produced from a spatial light modulator (SLM, Holoeye, GAEA-2-VIS-036). Herebtwo maskless phase retrieval methods (DPENet and SFPR-NL) and two masked phase retrieval methods (SPICA and SCPR) are listed for the comparison group. The results are shown in Fig.7.
 
@@ -112,7 +142,9 @@ In the following experiments, we use the mask with the pixel of 5 \\(\mu m\\) fo
 
 The results in Fig.7 demonstrate that our method outperforms other methods with high-performance recovery. Compared to maskless phase retrieval, our method introduces a mask as a strong physical constraint, which effectively mitigates the stagnant problem of single-frame wavefront recovery. Moreover, the wave field decoupling of the mask function could extract the messy background, and thus the retrieved phase image of our method shows an enhanced imaging quality.
 
-### Dynamic Imaging Results
+[Back to the top](#jump_top)
+
+### Dynamic Imaging Results <span id="jump3_4"></span>
 
 The experimental configuration and reconstructed results of the dynamic imaging experiment are shown in Fig.8. We install the Rongchi grating on a motorized rotation stage (PRM1/MZ8, Thorlabs) and then use this rotating grating as a moving target for observation. As shown in Fig.8(a), the diffraction patterns of the rotating sample are modulated by the binary amplitude mask, and the masked intensity images are captured by the sensor chip. 
 
@@ -133,9 +165,13 @@ The following video shows the entire process of raw dataset measurement and samp
 
 **Video.1** Video of raw dataset measurement and sample recovery results of the dynamic Ronchi grating sample in Fig.7
 
-# Conclusion
+[Back to the top](#jump_top)
+
+# Conclusion <span id="jump4"></span>
 
 We proposed the eSCPR method to achieve joint recovery of mask distribution and sample’s wave field for single-shot LMI systems. In our design, the SrPR algorithm is constructed to retrieve the mask function, and then the sample-to-mask distance is estimated by mask-guided auto-focusing algorithm. Finally, the sample’s wavefront is recovered with the DrPR algorithm. Experimental results of different samples show the superiority of our method. We believe that our work will provide new technical support to design miniaturized wavefront sensors.
+
+[Back to the top](#jump_top)
 
 Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages/about.md) / [Research](../_pages/research.md)
 
