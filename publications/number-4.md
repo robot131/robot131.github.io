@@ -72,11 +72,11 @@ The reconstruction of HeLa cells is provided for further verification of phase i
 
 ###  Reflective Pure Phase Sample
 
-<div align=center><img src="/publications/imgs/DPENet/r4.png" width=500></div>
-
 The experimental results of the reflective sample are presented in Fig.6. Figure 8(a) is the captured intensity pattern. With the multi-distance phase retrieval, the ground truth phase image is retrieved in Fig.6(b). The retrieved results of PhysenNet, CVUNet, and DPENet are given in Figs.6(d)–(f), where the corresponding SSIM curves are plotted in Fig.6(c).
 
 It is noted that PhysenNet reaches its peak at 500 iterations and then drops remarkably. CVUNet slowly increases all through the iterations and shows bad convergence. DPENet meets its maximum and then keeps at a high and stable reconstruction accuracy. These results further prove the stable convergence of DPENet.
+
+<div align=center><img src="/publications/imgs/DPENet/r4.png" width=500></div>
 
 **Fig.6** Reconstructed results of reflective pure phase sample. (a) Captured intensity pattern. (b) Ground truth image retrieved by multi-distance phase retrieval. (c) SSIM curves. (d1)–(d3), (e1)–(e3), (f1)–(f3) Reconstructed by PhysenNet, CVUNet, and DPENet, respectively. (g) Histogram of SSIM values in selected iterations for different methods.
 
