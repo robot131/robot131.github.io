@@ -28,21 +28,22 @@ The sample-to-mask distance and the mask-to-sensor distance are denoted as \\(Z_
 
 <div align=center> Fig.1 Experimental Setup and the workflow of eSCPR. </div><br/>
 
-The workflow of our method is given in Fig. 1(b). In Fig. 1(b1), the mask is closely installed on the sensor chip, and the diffraction pattern of the mask \\(I_M\\) is captured. Accordingly, the mask function can be retrieved by running the  sparse regularized phase retrieval (SrPR) with \\(I_M\\). Note that this mask calibration operation is **only done for once**. After that, the mask and the sensor could be integrated as **a coded camera** to reconstruct the sample’s wavefront. In Fig. 1(b2), the sample is loaded and the masked intensity image (\\(I_O\\)) is recorded. The wave field of the sample can be retrieved by running the denoising regularized phase retrieval (DrPR) with \\(I_O\\).
+The workflow of our method is given in Fig. 1(b). In Fig. 1(b1), the mask is closely installed on the sensor chip, and the diffraction pattern of the mask \\((I_M)\\) is captured. Accordingly, the mask function can be retrieved by running the  sparse regularized phase retrieval (SrPR) with \\(I_M\\). Note that this mask calibration operation is **only done for once**. After that, the mask and the sensor could be integrated as **a coded camera** to reconstruct the sample’s wavefront. In Fig. 1(b2), the sample is loaded and the masked intensity image \\((I_O)\\) is recorded. The wave field of the sample can be retrieved by running the denoising regularized phase retrieval (DrPR) with \\(I_O\\).
 
 # Method Overview
 
 The eSCPR method is composed of mask recovery, mask-guided auto-focusing and sample recovery. In a LMI systems, a known mask distribution is a constraint. So we first retrieve the mask in the mask recovery step. Since the sample's wavefiled is modulated by the mask, the diffraction distance between the mask and the sample becomes hard to calibrate by conventional auto-focusing method. In this case, we designed a mask-guided auto-focusing to estimate the sample-to-mask distance \\((Z_1)\\). Finally, with the retrieved mask, the sample-to-mask distance \\((Z_1)\\), the mask-to-sensor distance \\((Z_2)\\) and the masked intensity image \\((I_O)\\), we could recover the complex wavefield of the sample in the sample recovery step. Details are described in the following sections. Detailed derivations are presented in the [Supplemental document](../publications/materials/supp_for_eSCPR.pdf).
 
 ### Mask Recovery
+The workflow of the mask recovery step is shown in Fig.2. We first retrieve the wavefield of the mask with single-frame measurement \\((I_M)\\). construct SrPR algorithm to solve the optimization problem marked on the top of Fig.2. The algorithm is derivated with the use of PnP-FISTA solver. The process of this step can be summarized as follows:
 
-The algorithm is derivated with the use of PnP-FISTA solver. The process of this step can be summarized as follows:
-
-1. The initial guess of the modulated sample's wavefiled at the mask plane is set as (\\(C^{k_2})\\).
-2. The amplitude of the output wavefield is replace by the camera-captured one in the alternative projection operation.
-3. A wavefield decoupling operation is conducted to decouple the sample's wavefield from the modulated one, while the recoverd mask \\((M)\\) is seen as the illmination function.
-4. The [guided filter](https://doi.org/10.1007/978-3-642-15549-9_1) is utlized as the denoiser to denoise the real and imaginary part of the wavefield respectively.
+1. The initial guess of the mask's wavefiled at the mask plane is set as \\(M^{k_1}, k_1=0\\).
+2. The amplitude of the output wavefield is replace by the camera-captured one \\((\sqrt{I_M})\\) in the alternative projection operation.
+3. The wavefiled is then constrained by a sparse regularization operation. 
+4. A pre-trained network, [TNRD](https://doi.org/10.1109/tpami.2016.2596743), is utlized as the denoiser to denoise the real and imaginary part of the output wavefield respectively.
 5. The guess of the modulated sample's wavefiled is update after a weighted feedback.
+
+The iteration of the algorithm is \\(K_1\\). After \\(K_1\\) iteration, we can obtain the retrieved sample's wavefiled (\\(M^{K_1})\\).
 
 <div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_algor_1.png" width=450></div>
 
@@ -50,10 +51,10 @@ The algorithm is derivated with the use of PnP-FISTA solver. The process of this
 
 ### Mask-Guided Auto-Focusing
 
-Since the sample's wavefiled is modulated by the mask and cannot be obtained by conventional auto-focusing method, we designed a mask-guided auto-focusing to estimate the sample-to-mask distance \\((Z_1)\\). The algorithm is derivated with the use of PnP-FISTA solver. We first retrieve the modulated sample's wavefiled at the mask plane. The process of this step can be summarized as follows:
+The workflow of the mask-guided auto-focusing step is shown in Fig.3. Since the sample's wavefiled is modulated by the mask and cannot be obtained by conventional auto-focusing method, we designed a mask-guided auto-focusing to estimate the sample-to-mask distance \\((Z_1)\\). The algorithm is derivated with the use of PnP-FISTA solver. We first retrieve the modulated sample's wavefiled at the mask plane. The process of this step can be summarized as follows:
 
-1. The initial guess of the modulated sample's wavefiled at the mask plane is set as (\\(C^{k_2})\\).
-2. The amplitude of the output wavefield is replace by the camera-captured one in the alternative projection operation.
+1. The initial guess of the modulated sample's wavefiled at the mask plane is set as \\(C^{k_2}, k_2=0\\).
+2. The amplitude of the output wavefield is replace by the camera-captured one \\((\sqrt{I_O})\\) in the alternative projection operation.
 3. A wavefield decoupling operation is conducted to decouple the sample's wavefield from the modulated one, while the recoverd mask \\((M)\\) is seen as the illmination function.
 4. The [guided filter](https://doi.org/10.1007/978-3-642-15549-9_1) is utlized as the denoiser to denoise the real and imaginary part of the wavefield respectively.
 5. The guess of the modulated sample's wavefiled is update after a weighted feedback.
@@ -68,14 +69,14 @@ The iteration is set \\(K_2\\). After \\(K_2\\) iteration, the modulated sample'
 
 After the mask function is retrieved, i.e.,(\\(M=M^{K_1}\\)), and the sample-to-mask distance \\((Z_1)\\) is obtained, we then construct DrPR algorithm to retrieve the wavefield of sample by processing the masked intensity image (\\(I_O)\\). Different from [SCPR](../publications/number-3.md), the retrieved mask here is treated as a illmination function and does not need to be binarized for sample recovery. The workflow of the sample recovery step is shown in Fig.4, while the constructed optimization problem is marked on the top. The algorithm is derivated with the use of PnP-FISTA solver. The process of this step can be summarized as follows:
 
-1. The initial guess of the sample's wavefiled is set as (\\(O^{k_3})\\).
-2. The \\((O^{k_3})\\) is diffracted to the mask plane and modulated by the mask, output as \\((M \odot (A_{Z_1} O^{k_3}))\\). \\(A_Z\\) is the diffraction operator with the diffraction distance \\(Z\\).
-3. The amplitude of the output wavefield is replace by the camera-captured one in the alternative projection operation.
+1. The initial guess of the sample's wavefiled is set as \\(O^{k_3}, k_3=0\\).
+2. The \\((O^{k_3})\\) is diffracted to the mask plane and modulated by the mask, output as \\(M \odot (A_{Z_1} O^{k_3})\\). \\(A_Z\\) is the diffraction operator with the diffraction distance \\(Z\\).
+3. The amplitude of the output wavefield is replace by the camera-captured one \\((\sqrt{I_O})\\) in the alternative projection operation.
 4. A wavefield decoupling operation is conducted to decouple the sample's wavefield from the modulated one, while the recoverd mask \\((M)\\) is seen as the illmination function.
 5. The decoupled wavefield is inverse diffracted to the sample plane. A pre-trained network, [TNRD](https://doi.org/10.1109/tpami.2016.2596743), is utlized as the denoiser to denoise the real and imaginary part of the wavefield respectively.
 6. The guess of the sample's wavefiled is update after a weighted feedback.
 
-The iteration of the algorithm is \\(K_3\\). After \\(K_3\\) iteration, we can obtain the retrieved  sample's wavefiled (\\(O^{K_3})\\).
+The iteration of the algorithm is \\(K_3\\). After \\(K_3\\) iteration, we can obtain the retrieved sample's wavefiled (\\(O^{K_3})\\).
 
 <div align=center><img src="/publications/imgs/eSCPR_results/eSCPR_algor_3.png" width=750></div>
 
