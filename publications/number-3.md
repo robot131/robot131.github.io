@@ -2,7 +2,7 @@
 title: "Lensless masked imaging with self-calibrated phase retrieval"
 ---
 
-## Published in: 06/12/2023 &emsp; on [*Optics Letters*](https://opg.optica.org/ol/home.cfm)
+### Published on: 06/12/2023 &emsp; in [*Optics Letters*](https://opg.optica.org/ol/home.cfm)
 
 Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages/about.md) / [Research](../_pages/research.md) / [eSCPR](../publications/number-6.md)
 
