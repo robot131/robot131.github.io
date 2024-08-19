@@ -19,7 +19,7 @@ Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages
 2. The updated phase channel is held and a regularized optimization is introduced to update the amplitude channel, in which a Wirtinger gradient descent method based on total variation denoising is constructed to enable a good consistency of two channels.
 3. As a result, the alternative iteration of these two tasks could stabilize convergence and realize edge-preserving wavefield reconstruction.
 
-<img src="/publications/imgs/DPENet/method.png">
+<img src="/publications/imgs/DPENet/method.png" width=600>
 
 # Experimental setup
 
