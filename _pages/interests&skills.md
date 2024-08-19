@@ -38,11 +38,11 @@ For more detailed information about my academic and research experiences, you ca
 
 I love doing sports. In my opinion, engaging in sports and physical activities improves overall fitness and stamina. Also, the endorphins released during the process, which are natural mood lifters, leads to reduced stress and anxiety levels. Therefore, I exercise regularly and consider it an integral part of my life. My favorite sports including:
 
-+ [Badminton](../vlogs/badminton.md): No less than once a week. A sports that can exercise the whole body and make friends with people of the same hobby.
++ [Badminton](../vlogs/badminton.md): No less than once a week. A sport that can exercise the whole body and make friends with people of the same hobby.
 
-+ [Snowboarding](../news/snowboarding.md): No less than once a week in winnter. A sport that exercises the balance and coordination of the body. Currently I have just passed the examination of Chinese national Social sports instructor (snowboarding) and became a primary snowboarding instructor. It's really very cool when snowboarding and I really love it.
++ [Snowboarding](../news/snowboarding.md): No less than once a week in winnter. A sport that improve the balance and coordination of the body. Currently I have just passed the examination of Chinese national Social sports instructor (snowboarding) and became a primary snowboarding instructor. It's really very cool when snowboarding and I really love it.
 
-+ Swimming: No less than once a week in summer. Also a sports that can exercise the whole body and can relieve the heat quickly in summer.
++ Swimming: No less than once a week in summer. A sports that can exercise the whole body and relieve the heat quickly in summer.
 
 I also love travelling. As an old saying goes, read ten thousand books, travel ten thousand miles. These years I have travelled to many places with my friends or families, including: [changbai mountains](../vlogs/changbai.md), [The Great Wall](../vlogs/changcheng.md), [The West Lake](../vlogs/xihu.md), [the Northernmost Point of China](../news/north_point.md)(53°33’42’‘N 123°15’30’‘E) et al. You can check the links to see the photos.
 
