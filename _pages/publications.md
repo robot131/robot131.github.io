@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-# First Author
+## First Author
 
 ## [Single-shot lensless masked imaging with enhanced self-calibrated phase retrieval](../publications/number-6.md)
 
@@ -30,7 +30,7 @@ In this paper, we proposed a self-calibrated phase retrieval (SCPR) method to re
 
 DOI: [10.1364/OL.492476](https://doi.org/10.1364/OL.492476)
 
-# Second Author
+## Second Author
 
 ## [Lensfree auto-focusing imaging with coarse-to-fine tuning method](../publications/number-5.md)
 
@@ -52,7 +52,7 @@ In this paper, we proposed a dual-constrained physics-enhanced untrained neural 
 
 DOI: [10.1364/JOSAA.510147](https://doi.org/10.1364/JOSAA.510147)
 
-# Others
+## Others
 
 ## [Lensfree on-chip microscopy based on single-plane phase retrieval](../publications/number-2.md)
 
