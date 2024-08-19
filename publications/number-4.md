@@ -70,7 +70,7 @@ It is noted that PhysenNet and CVUNet suffer from the overfitting problem and th
 
 The reconstruction of HeLa cells is provided for further verification of phase imaging ability. The retrieved phase image from our method is shown in Fig.5(a). The retrieved regions from the blue and orange boxes are cropped and compared in Figs.5(d) and (e), in which blue and orange regions represent sparse and dense distribution, respectively. This result demonstrates that our method could achieve high-contrast phase imaging.
 
-<div align=center><img src="/publications/imgs/DPENet/r3.png" width=600></div>
+<div align=center><img src="/publications/imgs/DPENet/r3.png" width=500></div>
 
 **Fig.5** Reconstructed phase images of label-free HeLa cells with different methods. (a) Retrieved phase image by DPENet. (b), (c) Histograms of CNR values in blue and orange boxes for different methods. (d1)–(d4), (e1)–(e4) Retrieved from blue and orange boxes by back-propagation, PhysenNet, CVUNet, and DPENet.
 
