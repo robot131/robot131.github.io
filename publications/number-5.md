@@ -15,6 +15,8 @@ Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages
 
 # Method
 
+In our method, a simulation-driven focus network (sFocusNet) is designed as a coarse tuning to decrease the distance searching range, and then a regularization of gradient (RoG) metric is constructed as a fine tuning to achieve an accurate estimation. In this section, each part of our method will be introduced in details.
+
 ## Method Overview
 
 As shown in Fig. 1(a), we apply our method in a multi-height lensfree on-chip platform to realize auto-focusing imaging. In our method, a set of intensity patterns are captured at different heights and then processed by our method to output the real diffractive distances. As shown in Fig.1(b) and (c), our method is composed of coarse tuning and fine tuning.
@@ -26,7 +28,6 @@ In the coarse tuning, a simulation-driven focus network (sFocusNet) is construct
 ### Fine Tuning
 
 In the fine tuning step, the distance searching range obtained from the coarse tuning is employed, and a new sharpness metric (RoG), is constructed to find the sharpest image of back-propagated images within the searching range. Finally, a multi-height phase retrieval with plug-and-play regularization is used for final image recovery.
-
 
 <div align=center><img src="/publications/imgs/sFocusNet/method.png" width=800></div>
 
