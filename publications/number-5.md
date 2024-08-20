@@ -15,6 +15,11 @@ Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages
 
 # Method Overview
 
+<div align=center><img src="/publications/imgs/sFocusNet/method.png" width=650></div>
+
+<div align=center><img src="/publications/imgs/sFocusNet/network.png" width=650></div>
+
+<div align=center><img src="/publications/imgs/sFocusNet/data_generate.png" width=550></div>
 
 
 # Experimental results
