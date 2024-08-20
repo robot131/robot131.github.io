@@ -44,7 +44,7 @@ Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages
 
 <div align=center><img src="/publications/imgs/sFocusNet/r9.png" width=750></div>
 
-<div align=center><img src="/publications/imgs/sFocusNet/r10.png" width=600></div>
+<div align=center><img src="/publications/imgs/sFocusNet/r10.png" width=400></div>
 
 # Conclusion
 
