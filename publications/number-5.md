@@ -15,16 +15,36 @@ Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages
 
 # Method Overview
 
-<div align=center><img src="/publications/imgs/sFocusNet/method.png" width=650></div>
+<div align=center><img src="/publications/imgs/sFocusNet/method.png" width=700></div>
 
-<div align=center><img src="/publications/imgs/sFocusNet/network.png" width=650></div>
+<div align=center><img src="/publications/imgs/sFocusNet/network.png" width=700></div>
 
-<div align=center><img src="/publications/imgs/sFocusNet/data_generate.png" width=550></div>
+<div align=center><img src="/publications/imgs/sFocusNet/data_generate.png" width=500></div>
+
+<div align=center><img src="/publications/imgs/sFocusNet/ROG.png" width=700></div>
 
 
 # Experimental results
 
+<div align=center><img src="/publications/imgs/sFocusNet/r1.png" width=500></div>
 
+<div align=center><img src="/publications/imgs/sFocusNet/r2.png" width=500></div>
+
+<div align=center><img src="/publications/imgs/sFocusNet/r3.png" width=700></div>
+
+<div align=center><img src="/publications/imgs/sFocusNet/r4.png" width=700></div>
+
+<div align=center><img src="/publications/imgs/sFocusNet/r5.png" width=700></div>
+
+<div align=center><img src="/publications/imgs/sFocusNet/r6.png" width=700></div>
+
+<div align=center><img src="/publications/imgs/sFocusNet/r7.png" width=700></div>
+
+<div align=center><img src="/publications/imgs/sFocusNet/r8.png" width=700></div>
+
+<div align=center><img src="/publications/imgs/sFocusNet/r9.png" width=700></div>
+
+<div align=center><img src="/publications/imgs/sFocusNet/r10.png" width=700></div>
 
 # Conclusion
 
