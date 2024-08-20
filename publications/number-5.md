@@ -15,9 +15,9 @@ Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages
 
 # Method Overview
 
-<div align=center><img src="/publications/imgs/sFocusNet/method.png"></div>
+<div align=center><img src="/publications/imgs/sFocusNet/method.png" width=800></div>
 
-<div align=center><img src="/publications/imgs/sFocusNet/network.png"></div>
+<div align=center><img src="/publications/imgs/sFocusNet/network.png" width=800></div>
 
 <div align=center><img src="/publications/imgs/sFocusNet/data_generate.png" width=450></div>
 
@@ -40,9 +40,9 @@ Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages
 
 <div align=center><img src="/publications/imgs/sFocusNet/r7.png"></div>
 
-<div align=center><img src="/publications/imgs/sFocusNet/r8.png" width=700></div>
+<div align=center><img src="/publications/imgs/sFocusNet/r8.png" width=750></div>
 
-<div align=center><img src="/publications/imgs/sFocusNet/r9.png"></div>
+<div align=center><img src="/publications/imgs/sFocusNet/r9.png" width=750></div>
 
 <div align=center><img src="/publications/imgs/sFocusNet/r10.png" width=600></div>
 
