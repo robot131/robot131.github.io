@@ -13,19 +13,40 @@ DOI: [10.1016/j.optlaseng.2024.108366](https://doi.org/10.1016/j.optlaseng.2024.
 
 Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages/about.md) / [Research](../_pages/research.md)
 
-# Method Overview
+# Method
+
+## Method Overview
+
+As shown in Fig. 1(a), we apply our method in a multi-height lensfree on-chip platform to realize auto-focusing imaging. In our method, a set of intensity patterns are captured at different heights and then processed by our method to output the real diffractive distances. As shown in Fig.1(b) and (c), our method is composed of coarse tuning and fine tuning.
+
+### Coarse Tuning
+
+In the coarse tuning, a simulation-driven focus network (sFocusNet) is constructed to get a coarse position of the focusing distance. The sFocusNet consists of Rel-attention module and butterfly transform, in which a natural image dataset is introduced in a lensfree diffraction degradation process to generate distance-to-image pairs for model training.
+
+### Fine Tuning
+
+In the fine tuning step, the distance searching range obtained from the coarse tuning is employed, and a new sharpness metric (RoG), is constructed to find the sharpest image of back-propagated images within the searching range. Finally, a multi-height phase retrieval with plug-and-play regularization is used for final image recovery.
+
 
 <div align=center><img src="/publications/imgs/sFocusNet/method.png" width=800></div>
 
 **Fig.1** Experimental configuration and workflow of our method. (a) Workflow of coarse-to-fine auto-focusing method. (b) Flowchart of coarse tuning using simulation-driven focus network (sFocusNet). (c) Flowchart of fine tuning using RoG metric.
 
+## Simulation-driven focus network (sFocusNet)
+
+### Architecture of sFocusNet
+
 <div align=center><img src="/publications/imgs/sFocusNet/network.png" width=800></div>
 
 **Fig.2** The architecture of simulation-driven focus network (sFocusNet). (a) Basic architecture. (b) Butterfly transform module. (c) Relative attention module. (d) Feedforward module (FFM). (e) Down-sampling module. The red arrows and symbol ‘*’ denote the skip connection and the butterfly transform, respectively.
 
+### Dataset Generation
+
 <div align=center><img src="/publications/imgs/sFocusNet/data_generate.png" width=450></div>
 
 <div align=center> Fig.3 The flowchart of dataset generation and network training. </div><br/>
+
+## Regularization of gradient metric (RoG)
 
 <div align=center><img src="/publications/imgs/sFocusNet/ROG.png" width=700></div>
 
@@ -34,9 +55,15 @@ Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages
 
 # Experimental results
 
+## RoG validation
+
+### Resolution target
+
 <div align=center><img src="/publications/imgs/sFocusNet/r1.png" width=500></div>
 
 **Fig.5** The auto-focusing results of resolution target. (a) Sharpness curves. (b) is zoomed-in curve from (a) and Ac values are labelled. (c–e) are the back-propagated results by using the estimated distance of 1.02mm, 1.64mm, and 2.00mm.
+
+### Pathological slide
 
 <div align=center><img src="/publications/imgs/sFocusNet/r2.png" width=500></div>
 
@@ -50,17 +77,21 @@ Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages
 
 <div align=center> Table.2 The summary of accuracy criterion values (Ac) for 20 types of samples. </div><br/>
 
-<div align=center><img src="/publications/imgs/sFocusNet/r5.png"></div>
+## sFocusNet validation
 
-<div align=center> Table.3 The summary of resolution criterion values (Rc) for 20 types of samples. </div><br/>
-
-<div align=center><img src="/publications/imgs/sFocusNet/r6.png" width=750></div>
+<div align=center><img src="/publications/imgs/sFocusNet/r5.png" width=750></div>
 
 **Fig.7** Coarse distance estimation of 20 types of samples by using different frequency-domain simulation-driven networks. (a–e), (f–j), and (k–o) are focusing error plots with the training step size from 0.03mm to 0.07mm for SE-ResNet, MobileNetV3, and sFocusNet, respectively.
+
+<div align=center><img src="/publications/imgs/sFocusNet/r6.png" width=450></div>
+
+<div align=center> Table.3 Performance comparison of different simulation-driven networks for Fig.7. </div><br/>
 
 <div align=center><img src="/publications/imgs/sFocusNet/r7.png"></div>
 
 <div align=center> Table.4 The comparison of running time for different metrics. </div><br/>
+
+## Validation on the network generalization
 
 <div align=center><img src="/publications/imgs/sFocusNet/r8.png" width=700></div>
 
@@ -72,7 +103,7 @@ Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages
 
 <div align=center><img src="/publications/imgs/sFocusNet/r10.png" width=450></div>
 
-<div align=center> Table.5 Performance comparison of different experiment-driven networks for Fig.9 </div><br/>
+<div align=center> Table.5 Performance comparison of different experiment-driven networks for Fig.9. </div><br/>
 
 # Conclusion
 
