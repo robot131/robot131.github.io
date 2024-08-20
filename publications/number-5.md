@@ -36,11 +36,11 @@ Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages
 
 <div align=center><img src="/publications/imgs/sFocusNet/r5.png"></div>
 
-<div align=center><img src="/publications/imgs/sFocusNet/r6.png"></div>
+<div align=center><img src="/publications/imgs/sFocusNet/r6.png" width=750></div>
 
 <div align=center><img src="/publications/imgs/sFocusNet/r7.png"></div>
 
-<div align=center><img src="/publications/imgs/sFocusNet/r8.png" width=750></div>
+<div align=center><img src="/publications/imgs/sFocusNet/r8.png" width=700></div>
 
 <div align=center><img src="/publications/imgs/sFocusNet/r9.png" width=750></div>
 
