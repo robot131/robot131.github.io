@@ -30,21 +30,21 @@ Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages
 
 <div align=center><img src="/publications/imgs/sFocusNet/r2.png" width=500></div>
 
-<div align=center><img src="/publications/imgs/sFocusNet/r3.png" width=700></div>
+<div align=center><img src="/publications/imgs/sFocusNet/r3.png"></div>
 
-<div align=center><img src="/publications/imgs/sFocusNet/r4.png" width=700></div>
+<div align=center><img src="/publications/imgs/sFocusNet/r4.png"></div>
 
-<div align=center><img src="/publications/imgs/sFocusNet/r5.png" width=700></div>
+<div align=center><img src="/publications/imgs/sFocusNet/r5.png"></div>
 
-<div align=center><img src="/publications/imgs/sFocusNet/r6.png" width=700></div>
+<div align=center><img src="/publications/imgs/sFocusNet/r6.png"></div>
 
-<div align=center><img src="/publications/imgs/sFocusNet/r7.png" width=700></div>
+<div align=center><img src="/publications/imgs/sFocusNet/r7.png"></div>
 
 <div align=center><img src="/publications/imgs/sFocusNet/r8.png" width=700></div>
 
-<div align=center><img src="/publications/imgs/sFocusNet/r9.png" width=700></div>
+<div align=center><img src="/publications/imgs/sFocusNet/r9.png"></div>
 
-<div align=center><img src="/publications/imgs/sFocusNet/r10.png" width=700></div>
+<div align=center><img src="/publications/imgs/sFocusNet/r10.png"></div>
 
 # Conclusion
 
