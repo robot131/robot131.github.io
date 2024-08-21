@@ -204,7 +204,7 @@ In our design, we hope the focusing errors of sFocusNet can be decreased to a mi
 
 **Fig.7** Coarse distance estimation of 20 types of samples by using different frequency-domain simulation-driven networks. (a–e), (f–j), and (k–o) are focusing error plots with the training step size from 0.03mm to 0.07mm for SE-ResNet, MobileNetV3, and sFocusNet, respectively. 
 
-Considering the coarse-tuning feature of sFocusNet, we use it to output the coarse position and then perform RoG metric for distance fine-tuning. To quantitatively show the performance of the networks, the ratios of focusing error \\( \in [ - \Delta z,\Delta z]\\) are listed in Tab.4. By comparing the results of Figs.7(k-o), we can find that the best step size is 0.05mm for sFocusNet and the corresponding distance searching limitation is \\( \pm \\) 0.05mm, in which the accuracy of coarse tuning maintains to be optimal.
+Considering the coarse-tuning feature of sFocusNet, we use it to output the coarse position and then perform RoG metric for distance fine-tuning. The ratios of focusing error \\( \in [ - \Delta z,\Delta z]\\) are listed in Tab.4. By comparing the results of Figs.7(k-o), we can find that the best step size is 0.05mm for sFocusNet and the corresponding distance searching limitation is \\( \pm \\) 0.05mm, in which the accuracy of coarse tuning maintains to be optimal.
 
 <div align=center><img src="/publications/imgs/sFocusNet/r66.png" width=450></div>
 
