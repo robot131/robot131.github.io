@@ -136,21 +136,33 @@ As shown in Fig.5(a), three groups of distances can be estimated as follows: z=1
 
 ### Pathological slide
 
-The auto-focusing results of an H&E-stained pathological slide of testis of fish are offered in Fig.6. The sharpness curve of the intensity pattern at the first height is plotted in Fig.6(a) and its highlighted curve is zoomed in Fig.6(b).
+The auto-focusing results of an H&E-stained pathological slide of testis of fish are offered in Fig.6. The sharpness curve of the intensity pattern at the first height is plotted in Fig.6(a) and its highlighted curve is zoomed in Fig.6(b). The multi-height distances of all metrics are estimated in Tab. 1, in which the distances are grouped into three kinds: Group I (SPEC), Group II (GRA, LAP, Tenengrad, SG), and Group III (ToG, NoG, RoG). With the above multi-height distances, the amplitude images of the slide are retrieved in Figs. 7(c-e). The corresponding highlighted regions are expanded in Figs. 7(f-h).
+
+It is noted that the retrieved image in Fig. 7(f) is blurred and the tissue details cannot be distinguished, which means that the distances of Group I are not accurate. To further show the difference between Fig. 7(g) and Fig. 7(h), we crop the yellow regions with a size of 107μm×107μm and expand the regions in Fig. 7(i) and Fig. 7(j). As pointed out by the red arrows, the cell nucleus of Fig. 7(j) has a sharper morphology than that of Fig. 7(i). 
+
+<div align=center><img src="/publications/imgs/sFocusNet/T1.png" width=500></div>
+
+<div align=center> Table.1 The estimated distances by using different sharpness metrics for testis of fish. </div><br/>
 
 <div align=center><img src="/publications/imgs/sFocusNet/r2.png" width=500></div>
 
 **Fig.6** The auto-focusing results of testis of fish. (a) The sharpness curves of the captured intensity at the first height. (b) is the magnified curve from the red box in (a). (c–e) are reconstructed by the estimated distances of Group I, Group II, and Group III. (f–j) are expanded regions cropped from (c–e).
 
+In addition to the above samples, we carry out 17 additional samples to compare the applicability of different metrics. The subjective assessment results of different metrics are listed in Tab. 2, where \\(‘\checkmark’\\) denotes successful distance estimation and \\(‘\XSolid’\\) means an unsuccessful auto-focusing result. The average running time of GRA, LAP, SPEC, Tenengrad, SG, ToG, NoG, and RoG is calculated as 23.2s, 36.9s, 20.9s, 24.2s, 24.1s, 34.5s, 49.8s, and 69.1s, in which the central region of 1000×1000 from multi-height patterns is cropped for time computation.
+
 <div align=center><img src="/publications/imgs/sFocusNet/r3.png"></div>
 
-<div align=center> Table.1 The auto-focusing performance summary of subjective assessment for 20 types of samples. </div><br/>
+<div align=center> Table.2 The auto-focusing performance summary of subjective assessment for 20 types of samples. </div><br/>
+
+For objective assessment, the summarized results \\(A_C\\) are listed in Tab.3, respectively. It is noted that our RoG metric realizes the smallest values for both objective assessment results, which demonstrate the higher accuracy and better unimodality of our method.
 
 <div align=center><img src="/publications/imgs/sFocusNet/r4.png"></div>
 
-<div align=center> Table.2 The summary of accuracy criterion values (Ac) for 20 types of samples. </div><br/>
+<div align=center> Table.3 The summary of accuracy criterion values (Ac) for 20 types of samples. </div><br/>
 
 ## sFocusNet validation
+
+
 
 <div align=center><img src="/publications/imgs/sFocusNet/r5.png" width=750></div>
 
@@ -158,11 +170,11 @@ The auto-focusing results of an H&E-stained pathological slide of testis of fish
 
 <div align=center><img src="/publications/imgs/sFocusNet/r6.png" width=450></div>
 
-<div align=center> Table.3 Performance comparison of different simulation-driven networks for Fig.7. </div><br/>
+<div align=center> Table.4 Performance comparison of different simulation-driven networks for Fig.7. </div><br/>
 
 <div align=center><img src="/publications/imgs/sFocusNet/r7.png"></div>
 
-<div align=center> Table.4 The comparison of running time for different metrics. </div><br/>
+<div align=center> Table.5 The comparison of running time for different metrics. </div><br/>
 
 ## Validation on the network generalization
 
@@ -176,7 +188,7 @@ The auto-focusing results of an H&E-stained pathological slide of testis of fish
 
 <div align=center><img src="/publications/imgs/sFocusNet/r10.png" width=450></div>
 
-<div align=center> Table.5 Performance comparison of different experiment-driven networks for Fig.9. </div><br/>
+<div align=center> Table.6 Performance comparison of different experiment-driven networks for Fig.9. </div><br/>
 
 # Conclusion
 
