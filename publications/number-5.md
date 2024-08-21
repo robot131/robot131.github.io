@@ -67,9 +67,32 @@ The flowchart of network training is given in Fig. 3(b).  A cross-entropy loss f
 
 ## Regularization of gradient metric (RoG)
 
-With the coarse range of the estimated distance, the next step is to propagate the recorded hologram to generate a Z-stack of back-propagated images and then construct a sharpness function to quantitatively assess the Z-stacked data so that an accurate diffractive distance can be obtained. Here, we combine the squared gradient map with the RED prior to form a regularization of gradient (RoG) metric for sharpness quantification. Based on the RoG metric, the detailed process of auto-focusing can be generalized as: $e_r, r \in [1,R]$
+With the coarse range of the estimated distance, the next step is to propagate the recorded hologram to generate a Z-stack of back-propagated images and then construct a sharpness function to quantitatively assess the Z-stacked data so that an accurate diffractive distance can be obtained. Here, we combine the squared gradient map with the RED prior to form a regularization of gradient (RoG) metric for sharpness quantification. Based on the RoG metric, the detailed process of auto-focusing can be generalized as:
 
 1. Assuming that the searching distance is \\(e_r, r \in [1,R] \\), the Z-stack of images are obtained by the back-propagation of the recorded holograms:
+$$
+\displaylines{
+{S_r}{\rm{ = }}{{{\cal F}}^{ - 1}}\left[ {{{\cal F}}\left( {\sqrt {{I_m}} } \right) \odot H_r^*\left( {{e_r}} \right)} \right], r = 1,2,...,R,
+}
+$$
+where \\(H_r^*\\) is a back-propagation frequency transfer function with the distance of \\(e_r\\) . \\(m\\) is the position index of multi-height measurement. 
+
+2. The squared gradient maps of the Z-stack data are calculated as:
+$$
+\displaylines{
+{G_r} = {\left| {\nabla \left( {{S_r}} \right)} \right|^2} = {\left| {{\nabla _x}\left( {{S_r}} \right)} \right|^2} + {\left| {{\nabla _y}\left( {{S_r}} \right)} \right|^2}}
+$$ 
+
+where \\({\nabla _x}\\) and \\({\nabla _y}\\) denote the gradient operators of \\(x\\) and \\(y\\) directions, respectively.
+
+3. Calculating the RoG metric and taking its average through all pixels as the final value to assess the sharpness change, which is expressed as follows:
+$$
+\displaylines{
+{G_r} = {\left| {\nabla \left( {{S_r}} \right)} \right|^2} = {\left| {{\nabla _x}\left( {{S_r}} \right)} \right|^2} + {\left| {{\nabla _y}\left( {{S_r}} \right)} \right|^2}}
+$$ 
+
+where \\(N_x\\) and \\(N_y\\) denote the pixel number along x and y directions. The flowchart of auto-focusing using RoG metric is illustrated in Fig.4.
+
 
 <div align=center><img src="/publications/imgs/sFocusNet/ROG.png" width=700></div>
 
