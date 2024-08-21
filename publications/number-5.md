@@ -5,7 +5,8 @@ title: "Lensfree auto-focusing imaging with coarse-to-fine tuning method"
 
 ### Published on: 06/02/2024 &emsp; in [*Optics and Lasers in Engineering*](https://www.sciencedirect.com/journal/optics-and-lasers-in-engineering)
 
-In this work, we propose a coarse-to-fine tuning method to realize fast and robust lensfree auto-focusing imaging. In our method, a pre-defined simulation-driven focus network (sFocusNet) is constructed to find the coarse estimation of diffractive distances and output the searching range. Then, a new sharpness metric, regularization of gradient (RoG), is constructed with the combination of self-similarity prior and squared gradient map to get the final estimation within the searching range. With the obtained diffractive distances, a multi-height phase retrieval based on plug-and-play regularization is used for final image recovery. The experimental results on different samples are given to show the superiority of our method.
+
+In this work, we propose a coarse-to-fine tuning method to realize fast and robust lensfree auto-focusing imaging. In our method, a pre-defined simulation-driven focus network (sFocusNet) is constructed to find the coarse estimation of diffractive distances and output the searching range. Then, a new sharpness metric, regularization of gradient (RoG), is constructed with the combination of self-similarity prior and squared gradient map to get the final estimation within the searching range. With the obtained diffractive distances, a multi-height phase retrieval based on plug-and-play regularization is used for final image recovery. The experimental results on different samples are given to show the superiority of our method. $\hat{\omega_n}$
 
 DOI: [10.1016/j.optlaseng.2024.108366](https://doi.org/10.1016/j.optlaseng.2024.108366)
 
@@ -37,11 +38,24 @@ In the fine tuning step, the distance searching range obtained from the coarse t
 
 ### Architecture of sFocusNet
 
+The architecture of our simulation-driven network is shown in Fig. 2. As shown in Fig. 2(a), the overall network is formulated by butterfly transform, relative attention, feedforward, and down-sampling modules, which are stacked and cascaded into five stages, i.e., S0, S1, S2, S3, and S4. From S0 to S4, the image resolution decreases to half of the preceding stage, and the number of channels increases.
+
+The basic structures of butterfly transform, Rel-Attention, feedforward, and down-sampling modules are shown in Fig. 2(b–e), respcetively. 
++ The butterfly transform convolution layer (BFTConv1x1) uses a pointwise convolution with a kernel size of 1x1xM, aggregating the feature map from the previous layer in a depthwise manner to produce a new feature map.
++ The Rel-Attention module is built based on the self-attention mechanism, which linearly decomposes the input into three matrices: Query, Key, and Value, and then computes the output using dynamic weights.
++ The FFM module linearly transforms data through fully connected layers and introduces non-linear mapping using the GELU activation function.
+
 <div align=center><img src="/publications/imgs/sFocusNet/network.png" width=800></div>
 
 **Fig.2** The architecture of simulation-driven focus network (sFocusNet). (a) Basic architecture. (b) Butterfly transform module. (c) Relative attention module. (d) Feedforward module (FFM). (e) Down-sampling module. The red arrows and symbol ‘*’ denote the skip connection and the butterfly transform, respectively.
 
 ### Dataset Generation
+
+As shown in Fig. 3(a), the detail of simulated dataset generation can be generalized as follows:
+
+1. 13 photographic images with a size of 3000×3000, including plant, animal, and landscape, are selected and normalized as the amplitude image \\((A)\\) of the object, and the corresponding phase images are produced by setting \\(P = \quad \pi (1 − A)\\),where \\( \quad \\) is a random value from 0 to 0.5.
+2.  the obtained wavefield of the object \\((Ae^{iP})\\) is forward propagated by angular spectrum model with a set of diffractive distances to generate multi-distance intensity patterns \\( W_n \\)
+3.  The intensity patterns (3000×3000×N ×13) are cropped into a mass of image patches \\( \hat{\omega_n} \\) with a size of 224×224 pixels.
 
 <div align=center><img src="/publications/imgs/sFocusNet/data_generate.png" width=450></div>
 
