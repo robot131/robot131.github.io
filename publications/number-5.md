@@ -52,7 +52,7 @@ The basic structures of butterfly transform, Rel-Attention, feedforward, and dow
 
 As shown in Fig. 3(a), the detail of simulated dataset generation can be generalized as follows:
 
-1. 13 photographic images with a size of 3000×3000, including plant, animal, and landscape, are selected and normalized as the amplitude image \\((A)\\) of the object, and the corresponding phase images are produced by setting \\(P = \quad \pi (1 − A)\\),where \\( \quad \\) is a random value from 0 to 0.5.
+1. 13 photographic images with a size of 3000×3000, including plant, animal, and landscape, are selected and normalized as the amplitude image \\((A)\\) of the object, and the corresponding phase images are produced by setting \\(P = \varepsilon \pi (1 − A)\\),where \\( \varepsilon \\) is a random value from 0 to 0.5.
 2.  the obtained wavefield of the object \\((Ae^{iP})\\) is forward propagated by angular spectrum model with a set of diffractive distances to generate multi-distance intensity patterns \\(W_n\\)
 3.  The intensity patterns (3000×3000×N ×13) are cropped into a mass of image patches \\(\overline{\omega_n}\\) with a size of 224×224 pixels.
 4.  The small patches are transferred by fast Fourier transform into frequency-domain dataset and then labelled with the corresponding distances.
@@ -162,15 +162,23 @@ For objective assessment, the summarized results \\(A_C\\) are listed in Tab.3, 
 
 ## sFocusNet validation
 
+RoG metric exhibits good robustness, accuracy, and unimodality, but its running time is constrained by layer-by-layer time-consuming computation. In this section, we perform sFocusNet to shorten the distance searching range for RoG metric and further increase the computational speed for auto-focusing imaging. We choose the step size of training distance as 0.07mm, 0.06mm, 0.05mm, 0.04mm, and 0.03mm to learn five simulation-driven networks. The corresponding training data size amounts to 47190, 55055, 64493, 80223, and 106964. Two conventional auto-focusing networks, including SE-ResNet and MobileNetV3, are used to form the comparison group. 20 types of samples in Tab. 2 are used to test the performance of SE-ResNet, MobileNetV3, and sFocusNet.
 
+As the coarse distances are subtracted from the real distances, the focusing error values of different networks are given in Fig.7. The horizontal axis denotes the real distances and the vertical axis represents the focusing errors between real distances and the network’s outputs. In our design, we hope the focusing errors of sFocusNet can be decreased to a minimum. As shown in Figs.7(a-e) and Figs.7(f-j), the focusing error values are messily distributed and their biggest errors obviously exceed the range \\([ - \Delta z,\Delta z]\\).
+
+In contrast, the biggest focusing error values of sFocusNet are ±0.07mm, ±0.06mm, and ±0.05mm for Fig.7(k), Fig.7(l) and Fig.7(m). When the training step size is decreased to 0.04mm and 0.03mm, the biggest error of sFocusNet exceeds the range \\([ - \Delta z,\Delta z]\\). 
 
 <div align=center><img src="/publications/imgs/sFocusNet/r5.png" width=750></div>
 
-**Fig.7** Coarse distance estimation of 20 types of samples by using different frequency-domain simulation-driven networks. (a–e), (f–j), and (k–o) are focusing error plots with the training step size from 0.03mm to 0.07mm for SE-ResNet, MobileNetV3, and sFocusNet, respectively.
+**Fig.7** Coarse distance estimation of 20 types of samples by using different frequency-domain simulation-driven networks. (a–e), (f–j), and (k–o) are focusing error plots with the training step size from 0.03mm to 0.07mm for SE-ResNet, MobileNetV3, and sFocusNet, respectively. 
 
-<div align=center><img src="/publications/imgs/sFocusNet/r6.png" width=450></div>
+Considering the coarse-tuning feature of sFocusNet, we use it to output the coarse position and then perform RoG metric for distance fine-tuning. To quantitatively show the performance of the networks, the ratios of focusing error \\( \in [ - \Delta z,\Delta z]\\) are listed in Tab.4. By comparing the results of Figs.7(k-o), we can find that the best step size is 0.05mm for sFocusNet and the corresponding distance searching limitation is \\( \pm \\) 0.05mm, in which the accuracy of coarse tuning maintains to be optimal.
+
+<div align=center><img src="/publications/imgs/sFocusNet/r66.png" width=450></div>
 
 <div align=center> Table.4 Performance comparison of different simulation-driven networks for Fig.7. </div><br/>
+
+The running time of all metrics has been arranged in Tab.5.
 
 <div align=center><img src="/publications/imgs/sFocusNet/r7.png"></div>
 
@@ -178,13 +186,24 @@ For objective assessment, the summarized results \\(A_C\\) are listed in Tab.3, 
 
 ## Validation on the network generalization
 
+We select new three commercial pathological slides as the sample and use a new CMOS sensor (IMX386, pixel: 1.25μm, Sony) for data measurement. Then we apply our method with new recorded datasets to validate the generalization. As shown in Fig. 8(a), the selected slides include human kidney, human tongue fungiform papillae, and human endometriosis of ovary. The result in Fig.8(b) shows that our sFocusNet is robust to sample and sensor types. As an example, the auto-focusing curves of coarse-to-fine tuning at five heights are displayed in Figs.8(c-e) for the three stained slides. With the five distances, the amplitude images of different slides are reconstructed in Figs.8(f-h). We can find that all the samples are reconstructed clearly.
+
 <div align=center><img src="/publications/imgs/sFocusNet/r8.png" width=700></div>
 
-**Fig.8** The generalization validation of our method on new commercial pathological slides and new imaging sensor. (a) The used three commercial pathological slides. (b) is the focusing error plot of the new recorded experimental datasets for our sFocusNet. (c–e) are auto-focusing curves by using coarse-to-fine tuning. (f–h) are retrieved amplitude images of the three slides using the estimated distances from (c–e).
+**Fig.8** The generalization validation of our method on new commercial pathological slides and new imaging sensor. (a) The used three commercial pathological slides. (b) is the focusing error plot of the new recorded experimental datasets for our sFocusNet. (c–e) are auto-focusing curves by using coarse-to-fine tuning. (f–h) are retrieved amplitude images of the three slides using the estimated distances from (c–e). 
+
+We also retrain SE-ResNet, MobileNetV3, and our sFocusNet with these three groups of experimental datasets to show the weak generalization of data-driven supervised CNN models. Considering that three groups datasets of stained slides are captured, we arrange the cross-validation modalities into two folds: 
+
+1. One sample is used for training and another two samples are used for testing.
+2. Two samples are used for training and another one sample is used for testing.
+
+The corresponding focusing error values are plotted in Fig.9. The results of Fig.9 demonstrate that the generalization and robustness of experiment-driven supervised CNN models are limited in the training range defined by the used dataset. 
 
 <div align=center><img src="/publications/imgs/sFocusNet/r9.png" width=750></div>
 
 **Fig.9** The auto-focusing performance by using cross-validation for frequency-domain experiment-driven networks. (a–c) are focusing error plots of three networks when the paired datasets from one sample are used for training. (d–f) are focusing error plots of three networks when the paired datasets from two samples are used for training.
+
+To quantitatively show this issue, we calculate the accuracy ratio of auto-focusing in Tab.6. It is noted that the accuracy ratios of three networks are less than 50%.
 
 <div align=center><img src="/publications/imgs/sFocusNet/r10.png" width=450></div>
 
