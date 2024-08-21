@@ -5,7 +5,6 @@ title: "Lensfree auto-focusing imaging with coarse-to-fine tuning method"
 
 ### Published on: 06/02/2024 &emsp; in [*Optics and Lasers in Engineering*](https://www.sciencedirect.com/journal/optics-and-lasers-in-engineering)
 
-
 In this work, we propose a coarse-to-fine tuning method to realize fast and robust lensfree auto-focusing imaging. In our method, a pre-defined simulation-driven focus network (sFocusNet) is constructed to find the coarse estimation of diffractive distances and output the searching range. Then, a new sharpness metric, regularization of gradient (RoG), is constructed with the combination of self-similarity prior and squared gradient map to get the final estimation within the searching range. With the obtained diffractive distances, a multi-height phase retrieval based on plug-and-play regularization is used for final image recovery. The experimental results on different samples are given to show the superiority of our method. 
 
 DOI: [10.1016/j.optlaseng.2024.108366](https://doi.org/10.1016/j.optlaseng.2024.108366)
@@ -106,7 +105,24 @@ $$
 
 # Experimental results
 
+In experiment, we build a multi-height lensfree microscope to validate our method. In this system, a laser source with a wavelength of 532nm is expanded and collimated for plane wave illumination. Resolution target, homemade and commercial stained pathological slides, label-free cell, and random amplitude mask are orderly loaded as the samples for auto-focusing imaging. 
+
+In data recording, the sample is closely held on a bare CMOS sensor chip (IMX206, pixel: 1.34 \\(\mu m\\), Sony) to form a near-field on-chip setup, where the sensor is installed on a motorized stage to capture multi-plane intensity images at five heights. The central regions with a size of 1000×1000 are cropped and used for auto-focusing imaging. 
+
+In data processing, the captured images are firstly input into auto-focusing methods to acquire diffractive distances and then fed into the MDPR-PnP algorithm for image reconstruction.
+
 ## RoG validation
+
+We prepare objective and subjective assessment criterions to judge the auto-focusing performance of the sharpness metrics.
+
++ Subjective assessment: We use all sharpness metrics to deal with intensity patterns to output a set of estimated distances, and then run the MDPR-PnP algorithm with the estimated distances for image reconstruction. By using visual discrimination on the retrieved images, we can find whether or not the real distances are accurately obtained by the metrics.
++ Objective assessment, we choose accuracy criterions, to further determine the auto-focusing performance of sharpness curves. The accuracy criterion of an auto-focusing sharpness curve is defined as:
+
+$$
+\displaylines{
+{A_c} = \left| {{e_{ + \Delta }} - {e_{ - \Delta }}} \right|,
+}
+$$ 
 
 ### Resolution target
 
