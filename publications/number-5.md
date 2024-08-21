@@ -54,9 +54,9 @@ In the fine tuning step, the distance searching range obtained from the coarse t
 
 **Fig.1** Experimental configuration and workflow of our method. (a) Workflow of coarse-to-fine auto-focusing method. (b) Flowchart of coarse tuning using simulation-driven focus network (sFocusNet). (c) Flowchart of fine tuning using RoG metric.
 
-## Simulation-driven focus network (sFocusNet) <span id="jump1_2"></span>
-
 [Back to the top](#jump_top)
+
+## Simulation-driven focus network (sFocusNet) <span id="jump1_2"></span>
 
 ### Architecture of sFocusNet <span id="jump1_2_1"></span>
 
