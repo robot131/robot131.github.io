@@ -92,7 +92,7 @@ where \\({\nabla _x}\\) and \\({\nabla _y}\\) denote the gradient operators of \
 
 $$
 \displaylines{
-{\rm{RoG}}(r) = \frac{1}{{{N_x}{N_y}}}\sum\limits_{x = 1}^{{N_x}} {\sum\limits_{y = 1}^{{N_y}} { \left\{ {{G_r}^T \left[ {{G_r} - {D_\sigma } \left( {{G_r}} \right)} \right]} \right\} }}.
+{\rm{RoG}}(r) = \frac{1}{{{N_x}{N_y}}}\sum\limits_{x = 1}^{{N_x}} {\sum\limits_{y = 1}^{{N_y}} { {{G_r}^T \left[ {{G_r} - {D_\sigma } \left( {{G_r}} \right)} \right]} }}.
 $$ 
 
 where \\(N_x\\) and \\(N_y\\) denote the pixel number along x and y directions. The flowchart of auto-focusing using RoG metric is illustrated in Fig.4.
