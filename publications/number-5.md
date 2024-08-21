@@ -13,11 +13,32 @@ DOI: [10.1016/j.optlaseng.2024.108366](https://doi.org/10.1016/j.optlaseng.2024.
 
 Backward Links: [Publications](../_pages/publications.md) / [About Me](../_pages/about.md) / [Research](../_pages/research.md)
 
-# Method
+<span id="jump_top"></span>
+
+## Abstract: 
+
++ [Method](#jump1)
+  + [Method Overview](#jump1_1)
+    + Coarse Tuning
+    + Fine Tuning
+  + [Simulation-driven focus network (sFocusNet)](#jump1_2)
+    + [Architecture of sFocusNet](#jump1_2_1)
+    + [Dataset Generation](#jump1_2_2)
+  + [Regularization of gradient metric (RoG)](#jump1_3)
++ [Experimental Results](#jump2)
+  + [RoG validation](#jump2_1)
+    + [Resolution target](#jump2_1_1)
+    + [Pathological slide](#jump2_1_2)
+  + [sFocusNet validation](#jump2_2)
+  + [Validation on the network generalization](#jump2_3)
++ [Conclusion](#jump3)
+
+
+# Method <span id="jump1"></span>
 
 In our method, a simulation-driven focus network (sFocusNet) is designed as a coarse tuning to decrease the distance searching range, and then a regularization of gradient (RoG) metric is constructed as a fine tuning to achieve an accurate estimation. In this section, each part of our method will be introduced in details.
 
-## Method Overview
+## Method Overview <span id="jump1_1"></span>
 
 As shown in Fig. 1(a), we apply our method in a multi-height lensfree on-chip platform to realize auto-focusing imaging. In our method, a set of intensity patterns are captured at different heights and then processed by our method to output the real diffractive distances. As shown in Fig.1(b) and (c), our method is composed of coarse tuning and fine tuning.
 
@@ -33,9 +54,11 @@ In the fine tuning step, the distance searching range obtained from the coarse t
 
 **Fig.1** Experimental configuration and workflow of our method. (a) Workflow of coarse-to-fine auto-focusing method. (b) Flowchart of coarse tuning using simulation-driven focus network (sFocusNet). (c) Flowchart of fine tuning using RoG metric.
 
-## Simulation-driven focus network (sFocusNet)
+## Simulation-driven focus network (sFocusNet) <span id="jump1_2"></span>
 
-### Architecture of sFocusNet
+[Back to the top](#jump_top)
+
+### Architecture of sFocusNet <span id="jump1_2_1"></span>
 
 The architecture of our simulation-driven network is shown in Fig. 2. As shown in Fig. 2(a), the overall network is formulated by butterfly transform, relative attention, feedforward, and down-sampling modules, which are stacked and cascaded into five stages, i.e., S0, S1, S2, S3, and S4. From S0 to S4, the image resolution decreases to half of the preceding stage, and the number of channels increases.
 
@@ -48,7 +71,9 @@ The basic structures of butterfly transform, Rel-Attention, feedforward, and dow
 
 **Fig.2** The architecture of simulation-driven focus network (sFocusNet). (a) Basic architecture. (b) Butterfly transform module. (c) Relative attention module. (d) Feedforward module (FFM). (e) Down-sampling module. The red arrows and symbol ‘*’ denote the skip connection and the butterfly transform, respectively.
 
-### Dataset Generation
+[Back to the top](#jump_top)
+
+### Dataset Generation <span id="jump1_2_2"></span>
 
 As shown in Fig. 3(a), the detail of simulated dataset generation can be generalized as follows:
 
@@ -64,7 +89,9 @@ The flowchart of network training is given in Fig. 3(b).  A cross-entropy loss f
 
 <div align=center> Fig.3 The flowchart of dataset generation and network training. </div><br/>
 
-## Regularization of gradient metric (RoG)
+[Back to the top](#jump_top)
+
+## Regularization of gradient metric (RoG) <span id="jump1_3"></span>
 
 With the coarse range of the estimated distance, the next step is to propagate the recorded hologram to generate a Z-stack of back-propagated images and then construct a sharpness function to quantitatively assess the Z-stacked data so that an accurate diffractive distance can be obtained. Here, we combine the squared gradient map with the RED prior to form a regularization of gradient (RoG) metric for sharpness quantification. Based on the RoG metric, the detailed process of auto-focusing can be generalized as:
 
@@ -102,8 +129,9 @@ $$
 
 <div align=center> Fig.4 Flowchart of auto-focusing using Regularization of gradient metric (RoG). </div><br/>
 
+[Back to the top](#jump_top)
 
-# Experimental results
+# Experimental results <span id="jump2"></span>
 
 In experiment, we build a multi-height lensfree microscope to validate our method. In this system, a laser source with a wavelength of 532nm is expanded and collimated for plane wave illumination. Resolution target, homemade and commercial stained pathological slides, label-free cell, and random amplitude mask are orderly loaded as the samples for auto-focusing imaging. 
 
@@ -111,7 +139,7 @@ In data recording, the sample is closely held on a bare CMOS sensor chip (IMX206
 
 In data processing, the captured images are firstly input into auto-focusing methods to acquire diffractive distances and then fed into the MDPR-PnP algorithm for image reconstruction.
 
-## RoG validation
+## RoG validation <span id="jump2_1"></span>
 
 We prepare objective and subjective assessment criterions to judge the auto-focusing performance of the sharpness metrics.
 
@@ -124,7 +152,9 @@ $$
 }
 $$ 
 
-### Resolution target
+[Back to the top](#jump_top)
+
+### Resolution target <span id="jump2_1_1"></span>
 
 The auto-focusing results of resolution target (USAF 1951, Edmund) are shown in Fig.5. As the intensity pattern of the target is processed by all sharpness metrics, the auto-focusing curves are plotted in Fig. 6(a) and the selected curves captured from the orange region are enlarged in Fig.5(b).
 
@@ -134,7 +164,9 @@ As shown in Fig.5(a), three groups of distances can be estimated as follows: z=1
 
 **Fig.5** The auto-focusing results of resolution target. (a) Sharpness curves. (b) is zoomed-in curve from (a) and Ac values are labelled. (c–e) are the back-propagated results by using the estimated distance of 1.02mm, 1.64mm, and 2.00mm. 
 
-### Pathological slide
+[Back to the top](#jump_top)
+
+### Pathological slide <span id="jump2_1_2"></span>
 
 The auto-focusing results of an H&E-stained pathological slide of testis of fish are offered in Fig.6. The sharpness curve of the intensity pattern at the first height is plotted in Fig.6(a) and its highlighted curve is zoomed in Fig.6(b). The multi-height distances of all metrics are estimated in Tab. 1, in which the distances are grouped into three kinds: Group I (SPEC), Group II (GRA, LAP, Tenengrad, SG), and Group III (ToG, NoG, RoG). With the above multi-height distances, the amplitude images of the slide are retrieved in Figs. 7(c-e). The corresponding highlighted regions are expanded in Figs. 7(f-h).
 
@@ -160,7 +192,9 @@ For objective assessment, the summarized results \\(A_C\\) are listed in Tab.3, 
 
 <div align=center> Table.3 The summary of accuracy criterion values (Ac) for 20 types of samples. </div><br/>
 
-## sFocusNet validation
+[Back to the top](#jump_top)
+
+## sFocusNet validation <span id="jump2_2"></span>
 
 RoG metric exhibits good robustness, accuracy, and unimodality, but its running time is constrained by layer-by-layer time-consuming computation. In this section, we perform sFocusNet to shorten the distance searching range for RoG metric and further increase the computational speed for auto-focusing imaging. We choose the step size of training distance as 0.07mm, 0.06mm, 0.05mm, 0.04mm, and 0.03mm to learn five simulation-driven networks. The corresponding training data size amounts to 47190, 55055, 64493, 80223, and 106964. Two conventional auto-focusing networks, including SE-ResNet and MobileNetV3, are used to form the comparison group. 20 types of samples in Tab. 2 are used to test the performance of SE-ResNet, MobileNetV3, and sFocusNet.
 
@@ -184,7 +218,9 @@ The running time of all metrics has been arranged in Tab.5.
 
 <div align=center> Table.5 The comparison of running time for different metrics. </div><br/>
 
-## Validation on the network generalization
+[Back to the top](#jump_top)
+
+## Validation on the network generalization <span id="jump2_3"></span>
 
 We select new three commercial pathological slides as the sample and use a new CMOS sensor (IMX386, pixel: 1.25μm, Sony) for data measurement. Then we apply our method with new recorded datasets to validate the generalization. As shown in Fig. 8(a), the selected slides include human kidney, human tongue fungiform papillae, and human endometriosis of ovary. The result in Fig.8(b) shows that our sFocusNet is robust to sample and sensor types. As an example, the auto-focusing curves of coarse-to-fine tuning at five heights are displayed in Figs.8(c-e) for the three stained slides. With the five distances, the amplitude images of different slides are reconstructed in Figs.8(f-h). We can find that all the samples are reconstructed clearly.
 
@@ -205,10 +241,14 @@ The corresponding focusing error values are plotted in Fig.9. The results of Fig
 
 To quantitatively show this issue, we calculate the accuracy ratio of auto-focusing in Tab.6. It is noted that the accuracy ratios of three networks are less than 50%.
 
-<div align=center><img src="/publications/imgs/sFocusNet/r10.png" width=450></div>
+<div align=center><img src="/publications/imgs/sFocusNet/r10.png" width=500></div>
 
 <div align=center> Table.6 Performance comparison of different experiment-driven networks for Fig.9. </div><br/>
 
-# Conclusion
+[Back to the top](#jump_top)
+
+# Conclusion <span id="jump3"></span>
 
 In this paper, we have proposed a coarse-to-fine method, realizing fast and robust auto-focusing imaging for lensfree on-chip microscopes. 20 sets of samples are firstly used to prove that RoG metric outperforms other metrics with high robustness, accuracy, and unimodality. Then, the fast positioning of sFocusNet is proved and the running time of distance estimation can be decreased to ~4s for our method. Finally, new three commercial slides and a new CMOS sensor are used to conduct the extended experiment, which proves that our method shows better generalization than experiment-driven networks. We believe that our method will offer a practical auto-focusing solution for the commercialization of lensfree microscopes.
+
+[Back to the top](#jump_top)
