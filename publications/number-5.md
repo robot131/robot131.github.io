@@ -67,7 +67,9 @@ The flowchart of network training is given in Fig. 3(b).  A cross-entropy loss f
 
 ## Regularization of gradient metric (RoG)
 
+With the coarse range of the estimated distance, the next step is to propagate the recorded hologram to generate a Z-stack of back-propagated images and then construct a sharpness function to quantitatively assess the Z-stacked data so that an accurate diffractive distance can be obtained. Here, we combine the squared gradient map with the RED prior to form a regularization of gradient (RoG) metric for sharpness quantification. Based on the RoG metric, the detailed process of auto-focusing can be generalized as: $e_r, r \in [1,R]$
 
+1. Assuming that the searching distance is \\(e_r, r \in [1,R] \\), the Z-stack of images are obtained by the back-propagation of the recorded holograms:
 
 <div align=center><img src="/publications/imgs/sFocusNet/ROG.png" width=700></div>
 
