@@ -6,7 +6,7 @@ title: "Lensfree auto-focusing imaging with coarse-to-fine tuning method"
 ### Published on: 06/02/2024 &emsp; in [*Optics and Lasers in Engineering*](https://www.sciencedirect.com/journal/optics-and-lasers-in-engineering)
 
 
-In this work, we propose a coarse-to-fine tuning method to realize fast and robust lensfree auto-focusing imaging. In our method, a pre-defined simulation-driven focus network (sFocusNet) is constructed to find the coarse estimation of diffractive distances and output the searching range. Then, a new sharpness metric, regularization of gradient (RoG), is constructed with the combination of self-similarity prior and squared gradient map to get the final estimation within the searching range. With the obtained diffractive distances, a multi-height phase retrieval based on plug-and-play regularization is used for final image recovery. The experimental results on different samples are given to show the superiority of our method. $\overline{\omega_n}$
+In this work, we propose a coarse-to-fine tuning method to realize fast and robust lensfree auto-focusing imaging. In our method, a pre-defined simulation-driven focus network (sFocusNet) is constructed to find the coarse estimation of diffractive distances and output the searching range. Then, a new sharpness metric, regularization of gradient (RoG), is constructed with the combination of self-similarity prior and squared gradient map to get the final estimation within the searching range. With the obtained diffractive distances, a multi-height phase retrieval based on plug-and-play regularization is used for final image recovery. The experimental results on different samples are given to show the superiority of our method. 
 
 DOI: [10.1016/j.optlaseng.2024.108366](https://doi.org/10.1016/j.optlaseng.2024.108366)
 
@@ -54,14 +54,20 @@ The basic structures of butterfly transform, Rel-Attention, feedforward, and dow
 As shown in Fig. 3(a), the detail of simulated dataset generation can be generalized as follows:
 
 1. 13 photographic images with a size of 3000×3000, including plant, animal, and landscape, are selected and normalized as the amplitude image \\((A)\\) of the object, and the corresponding phase images are produced by setting \\(P = \quad \pi (1 − A)\\),where \\( \quad \\) is a random value from 0 to 0.5.
-2.  the obtained wavefield of the object \\((Ae^{iP})\\) is forward propagated by angular spectrum model with a set of diffractive distances to generate multi-distance intensity patterns \\( W_n \\)
-3.  The intensity patterns (3000×3000×N ×13) are cropped into a mass of image patches \\( \hat{\omega_n} \\) with a size of 224×224 pixels.
+2.  the obtained wavefield of the object \\((Ae^{iP})\\) is forward propagated by angular spectrum model with a set of diffractive distances to generate multi-distance intensity patterns \\(W_n\\)
+3.  The intensity patterns (3000×3000×N ×13) are cropped into a mass of image patches \\(\overline{\omega_n}\\) with a size of 224×224 pixels.
+4.  The small patches are transferred by fast Fourier transform into frequency-domain dataset and then labelled with the corresponding distances.
+5.  The diffractive distances \\(z_n\\) and frequency-domain image sets \\(\omega_n\\) form the paired dataset.
+
+The flowchart of network training is given in Fig. 3(b).  A cross-entropy loss function is used to mimic the difference between the input and output images.  An AdamW optimizer is applied to update the parameters of the network model.
 
 <div align=center><img src="/publications/imgs/sFocusNet/data_generate.png" width=450></div>
 
 <div align=center> Fig.3 The flowchart of dataset generation and network training. </div><br/>
 
 ## Regularization of gradient metric (RoG)
+
+
 
 <div align=center><img src="/publications/imgs/sFocusNet/ROG.png" width=700></div>
 
