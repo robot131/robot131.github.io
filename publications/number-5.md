@@ -126,11 +126,17 @@ $$
 
 ### Resolution target
 
+The auto-focusing results of resolution target (USAF 1951, Edmund) are shown in Fig.5. As the intensity pattern of the target is processed by all sharpness metrics, the auto-focusing curves are plotted in Fig. 6(a) and the selected curves captured from the orange region are enlarged in Fig.5(b).
+
+As shown in Fig.5(a), three groups of distances can be estimated as follows: z=1.02mm (ToG, NoG, RoG), z=1.64mm (SPEC), and z=2mm (GRA, LAP, Tenengrad, SG). With the three distances, the amplitude images of resolution target are refocused by back-propagation in Figs.5(c-e). It is noted that only z=1.02mm outputs clear line pairs for resolution target, which means that ToG, NoG, and RoG metrics realize an accurate distance estimation.
+
 <div align=center><img src="/publications/imgs/sFocusNet/r1.png" width=500></div>
 
-**Fig.5** The auto-focusing results of resolution target. (a) Sharpness curves. (b) is zoomed-in curve from (a) and Ac values are labelled. (c–e) are the back-propagated results by using the estimated distance of 1.02mm, 1.64mm, and 2.00mm.
+**Fig.5** The auto-focusing results of resolution target. (a) Sharpness curves. (b) is zoomed-in curve from (a) and Ac values are labelled. (c–e) are the back-propagated results by using the estimated distance of 1.02mm, 1.64mm, and 2.00mm. 
 
 ### Pathological slide
+
+The auto-focusing results of an H&E-stained pathological slide of testis of fish are offered in Fig.6. The sharpness curve of the intensity pattern at the first height is plotted in Fig.6(a) and its highlighted curve is zoomed in Fig.6(b).
 
 <div align=center><img src="/publications/imgs/sFocusNet/r2.png" width=500></div>
 
