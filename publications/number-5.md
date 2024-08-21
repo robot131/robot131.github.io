@@ -77,7 +77,7 @@ $$
 }
 $$
 
-  where \\(H_r^*\\) is a back-propagation frequency transfer function with the distance of \\(e_r\\) . \\(m\\) is the position index of multi-height measurement. 
++ where \\(H_r^*\\) is a back-propagation frequency transfer function with the distance of \\(e_r\\) . \\(m\\) is the position index of multi-height measurement. 
 
 2. The squared gradient maps of the Z-stack data are calculated as:
 
@@ -86,7 +86,7 @@ $$
 {G_r} = {\left| {\nabla \left( {{S_r}} \right)} \right|^2} = {\left| {{\nabla _x}\left( {{S_r}} \right)} \right|^2} + {\left| {{\nabla _y}\left( {{S_r}} \right)} \right|^2}}
 $$ 
 
-  where \\({\nabla _x}\\) and \\({\nabla _y}\\) denote the gradient operators of \\(x\\) and \\(y\\) directions, respectively.
++ where \\({\nabla _x}\\) and \\({\nabla _y}\\) denote the gradient operators of \\(x\\) and \\(y\\) directions, respectively.
 
 3. Calculating the RoG metric and taking its average through all pixels as the final value to assess the sharpness change, which is expressed as follows:
 
@@ -96,7 +96,7 @@ $$
 }
 $$ 
 
-  where \\(N_x\\) and \\(N_y\\) denote the pixel number along x and y directions. The flowchart of auto-focusing using RoG metric is illustrated in Fig.4.
++ where \\(N_x\\) and \\(N_y\\) denote the pixel number along x and y directions. The flowchart of auto-focusing using RoG metric is illustrated in Fig.4.
 
 
 <div align=center><img src="/publications/imgs/sFocusNet/ROG.png" width=700></div>
