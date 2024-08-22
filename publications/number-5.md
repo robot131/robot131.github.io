@@ -110,7 +110,7 @@ $$
 
 $$
 \displaylines{
-{G_r} = { {\left| { \nabla \left( {{S_r}} \right)} \right|}^2} = { {\left| {{\nabla_x} \left( {{S_r}} \right)} \right|}^2} + {{\left| {{\nabla_y} \left( {{S_r}} \right) } \right|}^2}
+{G_r} = {{\left| {\nabla \left( {{S_r}} \right)} \right|}^2} = {{\left| {{\nabla_x}\left( {{S_r}} \right)} \right|}^2} + {{\left| {{\nabla_y} \left( {{S_r}} \right)} \right|}^2}
 }
 $$ 
 
