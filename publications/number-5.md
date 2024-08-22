@@ -120,7 +120,7 @@ $$
 
 $$
 \displaylines{
-{\rm{RoG}}(r) = \frac{1}{ { {N_x}{N_y}}}\sum\limits_{x = 1}^{N_x} {\sum\limits_{y = 1}^{N_y} {{ {G_r}^T \left[ { {G_r} - {D_\sigma } \left( {G_r} \right)} \right]}}}.
+{\rm{RoG}}(r) = \frac{1}{ { {N_x}{N_y}}}\sum\limits_{x = 1}^{N_x} {\sum\limits_{y = 1}^{N_y} { { {G_r}^T \left[ { {G_r} - {D_\sigma } \left( {G_r} \right)} \right]}}}.
 }
 $$ 
 
