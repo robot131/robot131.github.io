@@ -78,7 +78,7 @@ The basic structures of butterfly transform, Rel-Attention, feedforward, and dow
 
 As shown in Fig. 3(a), the detail of simulated dataset generation can be generalized as follows:
 
-1. 13 photographic images with a size of 3000×3000, including plant, animal, and landscape, are selected and normalized as the amplitude image \\((A)\\) of the object, and the corresponding phase images are produced by setting \\(P = \varepsilon \pi (1 − A)\\),where \\( \varepsilon \\) is a random value from 0 to 0.5.
+1. 13 photographic images from [](https://pixabay.com/images/search/nature/) with a size of 3000×3000, including plant, animal, and landscape, are selected and normalized as the amplitude image \\((A)\\) of the object, and the corresponding phase images are produced by setting \\(P = \varepsilon \pi (1 − A)\\),where \\( \varepsilon \\) is a random value from 0 to 0.5.
 2.  the obtained wavefield of the object \\((Ae^{iP})\\) is forward propagated by angular spectrum model with a set of diffractive distances to generate multi-distance intensity patterns \\(W_n\\)
 3.  The intensity patterns (3000×3000×N ×13) are cropped into a mass of image patches \\(\overline{\omega_n}\\) with a size of 224×224 pixels.
 4.  The small patches are transferred by fast Fourier transform into frequency-domain dataset and then labelled with the corresponding distances.
