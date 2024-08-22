@@ -110,7 +110,8 @@ $$
 
 $$
 \displaylines{
-{G_r} = { \left| { \nabla \left( {{S_r}} \right)} \right|^2} = { \left| {{\nabla_x} \left( {{S_r}} \right)} \right|^2} + {\left| {{\nabla_y} \left( {{S_r}} \right) } \right|^2}}
+{G_r} = { {\left| { \nabla \left( {{S_r}} \right)} \right|}^2} = { {\left| {{\nabla_x} \left( {{S_r}} \right)} \right|}^2} + {{\left| {{\nabla_y} \left( {{S_r}} \right) } \right|}^2}
+}
 $$ 
 
 + where \\({\nabla_x}\\) and \\({\nabla_y}\\) denote the gradient operators of \\(x\\) and \\(y\\) directions, respectively.
