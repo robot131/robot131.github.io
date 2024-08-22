@@ -110,10 +110,10 @@ $$
 
 $$
 \displaylines{
-{G_r} = {\left| {\nabla \left( {{S_r}} \right)} \right|^2} = {\left| {{\nabla _x}\left( {{S_r}} \right)} \right|^2} + {\left| {{\nabla _y}\left( {{S_r}} \right)} \right|^2}}
+{G_r} = {\left| {\nabla \left( {{S_r}} \right)} \right|^2} = {\left| {{{\nabla}_x}\left( {{S_r}} \right)} \right|^2} + {\left| {{{\nabla}_y}\left( {{S_r}} \right)} \right|^2}}
 $$ 
 
-+ where \\({\nabla _x}\\) and \\({\nabla _y}\\) denote the gradient operators of \\(x\\) and \\(y\\) directions, respectively.
++ where \\({{\nabla}_x}\\) and \\({{\nabla}_y}\\) denote the gradient operators of \\(x\\) and \\(y\\) directions, respectively.
 
 3. Calculating the RoG metric and taking its average through all pixels as the final value to assess the sharpness change, which is expressed as follows:
 
