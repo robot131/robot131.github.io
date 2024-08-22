@@ -108,6 +108,12 @@ $$
 
 2. The squared gradient maps of the Z-stack data are calculated as:
 
+$$
+\displaylines{
+{G_r} = {{\left| {\nabla \left( {{S_r}} \right)} \right|}^2} = {{\left| { {\nabla_x}\left( {{S_r}} \right)} \right|}^2} + {{\left| {{\nabla_y}\left( {{S_r}} \right)} \right|}^2}
+}
+$$ 
+
 + where \\({\nabla_x}\\) and \\({\nabla_y}\\) denote the gradient operators of \\(x\\) and \\(y\\) directions, respectively.
 
 3. Calculating the RoG metric and taking its average through all pixels as the final value to assess the sharpness change, which is expressed as follows:
