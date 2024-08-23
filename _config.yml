@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Zheng Shenghao"
+title                    : "Zheng Shenghao’s Homepage"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -22,7 +22,7 @@ repository               : "robot131/robot131.github.io"
 author:
   # Biographic information
   avatar           : "my_imgs/title.png"
-  name             : # "Your Sidebar Name"
+  name             : "Zheng Shenghao"
   pronouns         : # example: "she/her"  
   bio              : "I hold a Master's and a Bachelor's degree in Engineering, and I am looking for a PhD position now. Please contact me if there are opportunities in computational imaging, computer vision, or related fields. "
   location         : "Harbin, China"
