@@ -16,7 +16,7 @@ This page summerizes my research experience in the last few years. If you want t
 
 ## [The 16th National Smart Car Competition](../news/smart_car.md)
 *January 2021 – June 2021*
-+ Was in charge of the computer vision part, which could then be divided into two tasks: traffic light recognition and distance estimation, lane recognition.
++ Worked on the computer vision part, which could then be divided into two tasks: traffic light recognition and distance estimation, lane recognition.
 + Used the morphology and graphics algorithms based on opencv-python library functions to recognize the color of the traffic light and estimate the distance
 + Trained a neural network to segment the lane from real-time captured pictures.
 + Integrated the information output from the camera and made motion decisions accordingly.
