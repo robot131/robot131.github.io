@@ -5,7 +5,7 @@ title: Reach the Northernmost Point of China
 
 ### *Date*: 05/31/2024
 
-It was very exiting that after driving **3 days** and covering a distance around **1500km**, we finally arrived the Northernmost Point of China (53°33'42''N 123°15'30''E). The first photo was the boundary marker, and we could see Russia just across the river. The second was a group photo of me and my friend, and I was on the left.
+It was very exciting that after driving **3 days** and covering a distance of around **1500km**, we finally arrived at the Northernmost Point of China (53°33'42''N 123°15'30''E). The first photo is the boundary marker, where we could see Russia just across the river. The second is a group photo of my friend and I, and I was on the left.
 
 <img src="/news/imgs/northest_of_china_1.png">
 <img src="/news/imgs/northest_of_china.png">
