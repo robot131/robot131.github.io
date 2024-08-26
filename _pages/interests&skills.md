@@ -23,8 +23,8 @@ Construct different kinds of lensless imaging systems including lensless on-chip
 
 ### Matlab (Proficient):
 + Use programming language to reproduce physical processes.
-+ Build up mathematical models for the imaging system (LMI system, lensless on-chip imaging system, PIE system et al.).
-+ Establish the inverse problem and solve the problem with numerical methods.
++ Build up mathematical models for the imaging system (LMI system, PIE system et al.).
++ Establish the inverse problems and solve them mathematically.
 
 ### Python (Proficient):
 + Construct various kinds of neural network models using Pytorch package.
