@@ -53,13 +53,13 @@ To get multi-plane intensity patterns, we set up a gear module on our platform t
 
 # Method Overview <span id="jump2"></span>
 
-As shown in Fig. 3, the image recovery is composed of two steps: auto-focusing and prior-guided phase retrieval (prGPR). In the auto-focusing, assuming the captured intensity patterns are denoted as \\({I_m},m \in [ {1,M} ]\\). The sample-to-sensor distances \\({Z_m},m \in [ {1,M} ]\\) can then be evaluated by utilizing the auto-focusing algorithm. With the above distances, the complex wavefield can be reconstructed by running the prGPR algorithm.
+As shown in Fig. 3, the image recovery is composed of two steps: auto-focusing and prior-guided phase retrieval (prGPR). In the auto-focusing, assuming the captured intensity patterns are denoted as \\({I_m},m \in [1,M]\\). The sample-to-sensor distances \\({Z_m},m \in [1,M]\\) can then be evaluated by utilizing the auto-focusing algorithm. With the above distances, the complex wavefield can be reconstructed by running the prGPR algorithm.
 
 ### Prior-Guided Phase Retrieval <span id="jump2_1"></span>
 
 The workflow of prGPR is shown in Fig. 3(a). It can be summerized into four steps:
 1. The initial guess of the mask's wavefiled at the mask plane is set as \\(O^{k}, k=0\\).
-2. An alternative projection operation is conduct to replace the amplitude by the camera-captured intensity patterns \\({I_m},m \in [ {1,M} ]\\).
+2. An alternative projection operation is conduct to replace the amplitude by the camera-captured intensity patterns \\({I_m},m \in [1,M]\\).
 3. A pre-trained network is utlized as a pre-train prior generating a twin-image-free amplitude image. At the same time, a guide filter is utlized as a denoising prior to denoise the real and imaginary parts of the output wavefield respectively.
 4. The guess of the modulated sample's wavefiled is update after a weighted feedback.
 
@@ -75,7 +75,7 @@ The iteration of the algorithm is \\(K\\). After \\(K\\) iteration, we can obtai
 
 The architecture of the deep unfolding network is shown in Fig. 4(a). The input degraded image is first multiplied with the degradation matrix \\(C^T\\) to get an initial estimation \\(X^0\\). \\(X^0\\) is then fed into an Atten-Unet and parameterized by the matrix \\(\overline C\\) at the same time. The output of the Atten-Unet weighted by \\({\delta _1}{\eta _1}\\) is then added with \\(\overline C {X^0}\\) and \\({C^T}F\\) weighted by \\(\delta _1\\) to get the updated estimation \\(X^1\\).
 
-The process repeated $N=3$ times. Instead of fixing the value of the weight parameters, all the weight parameters in our network are set to be learnable through end-to-end training.
+The process repeated \\(N=3\\) times. Instead of fixing the value of the weight parameters, all the weight parameters in our network are set to be learnable through end-to-end training.
 
 <div align=center><img src="/publications/imgs/lego/network.png" width=600></div>
 
@@ -97,18 +97,83 @@ The embedded Atten-Unet do not need to be pre-trained. Instead, the deep unfoldi
 
 ### Distance Estimation <span id="jump3_1"></span>
 
+Distance estimation is launched to calibrate the sample-to-sensor distances of the captured intensity patterns. The captured intensity patterns of the human goblet cells slide are shown in Fig 5(a). The distance estimation task can be regarded as an auto-focusing process. As shown in Fig. 5(b), we use the NoG metric to plot auto-focusing curves, where the sample-to-sensor distances \\({Z_m},m \in [1,M]\\) are specified as 2.91mm, 2.97mm, 3.07mm, 3.16mm, 3.34mm,	3.43mm,	3.64mm, 3.82mm, 4.01mm, 4.21mm and 4.42mm.
+
+<div align=center><img src="/publications/imgs/lego/fig4.png" width=500></div>
+
+**Fig.5.** The estimation of sample-to-sensor distances for the human goblet cells. (a) Intensity patterns of the human goblet cells. (b) Auto-focusing curves.
+
+[Back to the top](#jump_top)
+
 ### Multi-distance image reconstruction <span id="jump3_2"></span>
+
+We use 8 intensity patterns to recover the complex field of the sample to test the multi-distance image reconstruction capability of our method.  The experimental results of the human goblet cells are presented in Fig. 6.
+
+The reference-free image quality assessment function  (ToG metric) is utilized to evaluate the quality of the recovery. The present multi-distance imaging methods, including APRDF, IWFR, SBMIR, and DPR-TV are chosen as the comparison group. For a fair comparison, we extend the dual-plane phase retrieval method DPR-TV into a multi-distance mode. The parameters of APRDF, IWFR, SBMIR, and DPR-TV methods are finely tuned.
+
+<div align=center><img src="/publications/imgs/lego/multi-plane.png" width=500></div>
+
+**Fig.6.** Reconstructed results of the human goblet cells. (a) Reconstructed image of our method. (b) Convergence curves. (c-g) Reconstructed images from red and blue boxes by using APRDF, IWFR, SBMIR, DPR-TV and our method.
+
+[Back to the top](#jump_top)
 
 ### Effect of the Number of Input Intensity Patterns <span id="jump3_3"></span>
 
+To analyze how the number of input intensity patterns influences the performance of our method, we change M from 1 to 10 and run our method for sample recovery. The corresponding results are given in Fig. 7. The retrieved image with 11 input intensity patterns is set as the ground truth image, as shown in Fig. 7(b). We use structural similarity index (SSIM) to compare the reconstructed accuracy. The SSIM values of the retrieved images with different numbers of input intensity patterns are plotted in Fig. 7(a). Figs. 7(c-g) show the reconstructed images with M=1,2,3,8,10.
+
+<div align=center><img src="/publications/imgs/lego/multi-plane.png" width=500></div>
+
+**Fig.7.** Reconstructed images of our method with different number of input intensity patterns. (a) SSIM values of images recovered with different number of input intensity patterns. (b) Ground truth image. (c-g) Images recovered with different number of input intensity patterns.
+
+[Back to the top](#jump_top)
+
 ### Dual-Plane and Single-Plane Image Reconstruction <span id="jump3_4"></span>
+
+Following the last subsection, we first run our method on the human goblet cells with M=1, 2. APRDF, IWFR, SBMIR, and DPR-TV algorithms are set as the comparison group with M=2, while pre-trained networks including Unet, Atten-Unet, deep-unfolding Unet (DU-Unet), and deep unfolding Atten-Unet (DUA-Unet) are used as the comparison group with M=1. The networks are all trained with the same dataset and parameter setting with the DUA-Unet utilized in our method. The reconstructed results are shown in Fig. 8. Fig. 8(a) is the SSIM histograms of the images reconstructed by different methods. Figs. 8(b1-b2) are the ground truth images of the selected two ROIs that are recovered with 8 intensity patterns by our method. Figs. 8(c-g) show the images reconstructed by different methods with M=2, while Figs. 8(h-l) show the results with M=1.
+
+<div align=center><img src="/publications/imgs/lego/single-dual-compare.png" width=500></div>
+
+**Fig.8.** Reconstructed images of the human goblet cells using single-plane or dual plane measurements. (a) SSIM Histograms of retrieved ROI images for different methods. (b) Ground truth images. (c-g) Reconstructed images of APRDF, IWFR, SBMIR, DPR-TV and our method with dual-plane intensity patterns. (h-l) Reconstructed images of Unet, Atten-Unet, DU-Unet, DUA-Unet and our method with single-plane intensity pattern.
+
+As shown, our method retrieves the sample image with a clear background, high contrast, and sharp details (with M=2) compared to other methods. Unfortunately, as shown in Figs. 8(h-l), the single-plane retrieved results suffer from strong resolution loss. Thus, the number of input intensity patterns ($M$) is fixed at M=2 in the following experiments.  
+
+The reconstructed images of different samples are shown in Fig. 9. Figs. 9(a1-e1) are the reconstructed amplitude images of a resolution target, while the ROI are outlined with the red box and magnified in the right bottom. Figs. 9(a2-e2) are retrieved amplitude images of an amplitude mask. Figs. 9(a3-e3) are recovered phase images of a label-free cells sample and the ROI are outlined with the yellow box and magnified in Figs. 9(a4-e4).
+
+<div align=center><img src="/publications/imgs/lego/dual-plane.png" width=500></div>
+
+**Fig.9.** Reconstructed images of different kinds of samples with dual-plane intensity patterns. (a-e) are retrieved by APRDF, IWFR, SBMIR, DPR-TV, and our method, respectively. It should be emphasized that (a1-e1), (a2-e2) and (a3-e3), (a4-e4) exhibit the retrieved amplitude and phase images, respectively.
+
+[Back to the top](#jump_top)
 
 ### Running Time Discussion <span id="jump3_5"></span>
 
+To compare the running time of our method with those of other methods, here we list the recorded running times in Table 1. Atten-UN, DU-UN, and DUA-UN denote Atten-Unet, deep-unfolding Unet (DU-Unet), and deep unfolding Atten-Unet (DUA-Unet), respectively. It should be emphasized that the times listed in Table 1 are the convergence times of the methods. When $M=8$, methods of the comparing group need 15 iterations. When $M=2$, they need 30 iterations. When $M=1$, the network methods just run for once. In contrast, our methods converges after only 7 iterations. The size of the input image is 1024x1024. Combine the previous results shown in Fig. 6, Fig. 8, and Fig. 9, we can say that our method achieves high-quality and time-saving reconstruction.
+
+<div align=center><img src="/publications/imgs/lego/T1.png" width=500></div>
+
+<div align=center> Table 1. Running time of different methods. </div><br/>
+
+[Back to the top](#jump_top)
+
 ### Ablation Study<span id="jump3_6"></span>
+
+We conducted an ablation study on a human goblet cells slide to evaluate the effectiveness of the priors in our method. Two intensity images are input to run the prGPR algorithm and the reconstructed images are shown in Fig. 10. The SSIM between the reconstructed image and the ground truth image are labeled under the corresponding images.
+
+<div align=center><img src="/publications/imgs/lego/Ablation Study.png" width=500></div>
+
+**Fig.10.** Ablation study of the priors in our method.  (a-c) Reconstructed images from red and blue boxes of our method with no prior, denoising prior and denoising prior + pre-trained prior. (d) Ground truth images.
+
+[Back to the top](#jump_top)
 
 ### Cross-Validation <span id="jump3_7"></span>
 
+We conducted a cross-validation to test the generalization performance of our DUA-Unet. This time we cut the training image pairs from 2 images of a stained human endometriosis slide and get the same number of image pairs as before. Then we embed the pre-trained network into our method and run on the breast tissue images that were used to train the network before. The results are illustrated in Fig. 10.
+
+<div align=center><img src="/publications/imgs/lego/cross validation.png" width=500></div>
+
+**Fig.11.** Cross-Validation.  (a-e) Reconstructed images of the selected two regions by APRDF, IWFR, SBMIR, DPR-TV and our method, respectively. The SSIM values are labeled under the crresponding images. (f) Ground truth images.
+
+[Back to the top](#jump_top)
 
 # Conclusion <span id="jump4"></span>
 
