@@ -139,7 +139,7 @@ As shown, our method retrieves the sample image with a clear background, high co
 
 The reconstructed images of different samples are shown in Fig. 9. Figs. 9(a1-e1) are the reconstructed amplitude images of a resolution target, while the ROI are outlined with the red box and magnified in the right bottom. Figs. 9(a2-e2) are retrieved amplitude images of an amplitude mask. Figs. 9(a3-e3) are recovered phase images of a label-free cells sample and the ROI are outlined with the yellow box and magnified in Figs. 9(a4-e4).
 
-<div align=center><img src="/publications/imgs/lego/dual-plane.png" width=500></div>
+<div align=center><img src="/publications/imgs/lego/dual-plane.png" width=600></div>
 
 **Fig.9.** Reconstructed images of different kinds of samples with dual-plane intensity patterns. (a-e) are retrieved by APRDF, IWFR, SBMIR, DPR-TV, and our method, respectively. It should be emphasized that (a1-e1), (a2-e2) and (a3-e3), (a4-e4) exhibit the retrieved amplitude and phase images, respectively.
 
@@ -149,7 +149,7 @@ The reconstructed images of different samples are shown in Fig. 9. Figs. 9(a1-e1
 
 To compare the running time of our method with those of other methods, here we list the recorded running times in Table 1. Atten-UN, DU-UN, and DUA-UN denote Atten-Unet, deep-unfolding Unet (DU-Unet), and deep unfolding Atten-Unet (DUA-Unet), respectively. It should be emphasized that the times listed in Table 1 are the convergence times of the methods. When $M=8$, methods of the comparing group need 15 iterations. When $M=2$, they need 30 iterations. When $M=1$, the network methods just run for once. In contrast, our methods converges after only 7 iterations. The size of the input image is 1024x1024. Combine the previous results shown in Fig. 6, Fig. 8, and Fig. 9, we can say that our method achieves high-quality and time-saving reconstruction.
 
-<div align=center><img src="/publications/imgs/lego/T1.png" width=500></div>
+<div align=center><img src="/publications/imgs/lego/T1.png" width=400></div>
 
 <div align=center> Table 1. Running time of different methods. </div><br/>
 
@@ -169,7 +169,7 @@ We conducted an ablation study on a human goblet cells slide to evaluate the eff
 
 We conducted a cross-validation to test the generalization performance of our DUA-Unet. This time we cut the training image pairs from 2 images of a stained human endometriosis slide and get the same number of image pairs as before. Then we embed the pre-trained network into our method and run on the breast tissue images that were used to train the network before. The results are illustrated in Fig. 10.
 
-<div align=center><img src="/publications/imgs/lego/cross validation.png" width=500></div>
+<div align=center><img src="/publications/imgs/lego/cross validation.png" width=400></div>
 
 **Fig.11.** Cross-Validation.  (a-e) Reconstructed images of the selected two regions by APRDF, IWFR, SBMIR, DPR-TV and our method, respectively. The SSIM values are labeled under the crresponding images. (f) Ground truth images.
 
