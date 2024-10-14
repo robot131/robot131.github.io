@@ -75,7 +75,7 @@ The part that I was responsible for is the second item, the computer vision part
 
 During the competition, I was mainly responsible for the computer vision part, and it could then be divided into two tasks: traffic light recognition and distance estimation, lane recognition. The following two sections will discribe the details of the method utilized and show the results achieved. All the code in this part was accomplished in Python.
 
-After acquiring necessary features from the images, the processed messages are then sent to the decition-making unit to help the smart car making a correct movement. The communications between different parts are realized by utilizing ROS frame. All of my code runs on Linux system.
+After acquiring necessary features from the images, the processed messages are then sent to the decision-making unit to help the smart car making a correct movement. The communications between different parts are realized by utilizing ROS frame. All of my code runs on Linux system.
 
 ### Traffic light recognition and distance estimation <span id="jump3_1"></span>
 
