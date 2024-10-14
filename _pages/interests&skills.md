@@ -46,6 +46,6 @@ I love doing sports. In my opinion, engaging in sports and physical activities i
 
 + Swimming: No less than once a week in summer. A sport that can exercise the whole body and relieve the heat quickly in summer.
 
-I also love travelling. As an old saying goes, read ten thousand books, travel ten thousand miles. These years I have travelled to many places with my friends or families, including: [changbai mountains](../vlogs/changbai.md), [The Great Wall](../vlogs/changcheng.md), [The West Lake](../vlogs/xihu.md), [the Northernmost Point of China](../news/north_point.md)(53°33’42’‘N 123°15’30’‘E) et al. You can check the links to see the photos.
+Apart from the above, I also love travelling. Because the beauty of the nature is something we need to see with our eyes and feel with our hearts. These years I have travelled to many places with my friends or families, including: [changbai mountains](../vlogs/changbai.md), [The Great Wall](../vlogs/changcheng.md), [The West Lake](../vlogs/xihu.md), [the Northernmost Point of China](../news/north_point.md)(53°33’42’‘N 123°15’30’‘E) et al. Check the links to see the photos.
 
 
