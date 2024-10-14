@@ -65,7 +65,7 @@ The workflow of prGPR is shown in Fig. 3(a). It can be summerized into four step
 
 The iteration of the algorithm is \\(K\\). After \\(K\\) iteration, we can obtain the retrieved sample's wavefiled (\\(O^{K})\\).
 
-<div align=center><img src="/publications/imgs/lego/fig3.png" width=500></div>
+<div align=center><img src="/publications/imgs/lego/fig.3.png" width=500></div>
 
 <div align=center> Fig.3 The workflow of prior-guided phase retrieval. </div><br/>
 
