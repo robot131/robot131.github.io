@@ -65,7 +65,7 @@ The workflow of prGPR is shown in Fig. 3(a). It can be summerized into four step
 
 The iteration of the algorithm is \\(K\\). After \\(K\\) iteration, we can obtain the retrieved sample's wavefiled (\\(O^{K})\\).
 
-<div align=center><img src="/publications/imgs/lego/fig.3.png" width=500></div>
+<div align=center><img src="/publications/imgs/lego/fig.3.png" width=550></div>
 
 <div align=center> Fig.3 The workflow of prior-guided phase retrieval. </div><br/>
 
@@ -77,7 +77,7 @@ The architecture of the deep unfolding network is shown in Fig. 4(a). The input 
 
 The process repeated $N=3$ times. Instead of fixing the value of the weight parameters, all the weight parameters in our network are set to be learnable through end-to-end training.
 
-<div align=center><img src="/publications/imgs/lego/network.png" width=500></div>
+<div align=center><img src="/publications/imgs/lego/network.png" width=600></div>
 
 <div align=center> Fig.4 The workflow of prior-guided phase retrieval. </div><br/>
 
