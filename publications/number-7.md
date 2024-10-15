@@ -5,7 +5,7 @@ title: "A portable lensfree imaging platform based on prior-guided phase retriev
 
 ### Under peer-review
 
-In this paper, presented a portable lensfree imaging platform that can achieve complex wavefield reconstruction with multi-distance intensity measurements. In our platform, 400 LEGO bricks and a bare CMOS sensor chip are integrated into a lenslfree in-line holographic imaging system, where a motor and a set of gear modules from LEGO are designed to control the axial movement of a sample to generate multi-plane intensity patterns. 
+In this paper, we presented a portable lensfree imaging platform that can achieve complex wavefield reconstruction with multi-distance intensity measurements. In our platform, 400 LEGO bricks and a bare CMOS sensor chip are integrated into a lenslfree in-line holographic imaging system, where a motor and a set of gear modules from LEGO are designed to control the axial movement of a sample to generate multi-plane intensity patterns. 
 
 In data processing, the intensity images are calculated in a computer to show the retrieved amplitude and phase of the sample. In addition, we propose a prior-guided phase retrieval algorithm (prGPR) to realize a data-efficient recovery, where only two intensity images are required to perform high-fidelity imaging performance. Experimental results of different kinds of samples are given to prove the effectiveness of our platform. We believe that our portable lensfree platform will provide a low-cost DIY microscope for hands-on science experiments.
 
