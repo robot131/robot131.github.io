@@ -20,7 +20,7 @@ This page summerizes my research experience in the last few years. If you want t
 + Used the morphology and graphics algorithms based on opencv-python library functions to recognize the color of the traffic light and estimate the distance
 + Trained a neural network to segment the lane from real-time captured pictures.
 + Integrated the output from the camera and transfer the information to decision-making unit under ROS frame.
-+ Deployed all the codes on Linix system on the Jeston nano main control board.
++ Run all the code on Linix system with a Jeston nano main control board.
     
 ## Dual-constrained physics-enhanced untrained neural network for lensless imaging
 *June 2022 - October 2023*
