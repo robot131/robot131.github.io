@@ -30,6 +30,14 @@ In this paper, we proposed a self-calibrated phase retrieval (SCPR) method to re
 
 DOI: [10.1364/OL.492476](https://doi.org/10.1364/OL.492476)
 
+## [A portable lensfree imaging platform based on prior-guided phase retrieval](../publications/number-7.md)
+
+Under peer-review
+
+Authors：**Shenghao Zheng**, and Cheng Guo
+
+In this paper, we presented a portable lensfree imaging platform that can achieve complex wavefield reconstruction with multi-distance intensity measurements. In data processing, we propose a prior-guided phase retrieval algorithm (prGPR) to realize a data-efficient recovery. Constructed of blocks, our portable lensfree platform provides a low-cost DIY microscope scheme, giving more children a chance to launch hands-on science experiments.
+
 ## Second Author
 
 ## [Lensfree auto-focusing imaging with coarse-to-fine tuning method](../publications/number-5.md)
@@ -38,7 +46,7 @@ Published in *Optics and Lasers in Engineering*, 2024
 
 Authors：Zhihui Ding, **Shenghao Zheng**, Feilong Zhang, Qiang Li, Cheng Guo
 
-In this paper, we proposed a coarse-to-fine tuning method for fast and robust lensfree auto-focusing imaging. In our method, a pre-defined simulation-driven focus network (sFocusNet) is constructed to find the coarse estimation of diffractive distances and output the searching range. Then, a new sharpness metric, regularization of gradient (RoG), is built to get the final estimation within the searching range.
+In this paper, we proposed a coarse-to-fine tuning method for fast and robust lensfree auto-focusing imaging. In our method, a pre-defined simulation-driven focus network (sFocusNet) is constructed to find the coarse estimation of diffractive distances and output the searching range. Then, a new sharpness metric, regularization of gradient (RoG), is built to get the final estimation within the searching range. 
 
 DOI: [10.1016/j.optlaseng.2024.108366](https://doi.org/10.1016/j.optlaseng.2024.108366)
 
