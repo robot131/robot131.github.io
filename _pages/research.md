@@ -36,6 +36,6 @@ This page summerizes my research experience in the last few years. If you want t
 
 ## A portable lensfree imaging platform based on prior-guided phase retrieval (under peer-review)
 *March 2024–Present*
-+ Designed a brick-assembled lensfree microscopy, providing a toy-based microscopic platform for preschool education.
-+ Proposed a prior-guided phase retrieval algorithm that can reconstruct the complex wavefield of samples with high quality and low running time.
++ Designed a brick-assembled lensfree microscopy, providing a a low-cost DIY microscope scheme for hands-on science experiments.
++ Proposed a prior-guided phase retrieval algorithm [prGPR](../publications/number-7.md) to realize a data-efficient recovery, where only two intensity images are required to perform high-fidelity imaging performance.
 
