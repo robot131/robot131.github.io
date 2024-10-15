@@ -34,7 +34,7 @@ This page summerizes my research experience in the last few years. If you want t
 + Set up the experimental system and assisted in completing the data collection work.
 + Assisted in replying to reviews' comments.
 
-## Lensfree brick-assembled microscopy based on prior-guided phase retrieval (on preparing)
+## A portable lensfree imaging platform based on prior-guided phase retrieval (under peer-review)
 *March 2024–Present*
 + Designed a brick-assembled lensfree microscopy, providing a toy-based microscopic platform for preschool education.
 + Proposed a prior-guided phase retrieval algorithm that can reconstruct the complex wavefield of samples with high quality and low running time.
