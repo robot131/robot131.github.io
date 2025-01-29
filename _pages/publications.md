@@ -30,9 +30,9 @@ In this paper, we proposed a self-calibrated phase retrieval (SCPR) method to re
 
 DOI: [10.1364/OL.492476](https://doi.org/10.1364/OL.492476)
 
-## [A portable lensfree imaging platform based on prior-guided phase retrieval](../publications/number-7.md)
+## [Portable lensfree imaging platform based on prior-guided phase retrieval](../publications/number-7.md)
 
-Under peer-review
+Published in *Journal of the Optical Society of America A*, 2024
 
 Authors：**Shenghao Zheng**, and Cheng Guo
 
@@ -42,7 +42,7 @@ In this paper, we presented a portable lensfree imaging platform that can achiev
 
 ## [Lensfree auto-focusing imaging with coarse-to-fine tuning method](../publications/number-5.md)
 
-Published in *Optics and Lasers in Engineering*, 2024
+Published in *Optics and Lasers in Engineering*, 2025
 
 Authors：Zhihui Ding, **Shenghao Zheng**, Feilong Zhang, Qiang Li, Cheng Guo
 
