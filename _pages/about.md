@@ -34,7 +34,7 @@ I am now looking for a PhD position. If there are opportunities in computational
 ## Academic <span id="jump1_1"></span>
 
 + 25/01/2025 My article as the **first author**, titled *Portable lensfree imaging platform based on
-prior-guided phase retrieval*, has been published on **Journal of the Optical Society of America As**. [Link](../publications/number-7.md)
+prior-guided phase retrieval*, has been published on **Journal of the Optical Society of America A**. [Link](../publications/number-7.md)
 + 07/10/2024 My article as the **first author**, titled *Single-shot lensless masked imaging with enhanced self-calibrated phase retrieval*, has been published on **Optics Letters**. [Link](../publications/number-6.md)
 + 06/02/2024 My article as the **second author**, titled *Lensfree auto-focusing imaging with coarse-to-fine tuning method*, has been published on **Optics and Lasers in Engineering**. [Link](../publications/number-5.md)
 + 01/05/2024 My article as the **second author**, titled *Dual-constrained physics-enhanced untrained neural network for lensless imaging*, has been published on **Journal of the Optical Society of America A**. [Link](../publications/number-4.md)
