@@ -1,9 +1,9 @@
 ---
 layout: archive
-title: "A portable lensfree imaging platform based on prior-guided phase retrieval"
+title: "Portable lensfree imaging platform based on prior-guided phase retrieval"
 ---
 
-### Under peer-review
+### Published on: 25/01/2025 &emsp; in [*Journal of the Optical Society of America A*](https://opg.optica.org/josaa/home.cfm)
 
 In this paper, we presented a portable lensfree imaging platform that can achieve complex wavefield reconstruction with multi-distance intensity measurements. In our platform, 400 LEGO bricks and a bare CMOS sensor chip are integrated into a lenslfree in-line holographic imaging system, where a motor and a set of gear modules from LEGO are designed to control the axial movement of a sample to generate multi-plane intensity patterns. 
 
