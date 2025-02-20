@@ -32,7 +32,7 @@ DOI: [10.1364/OL.492476](https://doi.org/10.1364/OL.492476)
 
 ## [Portable lensfree imaging platform based on prior-guided phase retrieval](../publications/number-7.md)
 
-Published in *Journal of the Optical Society of America A*, 2024
+Published in *Journal of the Optical Society of America A*, 2025
 
 Authors：**Shenghao Zheng**, and Cheng Guo
 
