@@ -45,9 +45,9 @@ Construct different kinds of lensless imaging systems including lensless on-chip
 
 # Hobbies
 
-I love doing sports. In my opinion, engaging in sports and physical activities improves overall fitness and stamina. Also, the endorphins released during the process, which are natural mood lifters, leads to reduced stress and anxiety levels. Therefore, I exercise regularly and consider it an integral part of my life. My favorite sports including:
+I love doing sports. In my opinion, engaging in sports and physical activities improves overall fitness and stamina. Also, the endorphins released during the process, which are natural mood lifters, leading to reduced stress and low anxiety levels. Therefore, I do exercises regularly and consider it an integral part of my life. My favorite sports including:
 
-+ [Badminton](../vlogs/badminton.md): No less than once a week. A sport that can exercise the whole body and make friends with people of the same hobby.
++ [Badminton](../vlogs/badminton.md): No less than once a week. A sport that can exercise the whole body and make friends with people with the same hobby.
 
 + [Snowboarding](../news/snowboarding.md): No less than once a week in winnter. A sport that improve the balance and coordination of the body. Currently I have just passed the examination of Chinese national Social sports instructor (snowboarding) and became a primary snowboarding instructor. It's really very cool when snowboarding and I really love it.
 
