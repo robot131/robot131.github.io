@@ -36,6 +36,13 @@ Construct different kinds of lensless imaging systems including lensless on-chip
 + Design 3-D printed adapters and connectors.
 + Opto-mechanical system design and process.
 
+## English Skills:
+### IELTS (Academic): 7.5 (overall score)
++ Listening: 8.0
++ Reading: 8.5
++ Speaking: 6.0
++ Writing: 6.5
+
 # Hobbies
 
 I love doing sports. In my opinion, engaging in sports and physical activities improves overall fitness and stamina. Also, the endorphins released during the process, which are natural mood lifters, leads to reduced stress and anxiety levels. Therefore, I exercise regularly and consider it an integral part of my life. My favorite sports including:
